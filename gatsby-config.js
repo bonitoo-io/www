@@ -24,6 +24,16 @@ module.exports = {
         path: `${__dirname}/static/img`,
         name: 'uploads',
       },
+	    {
+		          resolve: `gatsby-plugin-google-fonts`,
+		          options: {
+				          fonts: [
+						            `poppins`,
+						            `source sans pro\:300,400,400i,700`
+					          ],
+				          display: 'swap'
+				        }
+		        }
     },
     {
       resolve: 'gatsby-source-filesystem',
