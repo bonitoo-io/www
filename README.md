@@ -1,10 +1,3 @@
-Pro spuštění
-Pokud nevyjde gatsby develop, stačí zadat příkaz  npm install --legacy-peer-deps. Pak už by to mělo fungovat.
--Vojta
-
-
-
-
 # gatsby-starter-business
 A [Gatsby v2](https://www.gatsbyjs.org/) and [Netlify CMS](https://www.netlifycms.org) powered generic business website.
 
