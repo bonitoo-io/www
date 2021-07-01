@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, graphql, StaticQuery } from 'gatsby'
-import SearchBox from '../SearchBox'
+//import SearchBox from '../SearchBox'
 
 const NavBar = () => {
   const [active, setActive] = useState(false)
@@ -37,7 +37,7 @@ const NavBar = () => {
           <div className={`navbar-menu ${active ? 'is-active' : ''}`} id='navMenu'>
 
             <div className='navbar-end'>
-              <SearchBox searchIndex={data.siteSearchIndex.index} />
+              
               <Link className='navbar-item' to='/about'>
                 About
               </Link>

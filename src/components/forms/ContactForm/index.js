@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react'
 import { Formik, Field } from 'formik'
 import { navigate } from 'gatsby'
@@ -47,7 +48,7 @@ const ContactForm = () => {
         data-netlify-honeypot='bot-field'
       >
         <div className='field'>
-          <label className='label'>Name</label>
+          <label className='label'>Name</label> 
           <div className='control'>
             <Field className='input' type='text' placeholder='Full Name' name='name' id='name' />
           </div>
@@ -55,7 +56,7 @@ const ContactForm = () => {
         </div>
 
         <div className='field'>
-          <label className='label'>Email</label>
+          <label className='label'>Email</label> 
           <div className='control'>
             <Field className='input' type='email' placeholder='Email' name='email' id='email' />
           </div>
@@ -63,7 +64,7 @@ const ContactForm = () => {
         </div>
 
         <div className='field'>
-          <label className='label'>Message</label>
+          <label className='label'>Message</label> 
           <div className='control'>
             <Field className='textarea' component='textarea' placeholder='Message' name='message' id='message' rows='6' />
           </div>
