@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link, graphql, StaticQuery } from 'gatsby'
+import config from '../../../config'
 //import SearchBox from '../SearchBox'
 
 const NavBar = () => {
@@ -22,7 +23,7 @@ const NavBar = () => {
         <nav className='navbar is-fixed-top' aria-label='main navigation'>
           <div className='navbar-brand'>
             <Link to='/' className='navbar-item'>
-              <strong>Gatsby Starter Business</strong>
+              <strong>{config.siteTitle}</strong>
             </Link>
             <button
               className={`button navbar-burger ${active ? 'is-active' : ''}`}

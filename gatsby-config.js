@@ -11,7 +11,7 @@ module.exports = {
       feed_url: config.siteUrl + pathPrefix + config.siteRss,
       title: config.siteTitle,
       description: config.siteDescription,
-      image_url: `${config.siteUrl + pathPrefix}/icons/icon-512x512.png`,
+      image_url: `${config.siteUrl + pathPrefix}/icons/bonitoo-icon-512x512.png`,
       author: config.userName,
       copyright: config.copyright,
     },
@@ -29,7 +29,7 @@ module.exports = {
 		          resolve: `gatsby-plugin-google-fonts`,
 		          options: {
 				          fonts: [
-						            `poppins`,
+						            `poppins\:200`,
 						            `source sans pro\:300,400,400i,700`
 					          ],
 				          display: 'swap'
