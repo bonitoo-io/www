@@ -1,65 +1,43 @@
 ---
 templateKey: 'home-page'
-title: Software Development X
-meta_title: Home | Gatsby Starter Business
+title: Software Research and Development Services
+meta_title: Homepage | Bonitoo.io
 meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
-heading: Lorem ipsum dolor sit amet
+  Complete software research and development services based on efficient
+  leadership principles developed in more than 15 years of professional
+  experience in software industry.
+heading: The Influxdata-Managed Programmable IoT Monitoring Gateway
 description: >-
-  Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-  adipisci velit...
+  We are proud to present the Bonitoo IoT weather station. The station is a boilerplate of the monitoring application
+  built on top of Arduino platform powered by ESP8266/ESP Wifi chips, with the following features:
 offerings:
   blurbs:
     - image: /img/coffee.png
       text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus 
-        sem a sem ultrices, eget sagittis magna tempor. Quisque pulvinar lorem 
-        molestie sapien ornare cursus. Praesent eget volutpat est. Proin at 
-        sagittis ex. Duis quis dui magna. Nullam urna purus, blandit vitae tincidunt ut, 
-        scelerisque eu sem. Etiam porttitor elit eget mi luctus, vitae blandit enim pretium. 
-        Aenean nec hendrerit leo, a bibendum magna. In hac habitasse platea dictumst. 
-        Suspendisse sapien magna, vestibulum non vehicula id, pellentesque in ante. Nullam 
-        sed auctor tellus. Sed ipsum sem, dapibus nec eros in, feugiat sagittis mi. 
-        Nullam et dui interdum, varius nibh eu, efficitur metus.
+        Metrics stored in the cloud - the monitoring gateway free package
+        provides 30 days of retention policy. This allows for time-series analysis
+        beign shown at the on-device display or directly inside of the Cloud-based
+        Surveillance Center.
     - image: /img/coffee-gear.png
       text: >
-        Fusce semper turpis sed tortor consectetur condimentum. Nulla facilisi. Nam 
-        ipsum nulla, dapibus eu mi non, commodo commodo sapien. Pellentesque luctus 
-        neque id mauris accumsan, nec imperdiet justo eleifend. Nulla viverra, ipsum 
-        sit amet interdum pharetra, felis lorem sollicitudin felis, vehicula finibus 
-        enim nunc facilisis sapien. Donec nulla nisi, dictum quis nibh et, euismod 
-        semper eros. Praesent nunc tortor, consequat eu justo ac, dictum viverra enim. 
-        Etiam sed dui dapibus mauris congue facilisis. Nulla convallis, lectus vel 
-        vehicula interdum, turpis nunc aliquet sem, ac iaculis ligula mauris id tortor. 
-        Sed eget ornare orci, quis dignissim nulla. Pellentesque aliquam consectetur congue.
+        Web Based Configuration - Configure the gateway from your mobile or PC.
+        Both system-level as well as application based parameters are
+        configurable inside of built-in easy-to-use web server.
     - image: /img/tutorials.png
       text: >
-        Sed in consequat leo, sit amet ullamcorper lacus. Duis lacinia, metus vitae sollicitudin 
-        pharetra, ipsum augue tristique urna, in rhoncus quam tortor eget sem. Maecenas eu 
-        pharetra orci, ut malesuada nisl. Aliquam erat volutpat. Curabitur egestas eros tincidunt, 
-        scelerisque lectus ac, congue turpis. Fusce egestas sit amet elit et fringilla. Aliquam 
-        erat volutpat. Vivamus ultrices venenatis maximus. Donec volutpat vitae quam at fringilla. 
-        Sed luctus lacus vel tempus posuere. Ut suscipit auctor tortor. Phasellus leo dui, elementum 
-        non sollicitudin eget, porta vehicula odio. Sed mollis, metus sit amet porttitor vehicula, 
-        quam augue pretium erat, at commodo nisl tellus non risus.
+        Weather Predictions and Geo IP location -
     - image: /img/meeting-space.png
       text: >
-        Vestibulum libero lectus, dignissim eget magna sit amet, malesuada tincidunt mi. Vivamus 
-        sed erat iaculis mauris efficitur vehicula. Aliquam sed urna at tellus ullamcorper 
-        venenatis molestie ut mi. Duis vel libero ac lectus cursus tempus. Nullam in dictum felis. 
-        Nam sed laoreet turpis. Sed pretium urna consequat lorem tincidunt, ac scelerisque nisi 
-        sodales. Cras tristique laoreet tempor. Mauris vitae dolor eu mauris malesuada cursus. 
-        Praesent elit lectus, iaculis vel odio vitae, bibendum auctor lacus. Suspendisse potenti. 
-        In tempor, massa quis euismod convallis, felis elit sodales urna, at aliquet mi elit auctor 
-        risus.
+        Secure communication, Automatic Updates - Metrics data is stored,
+        secured and backed up in your personal cloud account. The station, based
+        on its schedule, checks for latest software updates and
+        upgrades/restarts itself within minute. Health of the device and other
+        system metrics are collected, too.
 testimonials:
-  - author: Vaibhav Sharma
+  - author: Ivan Kudibal
     quote: >-
-      Donec scelerisque magna nec condimentum porttitor. Aliquam vel diam sed diam luctus pretium. 
-      Sed quis egestas libero. Vestibulum nec venenatis ligula. 
+      This is the new beginning of the IoT time series era of watching the Earth
+      weather conditions in a modern way.
   - author: Subarashi San
     quote: >-
       Fusce porttitor vulputate enim, nec blandit magna gravida et. Etiam et dignissim ligula. 
