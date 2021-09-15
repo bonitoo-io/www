@@ -39,19 +39,8 @@ const NavBar = () => {
 
             <div className='navbar-end'>
 
-              <Link className='navbar-item' to='/services'>
-                Services
-              </Link>
-
-              <Link className='navbar-item' to='/products'>
-                Products
-              </Link>
-
               <Link className='navbar-item' to='/about'>
                 About
-              </Link>
-              <Link className='navbar-item' to='/pricing'>
-                Pricing
               </Link>
               <Link className='navbar-item' to='/blog'>
                 Blog

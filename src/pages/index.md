@@ -38,8 +38,8 @@ testimonials:
     quote: >-
       This is the new beginning of the IoT time series era of watching the Earth
       weather conditions in a modern way.
-  - author: Subarashi San
+  - author: Webinar Attendee
     quote: >-
-      Fusce porttitor vulputate enim, nec blandit magna gravida et. Etiam et dignissim ligula. 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      The workshop yesterday was great. We are interested in building some custom visualizations
+      for our metrics and having IoT Center as an example is encouraging.
 ---
