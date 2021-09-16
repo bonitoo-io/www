@@ -34,7 +34,7 @@ There is a cool article written by Nicolas Bohorquez -- [Getting Started with Ja
 
 For developers, if you need a boilerplate for the generic node.js based monitoring application, follow up with [IoT Center v2](https://github.com/bonitoo-io/iot-center-v2). Huge time saver!
 
-## CSharp Client Library
+## C# Client Library
 
 [Getting Started with C# and InfluxDB](https://www.influxdata.com/blog/getting-started-with-c-and-influxdb/) by Influxdata.
 
