@@ -3,20 +3,18 @@ templateKey: about-page
 title: About Bonitoo.io
 meta_title: About Us | Bonitoo.io
 meta_description: >-
-  Bonitoo.IO is a software consultancy based in Prague, Czech Republic. An
+  Bonitoo.io is a software consultancy based in Prague, Czech Republic. We are an
   unconventional software company that aims to provide software development
-  projects and services, Bonitoo builds its services on a strong team of
-  professionals, who formed the core of the development of the Systinet company
-  between 2000 and 2006.
+  projects and services. Bonitoo builds its services on a strong team of
+  senior professionals who delivered dozens of sucessful software projects around the world.
 ---
 
 ## Who We Are
 
-Bonitoo s.r.o. is an unconventional software development and consulting company,
-a professional R&D studio that aims to provide software development projects and
-services. Bonitoo builds its services on a strong team of professionals, who
-formed the core of the development of the Systinet company between 2000 and
-2006.
+Bonitoo is a strong software development and consulting company. We are a
+professional R&D studio that aims to provide end to end software development projects and
+services. Bonitoo builds its services on a strong team of professionals, who who delivered
+dozens of sucessful software projects around the world.
 
 The team strengths are harmony, ability to maintain high engineering standards,
 quick insight into the technologies, and multi-year experience in product
@@ -24,7 +22,7 @@ development.
 
 Bonitoo team is located in both the Czech Republic and Vietnam. The Czech legal
 entity is named Bonitoo and was established in March 2017. The Vietnamese team
-operates under the business entity named RND4U, Ltd.
+operates under the business entity named RND4U, Ltd. that was established in October 2016.
 
 ### Bonitoo Organization Evolution
 

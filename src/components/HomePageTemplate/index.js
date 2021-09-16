@@ -42,7 +42,7 @@ const HomePageTemplate = (props) => {
                     <p>{description}</p>
                   </div>
                   <Offerings gridItems={offerings.blurbs} />
-                  <h2 className='has-text-weight-semibold is-size-2'>Testimonials</h2>
+                  <h2 className='has-text-weight-semibold is-size-2'>Our Clients Speak</h2>
                   <Testimonials testimonials={testimonials} />
                 </div>
               </div>
