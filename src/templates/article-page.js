@@ -41,6 +41,7 @@ const ArticlePage = (props) => {
                 meta_desc={meta_description}
                 tags={tags}
                 title={title}
+                date={date}
               />
               <Share
                 title={title}
