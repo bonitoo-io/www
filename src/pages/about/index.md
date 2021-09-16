@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: About Bonitoo.io
+title: About Us
 meta_title: About Us | Bonitoo.io
 meta_description: >-
   Bonitoo.io is a software consultancy based in Prague, Czech Republic. We are an
@@ -31,7 +31,7 @@ From the personal and organization point of view, the evolution is as follows:
 |  *Year*  | *Event* |
 |----------|----------|
 | **2018** | Bonitoo signs partnership agreeement with a famous [**Apitea s.r.o. company**](https://www.apitea.com), the producer of [**Promitea B2B procurement platform**](https:// www.promitea.com) |
-| **2017** | Bonitoo becomes [**Influxdata, Inc.**](https://www.influxdata.com) **technology partner** |
+| **2017** | Bonitoo becomes [**Influxdata, Inc.**](https://www.influxdata.com) **contributor** |
 | **2017** | [**Bonitoo s.r.o.**](/) starts operations in Prague in March 2017 and signs the first big contract with [**WEB SHOP FLY company**](https://www.webshopfly.com/) |
 | **2016** | The team in Vietnam decouples from HP first and founds the company known as [**RND4U CO., LTD.**](https://www.rnd4u.com) |
 

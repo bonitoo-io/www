@@ -14,11 +14,11 @@ tags:
   - Client Library
 ---
 
-**Community asked for it and here we go. The client library for R.**
+**Influxdata Community has asked for support to natively work with InfluxDB from R. Today, we announce the general availability of Influxdata R Client Library with InfluxDB 2.0.**
 
 The InfluxDB 2.0 Client Library package is available in CRAN.
 
-Readme: <https://github.com/influxdata/influxdb-client-r>
+[Sources and the documentation](https://github.com/influxdata/influxdb-client-r)
 
 Kudos to Ales.
 
