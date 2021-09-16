@@ -18,7 +18,7 @@ tags:
 
 The InfluxDB 2.0 Client Library package is available in CRAN.
 
-Sources and the documentation: <https://github.com/influxdata/influxdb-client-r>
+[Sources and the documentation](https://github.com/influxdata/influxdb-client-r)
 
 Kudos to Ales.
 
