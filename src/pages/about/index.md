@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: About Bonitoo.io
+title: About Us
 meta_title: About Us | Bonitoo.io
 meta_description: >-
   Bonitoo.IO is a software consultancy based in Prague, Czech Republic. An

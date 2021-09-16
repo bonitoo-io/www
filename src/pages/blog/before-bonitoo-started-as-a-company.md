@@ -17,7 +17,7 @@ tags:
   - Mercury Interactive
 ---
 
-**Social and technical events formed the core Bonitoo team before the company was established.**
+**Social and technical events have formed the core Bonitoo team before the company was established.**
 
 ## Brief History
 
