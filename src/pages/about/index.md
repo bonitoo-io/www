@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: About Bonitoo s.r.o.
+title: About Bonitoo.io
 meta_title: About Us | Bonitoo.io
 meta_description: >-
   Bonitoo.IO is a software consultancy based in Prague, Czech Republic. An
@@ -12,8 +12,8 @@ meta_description: >-
 
 ## Who We Are
 
-Bonitoo is an unconventional software development and consulting company, a
-professional R&D studio that aims to provide software development projects and
+Bonitoo s.r.o. is an unconventional software development and consulting company,
+a professional R&D studio that aims to provide software development projects and
 services. Bonitoo builds its services on a strong team of professionals, who
 formed the core of the development of the Systinet company between 2000 and
 2006.
