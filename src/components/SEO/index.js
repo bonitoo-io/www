@@ -17,7 +17,7 @@ const SE0 = (props) => {
         item: {
           '@id': siteUrl,
           name: 'Home',
-          image: siteUrl + '/icons/icon-512x512.png',
+          image: siteUrl + '/icons/bonitoo-icon-512x512.png',
         },
       },
       {
@@ -58,7 +58,7 @@ const SE0 = (props) => {
       name: siteTitle,
       logo: {
         '@type': 'ImageObject',
-        url: siteUrl + '/icons/icon-512x512.png',
+        url: siteUrl + '/icons/bonitoo-icon-512x512.png',
       },
     },
     description: meta_desc,
