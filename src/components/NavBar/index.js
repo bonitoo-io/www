@@ -43,7 +43,7 @@ const NavBar = () => {
                 About
               </Link>
               <Link className='navbar-item' to='/blog'>
-                Blog
+                Newsroom
               </Link>
               <div className='navbar-item'>
                 <div className='field is-grouped'>
