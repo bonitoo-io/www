@@ -37,7 +37,7 @@ const BlogPage = (props) => {
   return (
     <Layout>
       <Helmet>
-        <title>Blog | Bonitoo.io</title>
+        <title>Newsroom | Bonitoo.io</title>
         {/* Schema.org tags */}
         <script type='application/ld+json'>
           {JSON.stringify(websiteSchemaOrgJSONLD)}

@@ -41,11 +41,7 @@ Wath analyzed time-series at the on-device display, your mobile oro computer.
 ## 4. Set Alerts and Receive Notifications
 
 Define alerts and send notifications to SMS, Slack. There are more than 20
-available notification media.
-
-## 5. Predict Anomaly Detection
-
-Detect anomalies based on AI functions.
+available notification media. Detect anomalies based on AI functions.
 
 ---
 
