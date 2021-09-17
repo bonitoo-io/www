@@ -1,6 +1,6 @@
 ---
 templateKey: 'home-page'
-title: Boinitoo.io - Software Research and Development Services - We Know How to Do IT Right
+title: Bonitoo.io - Software Research and Development Services - We Know How to Do IT Right
 meta_title: Homepage | Bonitoo.io
 meta_description: >-
   Complete software research and development services based on efficient
@@ -14,22 +14,21 @@ description: >-
   dozens of sucessful software projects around the world.
 offerings:
   blurbs:
-    - image: /img/datacenter.jpg
+    - title: SaaS Solutions
+      image: /img/datacenter.webp
       text: >
-        `SaaS Solutions`
         We are specialists in analyzing and engineering custom scalable SaaS products with 3rd party services integration.
-    - image: /img/startup.jpg
+    - title: Software for Startups
+      image: /img/startup.webp
       text: >
-        <h2>Software for Startups</h2>
         We have a long experience in planning, design, developing and operating MVPs for startups and small businesses ready to enter the market.
-    - image: /img/iot.jpg
+    - title: IoT Development and Machine Learning
+      image: /img/iot.webp
       text: >
-        # IoT Development
-        
         We have an experience with IoT ecosystem development including IoT devices, libraries for IoT devices, IoT portals, monitoring solutions and time series series analysis.
-    - image: /img/enterprise.jpg
+    - title: Enterprise Software
+      image: /img/enterprise.webp
       text: >
-        **Enterprise Software**
         We offer enterprises a wide range of custom solutions like ERP, CRM, HRM, automated billing and payment systems to meet various business objectives.
 testimonials:
   - author: Ivan Kudibal

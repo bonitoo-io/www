@@ -51,6 +51,7 @@ export const pageQuery = graphql`
                 }
                 publicURL
             }
+            title
             text
           }
         }

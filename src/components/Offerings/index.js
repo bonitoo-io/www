@@ -9,12 +9,14 @@ const Offerings = (props) => {
       {gridItems.map((item, idx) => (
         <div key={idx} className='column is-6' style={{ borderRadius: '5px' }}>
           <section className='section'>
+          <h4>{item.title}</h4>
             <div className='has-text-centered'>
               <ProgressiveImageContainer
                 image={item.image}
                 alt={`gatsby-business-starter-${idx}`}
               />
             </div>
+            
             <p>{item.text}</p>
           </section>
         </div>

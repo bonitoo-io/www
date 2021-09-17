@@ -7,7 +7,8 @@ cover:
   /img/benchmarks-scale.webp
 meta_title: Bonitoo.io Benchmarks
 meta_description: >-
-  In this webinar Ivan
+  In this webinar, Bonitoo compares benchmark results of InfluxDB and
+  ElasticSearch.
 tags:
   - Influxdata
   - Benchmark
