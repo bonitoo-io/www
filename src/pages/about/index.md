@@ -11,10 +11,10 @@ meta_description: >-
 
 ## Who We Are
 
-Bonitoo is a strong software development and consulting company. We are a
-professional R&D studio that aims to provide end to end software development projects and
-services. Bonitoo builds its services on a strong team of professionals, who who delivered
-dozens of sucessful software projects around the world.
+Bonitoo is a software development and consulting company. We are a professional
+R&D studio that aims to provide end to end software development projects and
+services. Bonitoo builds its services on a strong team of professionals, who
+delivered dozens of sucessful software projects around the world.
 
 The team strengths are harmony, ability to maintain high engineering standards,
 quick insight into the technologies, and multi-year experience in product

@@ -10,7 +10,7 @@ heading: Our Expertise
 description: >-
   Bonitoo is a strong software development and consulting company. We are a
   professional R&D studio that aims to provide end to end software development projects and
-  services. Bonitoo builds its services on a strong team of professionals, who who delivered
+  services. Bonitoo builds its services on a strong team of professionals, who delivered
   dozens of sucessful software projects around the world.
 offerings:
   blurbs:
