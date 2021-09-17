@@ -1,6 +1,6 @@
 ---
 templateKey: 'home-page'
-title: Bonitoo.io - Software Research and Development Services - We Know How to Do IT Right
+title: Bonitoo.io - Software Research and Development Services - We know how to do IT right
 meta_title: Homepage | Bonitoo.io
 meta_description: >-
   Complete software research and development services based on efficient
