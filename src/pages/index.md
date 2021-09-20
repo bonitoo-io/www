@@ -11,25 +11,25 @@ description: >-
   Bonitoo is a software development and consulting company. We are a
   professional R&D studio that aims to provide end to end software development projects and
   services. Bonitoo builds its services on a strong team of professionals, who delivered
-  dozens of sucessful software projects around the world.
+  dozens of successful software projects around the world.
 offerings:
   blurbs:
     - title: SaaS Solutions
       image: /img/datacenter.webp
       text: >
-        We are specialists in analyzing and engineering custom scalable SaaS products with 3rd party services integration.
+        We are specialists in analyzing and engineering custom scalable SaaS products based leveraging both private and public services like AWS, Azure or GPC.
     - title: Software for Startups
       image: /img/startup.webp
       text: >
-        We have a long experience in planning, design, developing and operating MVPs for startups and small businesses ready to enter the market.
+        We have a long experience in planning, design, developing, operating and supporting MVPs for startups and small businesses ready to enter the market.
     - title: IoT Development and Machine Learning
       image: /img/iot.webp
       text: >
-        We have an experience with IoT ecosystem development including IoT devices, libraries for IoT devices, IoT portals, monitoring solutions and time series series analysis.
+        We know how to develop the whole IoT ecosystem development including IoT devices, libraries for IoT devices, IoT portals, monitoring solutions, time series and machine learning analysis.
     - title: Enterprise Software
       image: /img/enterprise.webp
       text: >
-        We offer enterprises a wide range of custom solutions like ERP, CRM, HRM, automated billing and payment systems to meet various business objectives.
+        We offer enterprises a wide range of custom solutions like ERP, CRM, HRM, automated billing, payment systems and integrations to meet various business objectives.
 testimonials:
   - author: Ivan Kudibal
     quote: >-
@@ -56,9 +56,10 @@ Use *(images - tiles)*
 
 Use (tiles)
 
-* Webshopfly
 * InfluxData
-* ???
+* Webshopfly
+* Apitea
+* Pricefx
 
 ## Contact Us
 
@@ -72,4 +73,3 @@ phone
 address
 
 contact button
-
