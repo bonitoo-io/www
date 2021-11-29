@@ -41,7 +41,7 @@ From the personal and organization point of view, the evolution is as follows:
   [Chronograf 1.x line](https://github.com/influxdata/chronograf) is fully
   maintained by Bonitoo. Twelve client libraries, Apache Nifi, Fluentd,
   Micrometer.io integrations, as well as
-  [numerous InfluxDB 2.0 UI community templates](https://github.io/influxdata/community-templates)
+  [numerous InfluxDB 2.0 UI community templates](https://github.com/influxdata/community-templates)
   exist to date.
 * 2020 We build geo maps prototype for Influxdata UI, Flux integration libraries
 * 2019 We call it the [Influxdata IoT Center](https://github.com/bonitoo-io/iot-center) &mdash; the monitoring app boilertemplate for demo purposes
