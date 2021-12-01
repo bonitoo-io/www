@@ -15,7 +15,7 @@ const ArticleTemplate = (props) => {
       </h1>
       <p>{date}</p>
       <ProgressiveImageContainer
-        image={cover}
+        image={cover.childImageSharp.gatsbyImageData}
         alt={title}
       />
       <PostContent content={content} />
