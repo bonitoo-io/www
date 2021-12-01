@@ -4,8 +4,8 @@
       "jsx": true,
       "modules": true
     },
-    "ecmaVersion": 2018,
-    "sourceType": "module"
+    "sourceType": "module",
+    "ecmaVersion": "latest"
   },
 
   "env": {
