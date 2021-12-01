@@ -4,6 +4,8 @@ import { graphql } from 'gatsby'
 import HomePageTemplate from '../components/HomePageTemplate'
 import Layout from '../components/Layout'
 
+console.log("62 6F 6E 69 74 6F 6F 2E 69 6F"); //bonitoo.io in hex, hiring interview question #1
+
 const HomePage = (props) => {
   const { data: { markdownRemark: { frontmatter: { title, meta_title, meta_description, heading, description, offerings, testimonials } } } } = props
 
