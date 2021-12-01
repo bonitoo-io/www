@@ -7,6 +7,7 @@ module.exports = {
   siteDescription: 'Bonitoo s.r.o. is a software engineering company.', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml',
   siteFBAppID: '', // FB Application ID for using app insights
+  googleTagManagerID: 'GTM-KP7J3ZZ', // GTM tracking ID.
   disqusShortname: 'bonitoo-io', // Disqus shortname.
   userName: 'Ivan Kudibal',
   userTwitter: 'ivankudibal',
