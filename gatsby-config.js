@@ -1,266 +1,173 @@
-const config = require('./config')
-
-const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
+/**
+ * Configure your Gatsby site with this file.
+ *
+ * See: https://www.gatsbyjs.com/docs/gatsby-config/
+ */
 
 module.exports = {
-  siteMetadata: {
-    title: config.siteTitle,
-    siteUrl: config.siteUrl,
-    rssMetadata: {
-      site_url: config.siteUrl + pathPrefix,
-      feed_url: config.siteUrl + pathPrefix + config.siteRss,
-      title: config.siteTitle,
-      description: config.siteDescription,
-      image_url: `${config.siteUrl + pathPrefix}/icons/bonitoo-icon-512x512.png`,
-      author: config.userName,
-      copyright: config.copyright,
-    },
-  },
-  plugins: [
-    {
-      // keep as first gatsby-source-filesystem plugin for gatsby image support
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/static/img`,
-        name: 'uploads',
-      }
-    },
-	    {
-		          resolve: `gatsby-plugin-google-fonts`,
-		          options: {
-				          fonts: [
-						            `poppins\:200`,
-						            `source sans pro\:300,400,400i,700`
-					          ],
-				          display: 'swap'
-				        }
-		        },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/static/img`,
-        name: 'images',
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/src/pages`,
-        name: 'pages',
-      },
-    },
-    {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        exclude: [`/tags`, `/tags/*`, `/success`],
-      },
-    },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [
-          {
-            resolve: 'gatsby-remark-relative-images',
-            options: {
-              name: 'uploads',
+    pathPrefix: `/`,
+    siteMetadata: {
+        title: "Bonitoo.io R&D Services",
+        titleTemplate: `Bonitoo.io`,
+        description: `Professional R&D studio that aims to provide end to end software development projects and services.`,
+        author: `@HasThemes`,
+        twitterUsername: `@HasThemes`,
+        image: "landing.png",
+        siteUrl: "https://bonitoo.io/",
+        canonical: "https://bonitoo.io/",
+        getform: "https://getform.io/f/22b43bd4-29a7-4795-ba95-6abfe8bf1f39",
+        copyright:
+            "Bonitoo.io <a href='https://bonitoo.io/' target='_blank' rel='noopener noreferrer'>All Rights Reserved.</a>",
+        siteLanguage: "en",
+        socials: [
+            {
+                id: 1,
+                icon: "fab fa-facebook-f",
+                link: "https://www.facebook.com/bonitoo.io/",
+                title: "Facebook",
             },
-          },
-          {
-            resolve: 'gatsby-remark-images',
-            options: {
-              // It's important to specify the maxWidth (in pixels) of
-              // the content container as this plugin uses this as the
-              // base for generating different widths of each image.
-              maxWidth: 2048,
+            {
+                id: 2,
+                icon: "fab fa-github",
+                link: "https://github.com/bonitoo-io",
+                title: "Github",
             },
-          },
-          `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`,
+            {
+                id: 3,
+                icon: "fab fa-linkedin",
+                link: "https://www.linkedin.com/company/bonitoo-io",
+                title: "Linkedin",
+            },
         ],
-      },
-    },
-    `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-sass`,
-      options: {
-        indentedSyntax: true
-      },
-    },
-    {
-      resolve: `gatsby-plugin-nprogress`,
-      options: {
-        color: config.themeColor,
-        showSpinner: false,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-tagmanager`,
-      options: {
-        id: process.env.GTM_ID,
-        includeInDevelopment: false,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: config.siteTitle,
-        short_name: config.siteTitleAlt,
-        start_url: '/index.html',
-        background_color: config.backgroundColor,
-        theme_color: config.themeColor,
-        display: 'standalone',
-        icons: [
-          {
-            src: `/icons/bonitoo-icon-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-            purpose: `any maskable`
-          },
-          {
-            src: `/icons/bonitoo-icon-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-            purpose: `any maskable`
-          },
-        ],
-        cache_busting_mode: 'none',
-      },
-    },
-    {
-      resolve: `gatsby-plugin-offline`,
-      options: {
-        precachePages: [`/blog/*`, `/about`, `/contact`, `/`],
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-feed',
-      options: {
-        setup (ref) {
-          const ret = ref.query.site.siteMetadata.rssMetadata
-          ret.allMarkdownRemark = ref.query.allMarkdownRemark
-          ret.generator = config.siteTitle
-          return ret
+        contact: {
+            phone: "(+420) 725 526 409",
+            address: "Kytlická 758, Praha 9, 190 00 CZ",
+            email: "info@bonitoo.io",
+            website: "https://www.bonitoo.io/",
+            rating: "4.9",
+            customers: "20",
+            clients: "3200",
         },
-        query: `
-                {
-                  site {
-                    siteMetadata {
-                      rssMetadata {
-                        site_url
-                        feed_url
-                        title
-                        description
-                        image_url
-                        author
-                        copyright
-                      }
-                    }
-                  }
-                }
-              `,
-        feeds: [
-          {
-            serialize (ctx) {
-              const rssMetadata = ctx.query.site.siteMetadata.rssMetadata
-              return ctx.query.allMarkdownRemark.edges
-                .filter(
-                  edge => edge.node.frontmatter.templateKey === 'article-page',
-                )
-                .map(edge => ({
-                  categories: edge.node.frontmatter.tags,
-                  date: edge.node.frontmatter.date,
-                  title: edge.node.frontmatter.title,
-                  image: edge.node.frontmatter.cover,
-                  description: edge.node.excerpt,
-                  author: rssMetadata.author,
-                  url: rssMetadata.site_url + edge.node.fields.slug,
-                  guid: rssMetadata.site_url + edge.node.fields.slug,
-                  custom_elements: [{ 'content:encoded': edge.node.html }],
-                }))
-            },
-            query: `
+    },
+    // mapping: {
+    // 	"MarkdownRemark.frontmatter.author": `AuthorsJson.name`,
+    // },
+    plugins: [
+        `gatsby-plugin-react-helmet`,
+        `gatsby-plugin-image`,
+        `gatsby-transformer-sharp`,
+        `gatsby-plugin-sharp`,
+        `gatsby-plugin-styled-components`,
+        "gatsby-transformer-json",
+        {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+                excerpt_separator: `<!-- endexcerpt -->`,
+                plugins: [
                     {
-                      allMarkdownRemark(
-                        limit: 1000,
-                        sort: { order: DESC, fields: [frontmatter___date] },
-                      ) {
-                        edges {
-                          node {
-                            excerpt(pruneLength: 400)
-                            html
-                            id
-                            fields { slug }
-                            frontmatter {
-                              title
-                              templateKey
-                              cover {
-                                publicURL
-                              }
-                              date(formatString: "MMMM DD, YYYY")
-                              tags
-                            }
-                          }
-                        }
-                      }
-                    }
-                  `,
-            output: config.siteRss,
-            title: config.siteTitle,
-          },
-        ],
-      },
-    },
-    {
-      resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
-      options: {
-        // Fields to index
-        fields: [`title`, `tags`, `author`, `slug`],
-        // How to resolve each field`s value for a supported node type
-        resolvers: {
-          // For any node of type MarkdownRemark, list how to resolve the fields` values
-          MarkdownRemark: {
-            title: node => node.frontmatter.title,
-            author: node => node.frontmatter.author,
-            tags: node => node.frontmatter.tags,
-            slug: node => node.fields.slug,
-            templateKey: node => node.frontmatter.templateKey,
-          },
+                        resolve: `gatsby-remark-images`,
+                        options: {
+                            maxWidth: 1200,
+                        },
+                    },
+                ],
+            },
         },
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-netlify-cms',
-      options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
-        stylesPath: `${__dirname}/src/assets/sass/styles.sass`,
-        enableIdentityWidget: true,
-        htmlTitle: `Gatsby Starter Business Content Manager`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-netlify`,
-      options: {
-        mergeSecurityHeaders: false,
-        headers: {
-          '/*.js': [
-            'cache-control: public, max-age=31536000, immutable',
-          ],
-          '/*.css': [
-            'cache-control: public, max-age=31536000, immutable',
-          ],
-          '/sw.js': [
-            'cache-control: public, max-age=0, must-revalidate',
-          ],
-          '/*': [
-            `X-Frame-Options: DENY`,
-            `X-XSS-Protection: 1; mode=block`,
-            `X-Content-Type-Options: nosniff`,
-            `Referrer-Policy: no-referrer-when-downgrade`,
-          ],
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `fonts`,
+                path: `${__dirname}/src/assets/fonts`,
+                ignore: [`**/\.*`],
+            },
         },
-      },
-    },
-  ],
-}
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `images`,
+                path: `${__dirname}/src/assets/images`,
+                ignore: [`**/\.*`],
+            },
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `data`,
+                path: `${__dirname}/src/data`,
+                ignore: [`**/\.*`],
+            },
+        },
+        {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                name: "Mitech",
+                short_name: "mitech",
+                theme_color: "#086ad8",
+                background_color: "#ffffff",
+                display: "standalone",
+                scope: "/",
+                start_url: "/",
+                icon: "src/assets/images/favicon.png",
+                icons: [
+                    {
+                        src: "/icons/icon-72x72.png",
+                        sizes: "72x72",
+                        type: "image/png",
+                    },
+                    {
+                        src: "/icons/icon-96x96.png",
+                        sizes: "96x96",
+                        type: "image/png",
+                    },
+                    {
+                        src: "/icons/icon-128x128.png",
+                        sizes: "128x128",
+                        type: "image/png",
+                    },
+                    {
+                        src: "/icons/icon-144x144.png",
+                        sizes: "144x144",
+                        type: "image/png",
+                    },
+                    {
+                        src: "/icons/icon-152x152.png",
+                        sizes: "152x152",
+                        type: "image/png",
+                    },
+                    {
+                        src: "/icons/icon-192x192.png",
+                        sizes: "192x192",
+                        type: "image/png",
+                    },
+                    {
+                        src: "/icons/icon-384x384.png",
+                        sizes: "384x384",
+                        type: "image/png",
+                    },
+                    {
+                        src: "/icons/icon-512x512.png",
+                        sizes: "512x512",
+                        type: "image/png",
+                    },
+                ],
+            },
+        },
+        {
+            resolve: `gatsby-plugin-breadcrumb`,
+            options: {
+                useAutoGen: true,
+                autoGenHomeLabel: `Home`,
+                exclude: [`/dev-404-page`, `/404`, `/404.html`],
+                useClassNames: true,
+            },
+        },
+        {
+            resolve: "gatsby-plugin-robots-txt",
+            options: {
+                host: "https://bonitoo.io/",
+                sitemap: "https://bonitoo.io/sitemap.xml",
+                policy: [{ userAgent: "*", allow: "/" }],
+            },
+        },
+    ],
+};

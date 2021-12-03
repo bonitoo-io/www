@@ -1,0 +1,90 @@
+{
+    "title": "contact-us",
+    "pageType": "innerpage",
+    "content": [
+        {
+            "id": "contactus-contact",
+            "section": "contact-section",
+            "headings": [
+                {
+                    "level": "h3",
+                    "content": "To make requests for <br/> further information, <span>contact us</span> via our social channels."
+                }
+            ],
+            "texts": [
+                {
+                    "content": "We just need a couple of hours! No more than 2 working days since receiving your issue ticket"
+                }
+            ]
+        },
+        {
+            "id": "contactus-contactinfo",
+            "section": "contact-info-section",
+            "items": [
+                {
+                    "id": 1,
+                    "title": "Praha, CZ",
+                    "texts": [
+                        {
+                            "content": "Kytlická 758/21"
+                        },
+                        {
+                            "content": "190 00 Praha 9, CZ"
+                        },
+                        {
+                            "content": "(+420) 725 526 409"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Přerov, CZ",
+                    "texts": [
+                        {
+                            "content": "Kratochvílova 115/2"
+                        },
+                        {
+                            "content": "750 02 Přerov, CZ"
+                        },
+                        {
+                            "content": "(+420) 731 583 858"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "contactus-cta",
+            "section": "cta-section",
+            "headings": [
+                {
+                    "level": "h3",
+                    "content": "Assess your business potentials and find opportunities <span>for bigger success </span>"
+                }
+            ],
+            "buttons": [
+                {
+                    "id": 1,
+                    "path": "/contact-us",
+                    "color": "light",
+                    "icon": "far fa-comment-alt-dots",
+                    "iconposition": "left",
+                    "icondistance": "8px",
+                    "iconsize": "16px",
+                    "hoverStyle": "three",
+                    "content": "Let's talk"
+                },
+                {
+                    "id": 2,
+                    "path": "/it-solutions",
+                    "color": "secondary",
+                    "icon": "far fa-info-circle",
+                    "iconposition": "left",
+                    "icondistance": "8px",
+                    "iconsize": "16px",
+                    "content": "Get Info"
+                }
+            ]
+        }
+    ]
+}

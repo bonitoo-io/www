@@ -1,0 +1,31 @@
+{
+    "id": "header-data",
+    "section": "header",
+    "contact_info": [
+        {
+            "id": 1,
+            "title": "Kytlická 758",
+            "text": "Praha, 190 00 CZ",
+            "icon": "fa fa-map-marker-alt"
+        },
+        {
+            "id": 2,
+            "title": "9:00 - 16:00 CET",
+            "text": "Monday to Friday",
+            "icon": "fa fa-clock"
+        },
+        {
+            "id": 3,
+            "title": "Contact us",
+            "text": "(+420) 725 526 409",
+            "icon": "fa fa-comment-alt-lines"
+        },
+        {
+            "id": 4,
+            "title": "(+420) 725 526 409",
+            "text": "info@bonitoo.io",
+            "icon": "fa fa-phone"
+        }
+    ],
+    "slogan": "<span>Now Hiring:</span> Are you a driven and motivated developer or QA engineer?"
+}
