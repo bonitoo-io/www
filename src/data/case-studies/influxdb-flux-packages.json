@@ -1,20 +1,20 @@
 {
-    "id": "healsoul-technology-health",
-    "title": "Healsoul – Technology & Health",
+    "id": "a-sixbase-typical-case-study",
+    "title": "InfluxDB Flux Packages",
     "category": "Cyber Security",
-    "excerpt": "This case study focuses on how Bryant Homes has used information technology. It shows how using both an Intranet and the Internet together with interactive multimedia, places Bryant …",
-    "tagline": "Using IT techniques to energize sales and marketing",
+    "excerpt": "Their energy, drive, and enthusiasm laid the foundations for the development of a business, which has now become one of the UK’s leading retail chains with a unique …",
+    "tagline": "Flux packages for GEO, integrations, data analysis",
     "logo": {
         "src": "../images/icons/case-study-04-logo-83x108.png"
     },
     "featured_image": {
-        "src": "../images/box-image/case-study-06-featured.jpg"
+        "src": "../images/box-image/case-study-05-featured.jpg"
     },
     "slide_image": {
         "src": "../images/box-image/case-study-slide-image-02.png"
     },
     "banner_image": {
-        "src": "../images/banner/banner-06.jpg"
+        "src": "../images/banner/banner-01.jpg"
     },
     "is_featured": false,
     "content": [
@@ -141,7 +141,6 @@
                         }
                     ],
                     "rating": 5,
-                    "subject": "The Mitech team works really hard to ensure high level of quality",
                     "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me."
                 },
                 {
@@ -154,7 +153,6 @@
                         }
                     ],
                     "rating": 4,
-                    "subject": "The Mitech team works really hard to ensure high level of quality",
                     "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me."
                 },
                 {
@@ -167,7 +165,6 @@
                         }
                     ],
                     "rating": 5,
-                    "subject": "The Mitech team works really hard to ensure high level of quality",
                     "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me."
                 },
                 {
@@ -180,7 +177,6 @@
                         }
                     ],
                     "rating": 5,
-                    "subject": "The Mitech team works really hard to ensure high level of quality",
                     "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me."
                 }
             ]

@@ -1,20 +1,20 @@
 {
-    "id": "arden-internal-networking",
-    "title": "IoT Center",
-    "category": "IoT Development",
+    "id": "a-freeserve-case-study",
+    "title": "InfluxDB libraries",
+    "category": "SaaS Solutions",
     "excerpt": "The prospects for a company operating in this new market are varied and exciting. The potential",
-    "tagline": "Objectives and dynamic strategies in an expanding market",
+    "tagline": "InfluxDB client libraries",
     "logo": {
         "src": "../images/icons/case-study-04-logo-83x108.png"
     },
     "featured_image": {
-        "src": "../images/box-image/case-study-02-featured.jpg"
+        "src": "../images/box-image/case-study-03-featured.jpg"
     },
     "slide_image": {
         "src": "../images/box-image/case-study-slide-image-01.png"
     },
     "banner_image": {
-        "src": "../images/banner/banner-06.jpg"
+        "src": "../images/banner/banner-04.jpg"
     },
     "is_featured": true,
     "content": [

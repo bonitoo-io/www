@@ -1,22 +1,22 @@
 {
-    "id": "a-freeserve-case-study",
-    "title": "InfluxDB libraries",
-    "category": "SaaS Solutions",
-    "excerpt": "The prospects for a company operating in this new market are varied and exciting. The potential",
-    "tagline": "A Freeserve case study on expanding market",
+    "id": "healsoul-technology-health",
+    "title": "Proxitrek Platform",
+    "category": "SaaS Solution",
+    "excerpt": "This case study focuses on how Bryant Homes has used information technology. It shows how using both an Intranet and the Internet together with interactive multimedia, places Bryant …",
+    "tagline": "Takeover analyze and fix Proxitrek platform",
     "logo": {
         "src": "../images/icons/case-study-04-logo-83x108.png"
     },
     "featured_image": {
-        "src": "../images/box-image/case-study-03-featured.jpg"
+        "src": "../images/box-image/case-study-06-featured.jpg"
     },
     "slide_image": {
-        "src": "../images/box-image/case-study-slide-image-01.png"
+        "src": "../images/box-image/case-study-slide-image-02.png"
     },
     "banner_image": {
-        "src": "../images/banner/banner-04.jpg"
+        "src": "../images/banner/banner-06.jpg"
     },
-    "is_featured": true,
+    "is_featured": false,
     "content": [
         {
             "id": "case-overview",
