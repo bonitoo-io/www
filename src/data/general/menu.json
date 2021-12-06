@@ -5,44 +5,7 @@
         {
             "id": "menu-1",
             "text": "Home",
-            "link": "/",
-            "submenu": [
-                {
-                    "id": "menu-11",
-                    "text": "Bonitoo",
-                    "link": "/"
-                },
-                {
-                    "id": "menu-12",
-                    "text": "Appointment",
-                    "link": "/homepages/appointment"
-                },
-                {
-                    "id": "menu-13",
-                    "text": "Processing",
-                    "link": "/homepages/processing"
-                },
-                {
-                    "id": "menu-14",
-                    "text": "Services",
-                    "link": "/homepages/services"
-                },
-                {
-                    "id": "menu-15",
-                    "text": "Resolutions",
-                    "link": "/homepages/resolutions"
-                },
-                {
-                    "id": "menu-16",
-                    "text": "Cybersecurity",
-                    "link": "/homepages/cybersecurity"
-                },
-                {
-                    "id": "menu-17",
-                    "text": "Infotechno",
-                    "link": "/homepages/infotechno"
-                }
-            ]
+            "link": "/"
         },
         {
             "id": "menu-2",
@@ -114,6 +77,46 @@
             "link": "/",
             "megamenu": [
                 {
+                    "title": "Homepages",
+										"submenu": [
+												{
+														"id": "menu-11",
+														"text": "Bonitoo",
+														"link": "/"
+												},
+												{
+														"id": "menu-12",
+														"text": "Appointment",
+														"link": "/homepages/appointment"
+												},
+												{
+														"id": "menu-13",
+														"text": "Processing",
+														"link": "/homepages/processing"
+												},
+												{
+														"id": "menu-14",
+														"text": "Services",
+														"link": "/homepages/services"
+												},
+												{
+														"id": "menu-15",
+														"text": "Resolutions",
+														"link": "/homepages/resolutions"
+												},
+												{
+														"id": "menu-16",
+														"text": "Cybersecurity",
+														"link": "/homepages/cybersecurity"
+												},
+												{
+														"id": "menu-17",
+														"text": "Infotechno",
+														"link": "/homepages/infotechno"
+												}
+										]
+								},
+								{
                     "title": "Element Group 01",
                     "submenu": [
                         {
