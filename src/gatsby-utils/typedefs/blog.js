@@ -13,7 +13,7 @@ type Article implements Node @childof(type: "MarkdownRemark"){
     format: Format!
     excerpt: String!
     is_featured: Boolean
-    author: Author!
+    author: Author @link(from: "author", by: "name")
     content: String!
 }
 type BlogDate {

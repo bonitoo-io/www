@@ -27,17 +27,6 @@ module.exports = ({ createResolvers }) => {
                     }));
                 },
             },
-            author: {
-                resolve: (source, _args, context, _info) => {
-                    const authors = context.nodeModel.getAllNodes({
-                        type: `Author`,
-                    });
-                    const author = authors.find(
-                        (au) => au.name === source.author
-                    );
-                    return author;
-                },
-            },
             excerpt: {
                 resolve: async (source, _args, context, info) => {
                     await context.nodeModel.prepareNodes(

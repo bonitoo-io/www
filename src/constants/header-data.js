@@ -9,32 +9,32 @@ const headerData = {
                 {
                     id: "menu-11",
                     text: "Bonitoo",
-                    link: "/index-infotechno",
+                    link: "/",
                 },
                 {
                     id: "menu-12",
                     text: "Appointment",
-                    link: "/index-appointment",
+                    link: "/homepages/appointment",
                 },
                 {
                     id: "menu-13",
                     text: "Processing",
-                    link: "/index-processing",
+                    link: "/homepages/processing",
                 },
                 {
                     id: "menu-14",
                     text: "Services",
-                    link: "/index-services",
+                    link: "/homepages/services",
                 },
                 {
                     id: "menu-15",
                     text: "Resolutions",
-                    link: "/index-resolutions",
+                    link: "/homepages/resolutions",
                 },
                 {
                     id: "menu-16",
                     text: "Cybersecurity",
-                    link: "/index-cybersecurity",
+                    link: "//homepages/cybersecurity",
                 },
             ],
         },

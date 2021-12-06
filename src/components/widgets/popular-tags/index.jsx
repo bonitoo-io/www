@@ -32,7 +32,7 @@ const PopularTags = ({ className, data, ...rest }) => {
             )}
             <StyledTags>
                 {sortedTags.slice(0, 3).map((tag) => (
-                    <StyledTag key={tag.slug} path={`/tags/${tag.slug}`}>
+                    <StyledTag key={tag.slug} path={`/tag/${tag.slug}`}>
                         {tag.title}
                     </StyledTag>
                 ))}

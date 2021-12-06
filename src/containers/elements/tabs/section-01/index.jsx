@@ -22,7 +22,7 @@ const TabsSection = () => {
                             settling on a helicoid system that can be easily
                             adapted to “work with any colour system”. The studio
                             consulted with the various brands throughout the
-                            process. (Source: designweek.co.uk)
+                            process. (Source: https://designweek.co.uk)
                         </p>
                         <p>
                             The studio was keen to create an identity that would
@@ -30,7 +30,7 @@ const TabsSection = () => {
                             settling on a helicoid system that can be easily
                             adapted to “work with any colour system”. The studio
                             consulted with the various brands throughout the
-                            process. (Source: designweek.co.uk)
+                            process. (Source: https://designweek.co.uk)
                         </p>
                     </Tab>
                     <Tab eventKey="our-services-tab" title="Our Services">

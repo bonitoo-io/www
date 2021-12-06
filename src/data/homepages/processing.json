@@ -28,7 +28,7 @@
             "buttons": [
                 {
                     "id": 1,
-                    "path": "/index-processing",
+                    "path": "/homepages/processing",
                     "color": "secondary",
                     "content": "Free Sample"
                 }
@@ -359,7 +359,7 @@
                 },
                 {
                     "level": "h2",
-                    "content": "190068668"
+                    "content": "(+420) 725 526 409"
                 }
             ],
             "texts": [
