@@ -19,13 +19,13 @@ import TestimonialArea from "@containers/testimonial/layout-01";
 import BlogArea from "@containers/blog/layout-01";
 import ContactArea from "@containers/contact/layout-01";
 
-const InfotechnoPage = ({ location, data }) => {
+const BonitooPage = ({ location, data }) => {
     const content = normalizedData(data?.page.content || []);
     const globalContent = normalizedData(data?.allGeneral.nodes || []);
 
     return (
         <Layout location={location}>
-            <Seo title="Infotechno" />
+            <Seo title="R&D Services" />
             <Header
                 data={{
                     ...globalContent["header"],
@@ -33,7 +33,7 @@ const InfotechnoPage = ({ location, data }) => {
                 }}
             />
             <main className="site-wrapper-reveal">
-                <HeroArea data={content["hero-section"]} />
+                <HeroArea data={content["main-section"]} />
                 <PartnerArea data={content["partner-section"]} />
                 <ITSolutionArea
                     data={{
@@ -74,7 +74,7 @@ const InfotechnoPage = ({ location, data }) => {
 };
 
 export const query = graphql`
-    query infotechnoPageQuery {
+    query bonitooPageQuery {
         allGeneral {
             nodes {
                 section
@@ -84,7 +84,7 @@ export const query = graphql`
         site {
             ...Site
         }
-        page(title: { eq: "infotechno" }, pageType: { eq: "frontpage" }) {
+        page(title: { eq: "bonitoo" }, pageType: { eq: "frontpage" }) {
             content {
                 ...PageContent
             }
@@ -130,7 +130,7 @@ export const query = graphql`
     }
 `;
 
-InfotechnoPage.propTypes = {
+BonitooPage.propTypes = {
     location: PropTypes.shape({}),
     data: PropTypes.shape({
         page: PropTypes.shape({
@@ -162,4 +162,4 @@ InfotechnoPage.propTypes = {
     }),
 };
 
-export default InfotechnoPage;
+export default BonitooPage;

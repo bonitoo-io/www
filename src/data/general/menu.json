@@ -36,6 +36,11 @@
                     "id": "menu-16",
                     "text": "Cybersecurity",
                     "link": "/homepages/cybersecurity"
+                },
+                {
+                    "id": "menu-17",
+                    "text": "Infotechno",
+                    "link": "/homepages/infotechno"
                 }
             ]
         },

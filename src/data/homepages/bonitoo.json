@@ -1,10 +1,10 @@
 {
-    "title": "infotechno",
+    "title": "bonitoo",
     "pageType": "frontpage",
     "content": [
         {
-            "id": "infotechno-hero-content",
-            "section": "hero-section",
+            "id": "bonitoo-content",
+            "section": "main-section",
             "images": [
                 {
                     "src": "../images/hero/home-infotechno-main-slider-slide-01-image-01.png"
@@ -16,28 +16,28 @@
             "headings": [
                 {
                     "level": "h6",
-                    "content": "IT Design & Consulting"
+                    "content": "Bonitoo.io"
                 },
                 {
                     "level": "h1",
-                    "content": "Facilitate All <br/> Local IT-related Service Providers"
+                    "content": "We know how to do IT right"
                 }
             ],
             "texts": [
                 {
-                    "content": "Highly Tailored IT Design, Management & Support Services."
+                    "content": "Software Research and Development Services."
                 }
             ],
             "buttons": [
                 {
                     "id": 1,
                     "path": "/",
-                    "content": "Get Details"
+                    "content": "Contact us now"
                 }
             ]
         },
         {
-            "id": "infotechno-partner",
+            "id": "bonitoo-partner",
             "section": "partner-section",
             "items": [
                 {
@@ -50,7 +50,7 @@
                             "src": "../images/partners/mitech-client-logo-01-hover.png"
                         }
                     ],
-                    "path": "/"
+                    "path": "https://www.influxdata.com/"
                 },
                 {
                     "id": 2,
@@ -62,7 +62,7 @@
                             "src": "../images/partners/mitech-client-logo-02-hover.png"
                         }
                     ],
-                    "path": "/"
+                    "path": "https://www.flymeto.com/"
                 },
                 {
                     "id": 3,
@@ -74,7 +74,7 @@
                             "src": "../images/partners/mitech-client-logo-03-hover.png"
                         }
                     ],
-                    "path": "/"
+                    "path": "https://www.apitea.com/"
                 },
                 {
                     "id": 4,
@@ -86,75 +86,15 @@
                             "src": "../images/partners/mitech-client-logo-04-hover.png"
                         }
                     ],
-                    "path": "/"
-                },
-                {
-                    "id": 5,
-                    "images": [
-                        {
-                            "src": "../images/partners/mitech-client-logo-05.png"
-                        },
-                        {
-                            "src": "../images/partners/mitech-client-logo-05-hover.png"
-                        }
-                    ],
-                    "path": "/"
-                },
-                {
-                    "id": 6,
-                    "images": [
-                        {
-                            "src": "../images/partners/mitech-client-logo-06.png"
-                        },
-                        {
-                            "src": "../images/partners/mitech-client-logo-06-hover.png"
-                        }
-                    ],
-                    "path": "/"
-                },
-                {
-                    "id": 7,
-                    "images": [
-                        {
-                            "src": "../images/partners/mitech-client-logo-07.png"
-                        },
-                        {
-                            "src": "../images/partners/mitech-client-logo-07-hover.png"
-                        }
-                    ],
-                    "path": "/"
-                },
-                {
-                    "id": 8,
-                    "images": [
-                        {
-                            "src": "../images/partners/mitech-client-logo-08.png"
-                        },
-                        {
-                            "src": "../images/partners/mitech-client-logo-08-hover.png"
-                        }
-                    ],
-                    "path": "/"
-                },
-                {
-                    "id": 9,
-                    "images": [
-                        {
-                            "src": "../images/partners/mitech-client-logo-09.png"
-                        },
-                        {
-                            "src": "../images/partners/mitech-client-logo-09-hover.png"
-                        }
-                    ],
-                    "path": "/"
+                    "path": "https://www.avast.com/"
                 }
             ]
         },
         {
-            "id": "infotechno-feature",
+            "id": "bonitoo-feature",
             "section": "feature-section",
             "section_title": {
-                "title": "For your very specific industry, <br/> we have <span>highly-tailored IT solutions.</span>",
+                "title": "We are a professional R&D studio that aims to provide<br/>end to end <span>software development</span> projects and services.",
                 "subtitle": "FEATURED SERVICES"
             },
             "motto": {
@@ -164,17 +104,17 @@
             }
         },
         {
-            "id": "infotechno-about",
+            "id": "bonitoo-about",
             "section": "about-section",
             "section_title": {
-                "title": "We’ve been thriving in <span>38 years</span>",
-                "subtitle": "OUR COMPANY",
-                "description": "Mitech specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it."
+                "title": "We’ve been thriving in <span>21 years</span>",
+                "subtitle": "About BONITOO.IO",
+                "description": "Bonitoo is a software development and consulting company. We are a professional R&D studio that aims to provide end to end software development projects and services. Bonitoo builds its services on a strong team of professionals, who delivered dozens of successful software projects around the world."
             },
             "buttons": [
                 {
                     "id": 1,
-                    "path": "/about-us",
+                    "path": "/careers",
                     "content": "Join Us Now"
                 }
             ],
@@ -191,13 +131,13 @@
                 },
                 {
                     "id": 3,
-                    "title": "What are the best of Mitech?",
+                    "title": "What are the best of Bonitoo?",
                     "link": "/about-us"
                 }
             ]
         },
         {
-            "id": "infotechno-service",
+            "id": "bonitoo-service",
             "section": "service-section",
             "section_title": {
                 "title": "How we claim to <span>excel?</span>",
@@ -209,37 +149,37 @@
             }
         },
         {
-            "id": "infotechno-funfact",
+            "id": "bonitoo-funfact",
             "section": "funfact-section",
             "items": [
                 {
                     "id": 1,
-                    "count": 1056,
+                    "count": 16,
                     "title": "Happy Clients",
                     "description": "Successfully work with"
                 },
                 {
                     "id": 2,
-                    "count": 491,
+                    "count": 50,
                     "title": "FINISHED PROJECTS",
                     "description": "Successfully completed"
                 },
                 {
                     "id": 3,
-                    "count": 491,
+                    "count": 20,
                     "title": "SKILLED EXPERTS",
                     "description": "Recruit more than"
                 },
                 {
                     "id": 4,
-                    "count": 491,
+                    "count": 4,
                     "title": "MEDIA POSTS",
                     "description": "Blog Update"
                 }
             ]
         },
         {
-            "id": "infotechno-cta",
+            "id": "bonitoo-cta",
             "section": "cta-section",
             "headings": [
                 {
@@ -253,7 +193,7 @@
             }
         },
         {
-            "id": "infotechno-case-study",
+            "id": "bonitoo-case-study",
             "section": "case-study-section",
             "section_title": {
                 "title": "Proud projects <span>make us excel</span>",
@@ -266,69 +206,59 @@
             }
         },
         {
-            "id": "infotechno-testimonial",
+            "id": "bonitoo-testimonial",
             "section": "testimonial-section",
             "section_title": {
-                "title": "What do people praise about <span> Mitech?</span>",
+                "title": "What do people praise about <span> Bonitoo?</span>",
                 "subtitle": "Testimonials"
             },
             "items": [
                 {
                     "id": 1,
-                    "name": "Abbie Ferguson",
-                    "designation": "Marketing",
+                    "name": "Petr Feigl",
+                    "designation": "Director for Operations",
+                    "company": "WEB SHOP FLY, a.s.",
                     "images": [
                         {
                             "src": "../images/avatar/avatar-01-90x90.jpg"
                         }
                     ],
                     "rating": 5,
-                    "subject": "The Mitech team works really hard to ensure high level of quality",
-                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me."
+                    "subject": "The Bonitoo team works really hard to ensure high level of quality",
+                    "description": "I’ve been working with Bonitoo over 4 years. Bonitoo always quickly delivered all requirements while keeping high quality."
                 },
                 {
                     "id": 2,
-                    "name": "Monica Blews",
-                    "designation": "Web designer",
+                    "name": "Tim Hall",
+                    "designation": "VP of Products",
+                    "company": "InfluxData",
                     "images": [
                         {
                             "src": "../images/avatar/avatar-02-90x90.jpg"
                         }
                     ],
                     "rating": 4,
-                    "subject": "The Mitech team works really hard to ensure high level of quality",
-                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me."
+                    "subject": "The Bonitoo team works really hard to ensure high level of quality",
+                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Bonitoo is one of the most impressive to me."
                 },
                 {
                     "id": 3,
-                    "name": "Sansa Stark",
-                    "designation": "Web designer",
+                    "name": "Chris Churilo",
+                    "designation": "VP of Marketing",
+                    "company": "InfluxData",
                     "images": [
                         {
                             "src": "../images/avatar/avatar-03-90x90.jpg"
                         }
                     ],
                     "rating": 5,
-                    "subject": "The Mitech team works really hard to ensure high level of quality",
-                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me."
-                },
-                {
-                    "id": 4,
-                    "name": "Rickon Stark",
-                    "designation": "Web developer",
-                    "images": [
-                        {
-                            "src": "../images/avatar/avatar-04-90x90.jpg"
-                        }
-                    ],
-                    "rating": 5,
-                    "subject": "The Mitech team works really hard to ensure high level of quality",
-                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me."
+                    "subject": "The Bonitoo team works really hard to ensure high level of quality",
+                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Bonitoo is one of the most impressive to me."
                 }
             ]
         },
         {
-            "id": "infotechno-blog",
+            "id": "bonitoo-blog",
             "section": "blog-section",
             "section_title": {
                 "title": "Interesting articles <span>updated daily</span>",
@@ -336,7 +266,7 @@
             }
         },
         {
-            "id": "infotechno-contact-content",
+            "id": "bonitoo-contact-content",
             "section": "contact-section",
             "headings": [
                 {
@@ -349,12 +279,12 @@
                 },
                 {
                     "level": "h2",
-                    "content": "190068668"
+                    "content": "info@bonitoo.io"
                 }
             ],
             "texts": [
                 {
-                    "content": "We’re available for 8 hours a day! <br/> Contact to require a detailed analysis and assessment of your plan"
+                    "content": "We’re available for 8 hours a day! <br/> Contact us to asses your requirements"
                 }
             ],
             "buttons": [
