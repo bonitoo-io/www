@@ -1,7 +1,7 @@
 const footerData = {
     contact: {
         phone: "(+420) 725 526 409",
-        address: "Kytlická 758<br/>Praha<br>190 00 CZ",
+        address: "Kytlická 758, Praha 9, 190 00 CZ",
         email: "info@bonitoo.io",
         website: "https://www.bonitoo.io/",
     },
@@ -11,7 +11,7 @@ const footerData = {
         {
             id: 1,
             icon: "fab fa-facebook-f",
-            link: "https://www.facebook.com/bonitoo.io/",
+            link: "https://www.facebook.com/bonitoo.io",
             title: "Facebook",
         },
         {

@@ -25,7 +25,7 @@
             ],
             "texts": [
                 {
-                    "content": "Software Research and Development Services."
+                    "content": "Software Research and Development Services"
                 }
             ],
             "buttons": [
@@ -87,6 +87,30 @@
                         }
                     ],
                     "path": "https://www.avast.com/"
+                },
+                {
+                    "id": 5,
+                    "images": [
+                        {
+                            "src": "../images/partners/mitech-client-logo-05.png"
+                        },
+                        {
+                            "src": "../images/partners/mitech-client-logo-05-hover.png"
+                        }
+                    ],
+                    "path": "https://www.buildsys.cz"
+                },
+                {
+                    "id": 6,
+                    "images": [
+                        {
+                            "src": "../images/partners/mitech-client-logo-06.png"
+                        },
+                        {
+                            "src": "../images/partners/mitech-client-logo-06-hover.png"
+                        }
+                    ],
+                    "path": "https://essens.travel/"
                 }
             ]
         },
@@ -284,7 +308,7 @@
             ],
             "texts": [
                 {
-                    "content": "We’re available for 8 hours a day! <br/> Contact us to asses your requirements"
+                    "content": "We’re ready to help you! <br/> Contact us to asses your requirements"
                 }
             ],
             "buttons": [
