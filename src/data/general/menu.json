@@ -24,7 +24,7 @@
                 },
                 {
                     "id": "menu-23",
-                    "text": "Leadership",
+                    "text": "Team",
                     "link": "/leadership"
                 },
                 {
@@ -38,19 +38,9 @@
                     "link": "/our-history"
                 },
                 {
-                    "id": "menu-26",
-                    "text": "FAQs",
-                    "link": "/faq"
-                },
-                {
                     "id": "menu-27",
                     "text": "Careers",
                     "link": "/careers"
-                },
-                {
-                    "id": "menu-28",
-                    "text": "Pricing Plans",
-                    "link": "/pricing-plan"
                 }
             ]
         },
@@ -70,6 +60,16 @@
                     "link": "/it-solutions"
                 }
             ]
+        },
+        {
+            "id": "menu-5",
+            "text": "Case Studies",
+            "link": "/case-studies"
+        },
+        {
+            "id": "menu-6",
+            "text": "Blog",
+            "link": "/blog"
         },
         {
             "id": "menu-4",
@@ -119,6 +119,25 @@
 								{
                     "title": "Element Group 01",
                     "submenu": [
+                {
+                    "id": "menu-26",
+                    "text": "FAQs",
+                    "link": "/faq"
+                },
+                {
+                    "id": "menu-28",
+                    "text": "Pricing Plans",
+                    "link": "/pricing-plan"
+                },
+                {
+                    "id": "menu-61",
+                    "text": "Single Blog",
+                    "link": "/bonitoo-becomes-the-official-influxdata-partner"
+                },
+
+
+
+
                         {
                             "id": "menu-411",
                             "text": "Accordion",
@@ -255,23 +274,6 @@
                             "link": "/elements/typed-text"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "id": "menu-5",
-            "text": "Case Studies",
-            "link": "/case-studies"
-        },
-        {
-            "id": "menu-6",
-            "text": "Blog",
-            "link": "/blog",
-            "submenu": [
-                {
-                    "id": "menu-61",
-                    "text": "Single Blog",
-                    "link": "/5-ways-technology-has-improved-business-today"
                 }
             ]
         }
