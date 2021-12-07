@@ -6,6 +6,7 @@ import FeatureBox from "@components/box-image/layout-01";
 import Motto from "@components/motto";
 import { SectionTitleType, ItemType, MottoType } from "@utils/types";
 import { SectionWrap } from "./style";
+import { truncateString } from "@utils";
 
 const FeaturesArea = ({ data, ...rest }) => {
     return (
@@ -29,7 +30,7 @@ const FeaturesArea = ({ data, ...rest }) => {
                                 <FeatureBox
                                     title={solution.title}
                                     image={solution.icon?.images?.[0]}
-                                    desc={solution.excerpt}
+                                    desc={truncateString(solution.excerpt, 180)}
                                     path={`/it-solution/${solution.slug}`}
                                 />
                             </Col>
