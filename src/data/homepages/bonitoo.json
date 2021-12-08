@@ -161,18 +161,6 @@
             ]
         },
         {
-            "id": "bonitoo-service",
-            "section": "service-section",
-            "section_title": {
-                "title": "How we claim to <span>excel?</span>",
-                "subtitle": "HIRE US, WHY NOT?"
-            },
-            "motto": {
-                "linkText": "Learn more about how we work",
-                "link": "/it-services"
-            }
-        },
-        {
             "id": "bonitoo-funfact",
             "section": "funfact-section",
             "items": [

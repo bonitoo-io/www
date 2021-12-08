@@ -8,24 +8,34 @@
             "link": "/"
         },
         {
+            "id": "menu-3",
+            "text": "Services",
+            "link": "/it-solutions"
+        },
+        {
+            "id": "menu-5",
+            "text": "Case Studies",
+            "link": "/case-studies"
+        },
+        {
+            "id": "menu-6",
+            "text": "Blog",
+            "link": "/blog"
+        },
+        {
             "id": "menu-2",
             "text": "Company",
             "link": "/about-us",
             "submenu": [
                 {
-                    "id": "menu-21",
-                    "text": "About Us",
-                    "link": "/about-us"
+                    "id": "menu-27",
+                    "text": "Careers",
+                    "link": "/careers"
                 },
                 {
                     "id": "menu-22",
                     "text": "Contact Us",
                     "link": "/contact-us"
-                },
-                {
-                    "id": "menu-23",
-                    "text": "Team",
-                    "link": "/leadership"
                 },
                 {
                     "id": "menu-24",
@@ -38,38 +48,16 @@
                     "link": "/our-history"
                 },
                 {
-                    "id": "menu-27",
-                    "text": "Careers",
-                    "link": "/careers"
-                }
-            ]
-        },
-        {
-            "id": "menu-3",
-            "text": "Services",
-            "link": "/it-services",
-            "submenu": [
-                {
-                    "id": "menu-31",
-                    "text": "IT Services",
-                    "link": "/it-services"
+                    "id": "menu-23",
+                    "text": "Our Team",
+                    "link": "/leadership"
                 },
                 {
-                    "id": "menu-32",
-                    "text": "IT Solutions",
-                    "link": "/it-solutions"
+                    "id": "menu-21",
+                    "text": "About Us",
+                    "link": "/about-us"
                 }
             ]
-        },
-        {
-            "id": "menu-5",
-            "text": "Case Studies",
-            "link": "/case-studies"
-        },
-        {
-            "id": "menu-6",
-            "text": "Blog",
-            "link": "/blog"
         },
         {
             "id": "menu-4",
@@ -134,9 +122,16 @@
                     "text": "Single Blog",
                     "link": "/bonitoo-becomes-the-official-influxdata-partner"
                 },
-
-
-
+                {
+                    "id": "menu-31",
+                    "text": "IT Services",
+                    "link": "/it-services"
+                },
+                {
+                    "id": "menu-32",
+                    "text": "IT Solutions",
+                    "link": "/it-solutions"
+                },
 
                         {
                             "id": "menu-411",

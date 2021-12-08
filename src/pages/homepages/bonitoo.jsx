@@ -43,12 +43,6 @@ const BonitooPage = ({ location, data }) => {
                 />
                 <AboutServiceWrap>
                     <AboutArea data={content["about-section"]} />
-                    <ITServiceArea
-                        data={{
-                            ...content["service-section"],
-                            items: data.allItService.nodes,
-                        }}
-                    />
                 </AboutServiceWrap>
                 <FunfactArea data={content["funfact-section"]} />
                 <CtaArea data={content["cta-section"]} />
