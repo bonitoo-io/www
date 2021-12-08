@@ -6,6 +6,7 @@ import DropdownItem from "@ui/dropdown/dropdown-item";
 import DropdownItemInner from "@ui/dropdown/dropdown-item-inner";
 import DropdownSubMenu from "@ui/dropdown/dropdown-submenu";
 import enFlag from "@assets/images/flags/en.png";
+import czFlag from "@assets/images/flags/cz.png";
 import frFlag from "@assets/images/flags/fr.png";
 import deFlag from "@assets/images/flags/de.png";
 import { LanguageWrap } from "./style";
@@ -16,6 +17,12 @@ const Language = ({ className, ...props }) => {
             id: 1,
             flag: enFlag,
             name: "English",
+            isActive: true,
+        },
+        {
+            id: 1,
+            flag: czFlag,
+            name: "Czech",
             isActive: true,
         },
         {
