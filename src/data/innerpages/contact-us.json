@@ -8,12 +8,12 @@
             "headings": [
                 {
                     "level": "h3",
-                    "content": "To make requests for <br/> further information, <span>contact us</span> via our social channels."
+                    "content": "Do you have an idea, start-up, project, or do you just want to <span>send us</span> a message?"
                 }
             ],
             "texts": [
                 {
-                    "content": "We just need a couple of hours! No more than 2 working days since receiving your issue ticket"
+                    "content": "We can provide you with full range of IT services and guide your product to market."
                 }
             ]
         },
@@ -23,7 +23,7 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "Praha, CZ",
+                    "title": "Headquarters, Praha, CZ",
                     "texts": [
                         {
                             "content": "Kytlická 758/21"
@@ -59,7 +59,7 @@
             "headings": [
                 {
                     "level": "h3",
-                    "content": "Assess your business potentials and find opportunities <span>for bigger success </span>"
+                    "content": "Let’s start with a <br/> <span>free project analysis & quote!</span>"
                 }
             ],
             "buttons": [

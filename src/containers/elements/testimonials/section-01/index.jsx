@@ -60,7 +60,7 @@ const Section = () => {
                 <SectionTitle
                     mb={["50px", null, "60px"]}
                     subtitle="TESTIMONIALS"
-                    title="Why do people <span>love Mitech?</span>"
+                    title="Why do people <span>love Bonitoo?</span>"
                 />
                 <SwiperSlider options={sliderSettings} paginationTop="80px">
                     {testimonials.map((testimonial) => {
