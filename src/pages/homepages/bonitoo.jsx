@@ -25,7 +25,7 @@ const BonitooPage = ({ location, data }) => {
 
     return (
         <Layout location={location}>
-            <Seo title="R&D Services" />
+            <Seo title="Bonitoo R&D Services" />
             <Header
                 data={{
                     ...globalContent["header"],
