@@ -196,14 +196,10 @@
             "section": "cta-section",
             "headings": [
                 {
-                    "level": "h2",
-                    "content": "We excel in providing cutting edge solutions"
+                  "content": "We excel in providing cutting edge solutions and traditional technologies like"
                 }
             ],
-            "video_button": {
-                "link": "https://www.youtube.com/watch?v=9No-FiEInLA",
-                "content": "Watch Video <br/> Intro"
-            }
+            "type_texts" : ["JavaScript", "Go", ".NET", "C++", "Meteor", "MQTT", "SQL", "InfluxDB", "Kubernetes", "AWS", "Azure", "GCP"]
         },
         {
             "id": "bonitoo-case-study",

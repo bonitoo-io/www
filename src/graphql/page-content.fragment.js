@@ -16,6 +16,7 @@ export const query = graphql`
         video_button {
             ...VideoButton
         }
+        type_texts
         images {
             ...Image
         }

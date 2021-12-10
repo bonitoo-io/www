@@ -13,7 +13,7 @@ import AboutServiceWrap from "@containers/about-service-wrap";
 import AboutArea from "@containers/about/layout-01";
 import ITServiceArea from "@containers/it-service/layout-01";
 import FunfactArea from "@containers/funfact/layout-01";
-import CtaArea from "@containers/cta/layout-01";
+import CtaArea from "@containers/cta/layout-bonitoo";
 import CaseStudyArea from "@containers/case-study/layout-01";
 import TestimonialArea from "@containers/testimonial/layout-01";
 import BlogArea from "@containers/blog/layout-01";
