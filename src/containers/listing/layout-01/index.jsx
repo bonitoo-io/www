@@ -42,6 +42,7 @@ const ListingArea = ({ data }) => {
                                     <Col lg={3}>
                                         <JobButton>
                                             <Button
+                                                path="/contact-us"
                                                 variant="outlined"
                                                 color="light"
                                             >

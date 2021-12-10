@@ -11,26 +11,26 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "IT Operations Specialist",
-                    "type": "Full time",
+                    "title": "JS Junior Developer",
+                    "type": "Full time / Prague, CZ",
                     "description": "We are currently seeking a highly motivated individual to fill an I.T. This position will provide remote and onsite hands-on support to staff, vendors, and customers as well as, proactively identify issues."
                 },
                 {
                     "id": 3,
-                    "title": "IT Desktop Support",
-                    "type": "Part time",
-                    "description": "The Mitech IT team believes in full transparency, being flexible, reliable and being great team players. We are problem solvers, always ready to help and support each other and the organization."
+                    "title": "Senior Developer / Architect",
+                    "type": "Full time / Prague, CZ",
+                    "description": "The Bonitoo IT team believes in full transparency, being flexible, reliable and being great team players. We are problem solvers, always ready to help and support each other and the organization."
                 },
                 {
                     "id": 4,
-                    "title": "IT Summer Intern",
-                    "type": "Internship",
-                    "description": "Mitech is looking for a summer intern to work in the Information & Technology Services area. This position is part of a team which supports Microsoft Server Operating Systems, storage systems, and Client device technologies."
+                    "title": "QA Engineer",
+                    "type": "Full time / Prague, CZ",
+                    "description": "Bonitoo is looking for a summer intern to work in the Information & Technology Services area. This position is part of a team which supports Microsoft Server Operating Systems, storage systems, and Client device technologies."
                 },
                 {
                     "id": 5,
-                    "title": "Software Engineer",
-                    "type": "Remote",
+                    "title": "DevOps Engineer",
+                    "type": "Part time / Remote",
                     "description": "In partnership with others on the team, you will create enhancements and/or new services and solutions based data acquisition and analytics. You will analyze, design, program, debug and modify software interface for our system."
                 }
             ]
@@ -72,7 +72,7 @@
             "headings": [
                 {
                     "level": "h3",
-                    "content": "Obtaining further information by <span>make a contact</span> with our experienced IT staffs."
+                    "content": "Obtaining further information by <span>make a contact</span> with us."
                 },
                 {
                     "level": "h6",
@@ -80,12 +80,12 @@
                 },
                 {
                     "level": "h2",
-                    "content": "(+420) 725 526 409"
+                    "content": "info@bonitoo.io"
                 }
             ],
             "texts": [
                 {
-                    "content": "We’re available for 8 hours a day! <br/> Contact to require a detailed analysis and assessment of your plan"
+                    "content": "Haven't found the position you're interested in? <br/> Send us your CV"
                 }
             ],
             "buttons": [
