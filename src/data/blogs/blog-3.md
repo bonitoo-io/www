@@ -1,7 +1,7 @@
 ---
 title: "Data Secure on Transitioning to a New Office"
 date: "2020-01-25 05:01:00"
-author: "Owen Christ"
+author: "Ivan Kudibal"
 image: { src: "../images/blog/blog-07-1170x570.jpg", alt: "techy blog" }
 video_link: "https://www.youtube.com/watch?v=9No-FiEInLA"
 categories:

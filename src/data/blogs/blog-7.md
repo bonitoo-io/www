@@ -1,7 +1,7 @@
 ---
 title: "How Wireless Technology is Changing Business"
 date: "2020-01-25 05:01:00"
-author: "Owen Christ"
+author: "Ivan Kudibal"
 image: { src: "../images/blog/blog-02-1170x600.jpg", alt: "techy blog" }
 categories:
     - success story

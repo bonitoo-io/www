@@ -1,7 +1,7 @@
 ---
 title: "Influxdata Client Libraries July Release Announcement"
 date: "2020-01-25 04:20:00"
-author: "James Scott"
+author: "Ivan Kudibal"
 image: { src: "../images/blog/blog-08-1170x570.jpg", alt: "techy blog" }
 categories:
     - success story

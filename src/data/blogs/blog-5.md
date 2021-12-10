@@ -1,7 +1,7 @@
 ---
 title: "New Influxdata Client Library for R"
 date: "2020-01-25 05:01:00"
-author: "Owen Christ"
+author: "Ivan Kudibal"
 image: { src: "../images/blog/blog-05-1170x570.jpg", alt: "techy blog" }
 categories:
     - success story

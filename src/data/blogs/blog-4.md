@@ -1,7 +1,7 @@
 ---
 title: "Programmable Monitoring IoT Gateway"
 date: "2020-01-25 05:01:00"
-author: "Owen Christ"
+author: "Ivan Kudibal"
 image: { src: "../images/blog/blog-07-1170x570.jpg", alt: "techy blog" }
 categories:
     - success story

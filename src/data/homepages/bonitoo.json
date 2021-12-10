@@ -31,8 +31,8 @@
             "buttons": [
                 {
                     "id": 1,
-                    "path": "/",
-                    "content": "Contact us now"
+                    "path": "/contact-us",
+                    "content": "Free Consultation"
                 }
             ]
         },
