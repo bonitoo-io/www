@@ -7,6 +7,7 @@ export const query = graphql`
         description
         name
         designation
+	company
         rating
         subject
         path
@@ -14,6 +15,7 @@ export const query = graphql`
             ...Social
         }
         count
+	suffix
         images {
             ...Image
         }
