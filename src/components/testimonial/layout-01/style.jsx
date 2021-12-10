@@ -54,7 +54,7 @@ export const AuthorCompany = styled.span`
     display: block;
     font-size: 14px;
     &:before {
-        content: "  ";
+
         padding: 0 5px;
     }
 `;
