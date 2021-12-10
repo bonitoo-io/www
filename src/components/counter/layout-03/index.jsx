@@ -49,6 +49,7 @@ const Counter = ({ title, countTo, text, className, ...restProps }) => {
 Counter.propTypes = {
     title: PropTypes.string,
     countTo: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+    suffix: PropTypes.string,
     text: PropTypes.string,
     className: PropTypes.string,
 };

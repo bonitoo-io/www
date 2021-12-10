@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 import { FunFactWrap, FunFactTitle, FunFactCount, FunFactText } from "./style";
 
-const Counter = ({ title, countTo, text, className, layout, ...restProps }) => {
+const Counter = ({ title, countTo, suffix, text, className, layout, ...restProps }) => {
     const [focus, setFocus] = useState(false);
     const visibleChangeHandler = (isVisible) => {
         if (isVisible) {
@@ -34,6 +34,7 @@ const Counter = ({ title, countTo, text, className, layout, ...restProps }) => {
                         {({ countUpRef }) => (
                             <div>
                                 <span ref={countUpRef} />
+                                {suffix && (<span>{suffix}</span>)}
                                 <VisibilitySensor
                                     onChange={(isVisible) =>
                                         visibleChangeHandler(isVisible)
@@ -44,7 +45,9 @@ const Counter = ({ title, countTo, text, className, layout, ...restProps }) => {
                             </div>
                         )}
                     </CountUp>
+
                 </FunFactCount>
+
             )}
             {text && (
                 <FunFactText
@@ -59,6 +62,7 @@ const Counter = ({ title, countTo, text, className, layout, ...restProps }) => {
 Counter.propTypes = {
     title: PropTypes.string,
     countTo: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+    suffix: PropTypes.string,
     text: PropTypes.string,
     className: PropTypes.string,
     layout: PropTypes.number,

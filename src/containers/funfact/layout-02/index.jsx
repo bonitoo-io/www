@@ -17,6 +17,7 @@ const FunFactArea = ({ data }) => {
                                 layout={2}
                                 text={item.title}
                                 countTo={item.count}
+                                suffix={item.suffix}
                             />
                         </Col>
                     ))}

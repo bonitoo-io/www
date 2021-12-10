@@ -35,6 +35,7 @@ const FunFactArea = ({ data, ...rest }) => {
                                     <Counter
                                         text={item.title}
                                         countTo={item.count}
+                                        suffix={item.suffix}
                                     />
                                 </Col>
                             ))}

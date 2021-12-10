@@ -15,6 +15,7 @@ const FunFactArea = ({ data }) => {
                             <Counter
                                 title={item.title}
                                 countTo={item.count}
+                                suffix={item.suffix} 
                                 text={item.description}
                             />
                         </Grid>
