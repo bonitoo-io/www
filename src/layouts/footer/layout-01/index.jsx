@@ -82,30 +82,30 @@ const Footer = ({ data }) => {
                         <Col lg={2} md={4} sm={6}>
                             <FooterWidget mb={["31px", null, null, 0]}>
                                 <Heading as="h6" mt="-3px" mb="20px">
-                                    IT Services
+                                    Our Services
                                 </Heading>
                                 <FooterWidgetList>
                                     <li>
                                         <Anchor
-                                            path="/"
+                                            path="/it-solution/software-for-startups"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            Managed IT
+                                            Software for Startups
                                         </Anchor>
                                     </li>
                                     <li>
                                         <Anchor
-                                            path="/"
+                                            path="/it-solution/iot-development"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            IT Support
+                                            IoT Development
                                         </Anchor>
                                     </li>
                                     <li>
                                         <Anchor
-                                            path="/"
+                                            path="/it-solution/it-consultancy"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
@@ -114,20 +114,20 @@ const Footer = ({ data }) => {
                                     </li>
                                     <li>
                                         <Anchor
-                                            path="/"
+                                            path="/it-solution/saas-solutions"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            Cloud Computing
+                                            SaaS Solutions
                                         </Anchor>
                                     </li>
                                     <li>
                                         <Anchor
-                                            path="/"
+                                            path="/it-solution/cloud-managed-services"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            Cyber Security
+                                            Cloud managed services
                                         </Anchor>
                                     </li>
                                 </FooterWidgetList>
@@ -141,70 +141,16 @@ const Footer = ({ data }) => {
                                 <FooterWidgetList>
                                     <li>
                                         <Anchor
-                                            path="/"
+                                            path="/careers"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            Pick up locations
+                                            Careers
                                         </Anchor>
                                     </li>
                                     <li>
                                         <Anchor
-                                            path="/"
-                                            color="text"
-                                            $hover={{ layout: 2 }}
-                                        >
-                                            Terms of Payment
-                                        </Anchor>
-                                    </li>
-                                    <li>
-                                        <Anchor
-                                            path="/"
-                                            color="text"
-                                            $hover={{ layout: 2 }}
-                                        >
-                                            Privacy Policy
-                                        </Anchor>
-                                    </li>
-                                    <li>
-                                        <Anchor
-                                            path="/"
-                                            color="text"
-                                            $hover={{ layout: 2 }}
-                                        >
-                                            Where to Find Us
-                                        </Anchor>
-                                    </li>
-                                </FooterWidgetList>
-                            </FooterWidget>
-                        </Col>
-                        <Col lg={2} md={4} sm={6}>
-                            <FooterWidget>
-                                <Heading as="h6" mt="-3px" mb="20px">
-                                    Support
-                                </Heading>
-                                <FooterWidgetList>
-                                    <li>
-                                        <Anchor
-                                            path="/"
-                                            color="text"
-                                            $hover={{ layout: 2 }}
-                                        >
-                                            Forum Support
-                                        </Anchor>
-                                    </li>
-                                    <li>
-                                        <Anchor
-                                            path="/"
-                                            color="text"
-                                            $hover={{ layout: 2 }}
-                                        >
-                                            Help &amp; FAQ
-                                        </Anchor>
-                                    </li>
-                                    <li>
-                                        <Anchor
-                                            path="/"
+                                            path="/contact-us"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
@@ -213,20 +159,20 @@ const Footer = ({ data }) => {
                                     </li>
                                     <li>
                                         <Anchor
-                                            path="/"
+                                            path="/our-history"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            Pricing and plans
+                                            Our History
                                         </Anchor>
                                     </li>
                                     <li>
                                         <Anchor
-                                            path="/"
+                                            path="/about-us"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            Cookies Policy
+                                            About Us
                                         </Anchor>
                                     </li>
                                 </FooterWidgetList>
