@@ -46,6 +46,7 @@ const Footer = ({ data }) => {
                                             <Text mb="10px">
                                                 <Anchor
                                                     path={`mailto:${data.contact.email}`}
+                                                    fontWeight="800"
                                                     color="text"
                                                     $hover={{ layout: 2 }}
                                                 >
@@ -57,7 +58,6 @@ const Footer = ({ data }) => {
                                             <Text mb="10px">
                                                 <Anchor
                                                     path={`tel:${data.contact.phone}`}
-                                                    fontWeight="800"
                                                     color="heading"
                                                     $hover={{ layout: 2 }}
                                                 >
