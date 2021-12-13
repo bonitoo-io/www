@@ -56,7 +56,7 @@ const ContactArea = ({ data }) => {
                     </Col>
                     <Col lg={6}>
                         <ContactInfoBox>
-                            <i className="icon fal fa-phone"></i>
+                            <i className="icon fal fa-envelope"></i>
                             {data?.headings?.[1] && (
                                 <StyledInfoTitle as={data.headings[1]?.level}>
                                     {data.headings[1].content}
