@@ -66,73 +66,42 @@
             "megamenu": [
                 {
                     "title": "Homepages",
-										"submenu": [
-												{
-														"id": "menu-11",
-														"text": "Bonitoo",
-														"link": "/"
-												},
-												{
-														"id": "menu-12",
-														"text": "Appointment",
-														"link": "/homepages/appointment"
-												},
-												{
-														"id": "menu-13",
-														"text": "Processing",
-														"link": "/homepages/processing"
-												},
-												{
-														"id": "menu-14",
-														"text": "Services",
-														"link": "/homepages/services"
-												},
-												{
-														"id": "menu-15",
-														"text": "Resolutions",
-														"link": "/homepages/resolutions"
-												},
-												{
-														"id": "menu-16",
-														"text": "Cybersecurity",
-														"link": "/homepages/cybersecurity"
-												},
-												{
-														"id": "menu-17",
-														"text": "Infotechno",
-														"link": "/homepages/infotechno"
-												}
-										]
-								},
-								{
-                    "title": "Element Group 01",
                     "submenu": [
-                {
-                    "id": "menu-26",
-                    "text": "FAQs",
-                    "link": "/faq"
-                },
-                {
-                    "id": "menu-28",
-                    "text": "Pricing Plans",
-                    "link": "/pricing-plan"
-                },
-                {
-                    "id": "menu-61",
-                    "text": "Single Blog",
-                    "link": "/bonitoo-becomes-the-official-influxdata-partner"
-                },
-                {
-                    "id": "menu-31",
-                    "text": "IT Services",
-                    "link": "/it-services"
-                },
-                {
-                    "id": "menu-32",
-                    "text": "IT Solutions",
-                    "link": "/it-solutions"
-                }
-
+                        {
+                            "id": "menu-11",
+                            "text": "Bonitoo",
+                            "link": "/"
+                        },
+                        {
+                            "id": "menu-12",
+                            "text": "Appointment",
+                            "link": "/homepages/appointment"
+                        },
+                        {
+                            "id": "menu-13",
+                            "text": "Processing",
+                            "link": "/homepages/processing"
+                        },
+                        {
+                            "id": "menu-14",
+                            "text": "Services",
+                            "link": "/homepages/services"
+                        },
+                        {
+                            "id": "menu-15",
+                            "text": "Resolutions",
+                            "link": "/homepages/resolutions"
+                        },
+                        {
+                            "id": "menu-16",
+                            "text": "Cybersecurity",
+                            "link": "/homepages/cybersecurity"
+                        },
+                        {
+                            "id": "menu-17",
+                            "text": "Infotechno",
+                            "link": "/homepages/infotechno"
+                        }
                     ]
                 }
             ]
