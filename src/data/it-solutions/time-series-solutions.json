@@ -1,7 +1,7 @@
 {
-    "id": "cloud-managed-services",
-    "title": "Cloud managed services",
-    "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
+    "id": "time-series-solutions",
+    "title": "Time-Series Solutions",
+    "excerpt": "We provide the advanced analytical, reporting and embedded solutions around large volumes of time-stamped data.",
     "icon": {
         "svg": {
             "src": "../images/icons/linea-basic-alarm.svg"

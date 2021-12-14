@@ -1,7 +1,7 @@
 {
-    "id": "it-consultancy",
-    "title": "IT Consultancy",
-    "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
+    "id": "enterprise-software",
+    "title": "Enterprise Software",
+    "excerpt": "We offer enterprises a wide range of custom solutions like ERP, CRM, HRM, automated billing, payment systems and integrations to meet various business objectives.",
     "icon": {
         "svg": {
             "src": "../images/icons/linea-ecommerce-money.svg"

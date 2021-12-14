@@ -105,11 +105,11 @@ const Footer = ({ data }) => {
                                     </li>
                                     <li>
                                         <Anchor
-                                            path="/it-solution/it-consultancy"
+                                            path="/it-solution/enterprise-software"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            IT Consultancy
+                                            Enterprise Software
                                         </Anchor>
                                     </li>
                                     <li>
@@ -123,11 +123,11 @@ const Footer = ({ data }) => {
                                     </li>
                                     <li>
                                         <Anchor
-                                            path="/it-solution/cloud-managed-services"
+                                            path="/it-solution/time-series-solutions"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            Cloud managed services
+                                            Time-Series Solutions
                                         </Anchor>
                                     </li>
                                 </FooterWidgetList>
@@ -139,6 +139,16 @@ const Footer = ({ data }) => {
                                     Quick links
                                 </Heading>
                                 <FooterWidgetList>
+                                    <li>
+                                        <Anchor
+                                            path="/about-us"
+                                            color="text"
+                                            $hover={{ layout: 2 }}
+                                        >
+                                            About Us
+                                        </Anchor>
+                                    </li>
+
                                     <li>
                                         <Anchor
                                             path="/careers"
@@ -164,15 +174,6 @@ const Footer = ({ data }) => {
                                             $hover={{ layout: 2 }}
                                         >
                                             Our History
-                                        </Anchor>
-                                    </li>
-                                    <li>
-                                        <Anchor
-                                            path="/about-us"
-                                            color="text"
-                                            $hover={{ layout: 2 }}
-                                        >
-                                            About Us
                                         </Anchor>
                                     </li>
                                 </FooterWidgetList>
