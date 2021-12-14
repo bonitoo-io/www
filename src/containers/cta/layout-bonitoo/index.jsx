@@ -7,7 +7,6 @@ import { convertToBgImage } from "gbimage-bridge";
 import { Container, Row, Col } from "@ui/wrapper";
 import { HeadingType, VideoButtonType } from "@utils/types";
 import { SectionWrap, StyledTitle, TypedTextWrap } from "./style";
-import TypedArea from "@containers/elements/typed-text";
 
 const CtaArea = ({ data }) => {
     const ctaData = useStaticQuery(graphql`
