@@ -66,7 +66,7 @@ const ContactArea = ({ data }) => {
                             {data?.headings?.[2] && (
                                 <h2>
                                     <Anchor
-                                        path="/"
+                                        path={`mailto:${data.headings[2].content}`}
                                         color="secondary"
                                         hover={{
                                             layout: 2,

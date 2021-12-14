@@ -199,7 +199,7 @@
                   "content": "We excel in providing cutting edge solutions and traditional technologies like"
                 }
             ],
-            "type_texts" : ["JavaScript", "Go", ".NET", "C++", "Pyton", "Meteor", "MQTT", "SQL", "InfluxDB", "Kubernetes", "AWS", "Azure", "GCP"]
+            "type_texts" : ["JavaScript", "Go", ".NET", "C++", "Python", "Meteor", "MQTT", "SQL", "InfluxDB", "Kubernetes", "AWS", "Azure", "GCP"]
         },
         {
             "id": "bonitoo-case-study",
