@@ -1,12 +1,13 @@
 ---
-title: "Bonitoo Becomes The Official Influxdata Partner"
-date: "2019-07-15 05:01:00"
+title: "InfluxData Client Libraries July Release Announcement"
+date: "2020-07-09 16:55:49"
 author: "Ivan Kudibal"
+image: { src: "../images/blog/blog-03-1170x570.jpg", alt: "Client Libraries" }
 categories:
     - success story
     - release
 tags:
-  - Influxdata
+  - InfluxData
   - Client Library
   - Release
   - Announcement
@@ -18,15 +19,13 @@ tags:
   - Node.js
   - Deno
   - Swift
-format: "quote"
-quote_text: "Bonitoo.io delivers client library releases for Influxdata."
-quote_author: "Beeige Lunmis"
+format: "image"
 is_featured: false
 ---
 
-**We have just released new versions of client libraries for Influxdata.**
+##### InfluxData Client Libraries
 
-## Influxdata Client Libraries
+We have just released new versions of client libraries for InfluxData.
 
 * [Java - v3.0.0](https://github.com/influxdata/influxdb-client-java/blob/master/CHANGELOG.md#300-2021-07-09)
 * [C# - v2.0.0](https://github.com/influxdata/influxdb-client-csharp/blob/master/CHANGELOG.md#200-2021-07-09)
@@ -36,7 +35,7 @@ is_featured: false
 * [Ruby - v1.16.0](https://github.com/influxdata/influxdb-client-ruby/blob/master/CHANGELOG.md#1160-2021-07-09)
 * [Swift - v0.6.0](https://github.com/influxdata/influxdb-client-swift/blob/0.6.0/CHANGELOG.md#060-2021-07-09)
 
-## Influxdata Client Library Integrations
+##### InfluxData Client Library Integrations
 
 * [Apache NiFi - v1.12.0](https://github.com/influxdata/nifi-influxdb-bundle/blob/master/CHANGELOG.md#v1120-2021-07-09)
 

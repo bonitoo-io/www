@@ -22,5 +22,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "files.associations": {
         "*.jsx": "javascriptreact"
-    }
+    },
+    "cSpell.words": [
+        "Churilo",
+        "Kudibal",
+        "Systinet"
+    ]
 }

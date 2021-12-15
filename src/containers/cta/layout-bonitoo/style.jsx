@@ -19,11 +19,10 @@ export const StyledTitle = styled.h2`
 export const TypedTextWrap = styled.h2`
     line-height: 1.34;
     word-wrap: break-word;
-    font-weight: 570;
+    font-weight: 560;
     margin-block-end: 65px;
     color: rgb(255, 255, 255);
     margin-inline: auto;
-
     span {
         &:not(.not-typical) {
             color: ${themeGet("colors.primary")};

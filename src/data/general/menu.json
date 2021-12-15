@@ -58,28 +58,6 @@
                     "link": "/about-us"
                 }
             ]
-        },
-        {
-            "id": "menu-4",
-            "text": "Elements",
-            "link": "/",
-            "megamenu": [
-                {
-                    "title": "Homepages",
-                    "submenu": [
-                        {
-                            "id": "menu-11",
-                            "text": "Bonitoo",
-                            "link": "/"
-                        },
-                        {
-                            "id": "menu-12",
-                            "text": "Appointment",
-                            "link": "/homepages/appointment"
-                        }
-                    ]
-                }
-            ]
         }
     ]
 }
