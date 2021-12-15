@@ -1,5 +1,5 @@
 {
-    "id": "mitech-smart-vision",
+    "id": "Bonitoo-weather-station",
     "title": "Weather station",
     "category": "IoT Development",
     "excerpt": "The prospects for a company operating in this new market are varied and exciting. The potential",
@@ -127,7 +127,7 @@
             "id": "case-study-testimonial",
             "section": "testimonial-section",
             "section_title": {
-                "title": "What do people praise about <span> Mitech?</span>",
+                "title": "What do people praise about <span> Bonitoo?</span>",
                 "subtitle": "Testimonials"
             },
             "items": [
@@ -141,8 +141,8 @@
                         }
                     ],
                     "rating": 5,
-                    "subject": "The Mitech team works really hard to ensure high level of quality",
-                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me."
+                    "subject": "The Bonitoo team works really hard to ensure high level of quality",
+                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Bonitoo is one of the most impressive to me."
                 },
                 {
                     "id": 2,
@@ -154,8 +154,8 @@
                         }
                     ],
                     "rating": 4,
-                    "subject": "The Mitech team works really hard to ensure high level of quality",
-                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me."
+                    "subject": "The Bonitoo team works really hard to ensure high level of quality",
+                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Bonitoo is one of the most impressive to me."
                 },
                 {
                     "id": 3,
@@ -167,8 +167,8 @@
                         }
                     ],
                     "rating": 5,
-                    "subject": "The Mitech team works really hard to ensure high level of quality",
-                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me."
+                    "subject": "The Bonitoo team works really hard to ensure high level of quality",
+                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Bonitoo is one of the most impressive to me."
                 },
                 {
                     "id": 4,
@@ -180,8 +180,8 @@
                         }
                     ],
                     "rating": 5,
-                    "subject": "The Mitech team works really hard to ensure high level of quality",
-                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me."
+                    "subject": "The Bonitoo team works really hard to ensure high level of quality",
+                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Bonitoo is one of the most impressive to me."
                 }
             ]
         },

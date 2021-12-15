@@ -11,7 +11,6 @@ import PartnerArea from "@containers/partner/layout-01";
 import ITSolutionArea from "@containers/it-solution/layout-01";
 import AboutServiceWrap from "@containers/about-service-wrap";
 import AboutArea from "@containers/about/layout-01";
-import ITServiceArea from "@containers/it-service/layout-01";
 import FunfactArea from "@containers/funfact/layout-01";
 import CtaArea from "@containers/cta/layout-bonitoo";
 import CaseStudyArea from "@containers/case-study/layout-01";
@@ -33,7 +32,7 @@ const BonitooPage = ({ location, data }) => {
                 }}
             />
             <main className="site-wrapper-reveal">
-                <HeroArea data={content["main-section"]} />
+                <HeroArea data={content["hero-section"]} />
                 <PartnerArea data={content["partner-section"]} />
                 <ITSolutionArea
                     data={{

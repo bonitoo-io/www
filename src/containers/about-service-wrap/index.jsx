@@ -10,7 +10,7 @@ const AboutServiceWrap = ({ children }) => {
         query ABoutServiceImageQuery {
             file(
                 relativePath: {
-                    eq: "bg/mitech-home-infotechno-section-company-bg.png"
+                    eq: "bg/bonitoo-home-section-company-bg.png"
                 }
             ) {
                 childImageSharp {

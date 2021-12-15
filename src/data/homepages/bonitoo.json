@@ -4,13 +4,13 @@
     "content": [
         {
             "id": "bonitoo-content",
-            "section": "main-section",
+            "section": "hero-section",
             "images": [
                 {
-                    "src": "../images/hero/home-infotechno-main-slider-slide-01-image-01.png"
+                    "src": "../images/hero/home-bonitoo-main-slider-slide-01-image-01.png"
                 },
                 {
-                    "src": "../images/hero/home-infotechno-main-slider-slide-01-image-02.png"
+                    "src": "../images/hero/home-bonitoo-main-slider-slide-01-image-02.png"
                 }
             ],
             "headings": [
@@ -44,10 +44,10 @@
                     "id": 1,
                     "images": [
                         {
-                            "src": "../images/partners/mitech-client-logo-01.png"
+                            "src": "../images/partners/client-logo-01.png"
                         },
                         {
-                            "src": "../images/partners/mitech-client-logo-01-hover.png"
+                            "src": "../images/partners/client-logo-01-hover.png"
                         }
                     ],
                     "path": "https://www.influxdata.com/"
@@ -56,10 +56,10 @@
                     "id": 2,
                     "images": [
                         {
-                            "src": "../images/partners/mitech-client-logo-02.png"
+                            "src": "../images/partners/client-logo-02.png"
                         },
                         {
-                            "src": "../images/partners/mitech-client-logo-02-hover.png"
+                            "src": "../images/partners/client-logo-02-hover.png"
                         }
                     ],
                     "path": "https://www.flymeto.com/"
@@ -68,10 +68,10 @@
                     "id": 3,
                     "images": [
                         {
-                            "src": "../images/partners/mitech-client-logo-03.png"
+                            "src": "../images/partners/client-logo-03.png"
                         },
                         {
-                            "src": "../images/partners/mitech-client-logo-03-hover.png"
+                            "src": "../images/partners/client-logo-03-hover.png"
                         }
                     ],
                     "path": "https://www.apitea.com/"
@@ -80,10 +80,10 @@
                     "id": 4,
                     "images": [
                         {
-                            "src": "../images/partners/mitech-client-logo-04.png"
+                            "src": "../images/partners/client-logo-04.png"
                         },
                         {
-                            "src": "../images/partners/mitech-client-logo-04-hover.png"
+                            "src": "../images/partners/client-logo-04-hover.png"
                         }
                     ],
                     "path": "https://www.avast.com/"
@@ -92,10 +92,10 @@
                     "id": 5,
                     "images": [
                         {
-                            "src": "../images/partners/mitech-client-logo-07.png"
+                            "src": "../images/partners/client-logo-07.png"
                         },
                         {
-                            "src": "../images/partners/mitech-client-logo-07-hover.png"
+                            "src": "../images/partners/client-logo-07-hover.png"
                         }
                     ],
                     "path": "https://rnd4u.com"
@@ -104,10 +104,10 @@
                     "id": 6,
                     "images": [
                         {
-                            "src": "../images/partners/mitech-client-logo-06.png"
+                            "src": "../images/partners/client-logo-06.png"
                         },
                         {
-                            "src": "../images/partners/mitech-client-logo-06-hover.png"
+                            "src": "../images/partners/client-logo-06-hover.png"
                         }
                     ],
                     "path": "https://essens.travel/"
@@ -173,7 +173,7 @@
                 {
                     "id": 2,
                     "count": 90,
-                    "title": "FINISHED PROJECTS",
+                    "title": "Finished Projects",
                     "description": "Successfully completed"
                 },
                 {
@@ -186,7 +186,7 @@
                 {
                     "id": 4,
                     "count": 4,
-                    "title": "MEDIA POSTS",
+                    "title": "Media Posts",
                     "description": "Blog Update"
                 }
             ]
@@ -248,7 +248,7 @@
                     ],
                     "rating": 4,
                     "subject": "The Bonitoo team works really hard to ensure high level of quality",
-                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Bonitoo is one of the most impressive to me."
+                    "description": "I've been working with over 35 IT companies on more than 200 projects of our company, but @Bonitoo is one of the most impressive to me."
                 },
                 {
                     "id": 3,
@@ -262,7 +262,7 @@
                     ],
                     "rating": 5,
                     "subject": "The Bonitoo team works really hard to ensure high level of quality",
-                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Bonitoo is one of the most impressive to me."
+                    "description": "I've been working with over 35 IT companies on more than 200 projects of our company, but @Bonitoo is one of the most impressive to me."
                 }
             ]
         },
@@ -293,7 +293,7 @@
             ],
             "texts": [
                 {
-                    "content": "We’re ready to help you! <br/> Contact us to asses your requirements"
+                    "content": "We're ready to help you! <br/> Contact us to asses your requirements"
                 }
             ],
             "buttons": [

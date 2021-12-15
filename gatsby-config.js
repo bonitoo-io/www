@@ -100,8 +100,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: "Mitech",
-                short_name: "mitech",
+                name: "Bonitoo.io",
+                short_name: "bonitoo",
                 theme_color: "#086ad8",
                 background_color: "#ffffff",
                 display: "standalone",

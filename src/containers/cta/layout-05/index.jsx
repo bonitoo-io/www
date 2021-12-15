@@ -13,7 +13,7 @@ import { ResourcesWrapper, LeftBox, ImageBox } from "./style";
 const CtaArea = ({ data }) => {
     const ctaData = useStaticQuery(graphql`
         query CtaFiveQuery {
-            file(relativePath: { eq: "bg/cybersecurity-global-image.png" }) {
+            file(relativePath: { eq: "bg/bonitoo-global-image.png" }) {
                 childImageSharp {
                     gatsbyImageData(
                         layout: CONSTRAINED
