@@ -27,8 +27,8 @@
                 },
                 {
                     "id": 2,
-                    "title": "Marketing support",
-                    "value": 70
+                    "title": "Operations",
+                    "value": 80
                 },
                 {
                     "id": 3,
@@ -37,8 +37,8 @@
                 },
                 {
                     "id": 4,
-                    "title": "Consulting",
-                    "value": 80
+                    "title": "Marketing support",
+                    "value": 70
                 }
             ]
         },

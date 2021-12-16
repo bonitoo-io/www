@@ -2,14 +2,14 @@
 title: "Top Posts on InfluxDB Client Libraries in 2021"
 date: "2020-01-25 05:01:00"
 author: "Ivan Kudibal"
-image: { src: "../images/blog/blog-03-1170x600.jpg", alt: "techy blog" }
+image: { src: "../images/blog/blog-05-1170x600.jpg", alt: "techy blog" }
 categories:
     - tips
 tags:
-  - Influxdata
+  - InfluxData
   - Client Library
   - C#
-  - Javascript
+  - JavaScript
   - Node.js
   - Deno
   - PHP
@@ -24,7 +24,7 @@ is_featured: true
 
 If you want to start with monitoring in Python, [Getting Started with Python and InfluxDB v2.0](https://www.influxdata.com/blog/getting-started-with-python-and-influxdb-v2-0/) written by Anais Dotis-Georgiou is a good start, then jump to [README.md](https://github.com/influxdata/influxdb-client-python)
 
-#### Javascript Client Library
+#### JavaScript Client Library
 
 There is a cool article written by Nicolas Bohorquez -- [Getting Started with JavaScript and InfluxDB - The New Stack](https://thenewstack.io/getting-started-with-javascript-and-influxdb/)
 

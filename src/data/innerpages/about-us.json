@@ -58,8 +58,8 @@
                     "disableHover": false,
                     "hoverStyle": "one",
                     "fontWeight": 500,
-                    "path": "/about-us",
-                    "content": "Discover Now"
+                    "path": "/case-studies",
+                    "content": "Discover References"
                 }
             ]
         },
@@ -103,8 +103,8 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "Warranty Management IT",
-                    "description": "Our service offerings enhance customer experience throughout secure & highly functional end-to-end warranty management."
+                    "title": "End-to-End IT Services",
+                    "description": "Our service offerings cover all phases including planning, design, architecture, MVP development, QA, operation, support, and iterative evolution."
                 },
                 {
                     "id": 2,
@@ -113,13 +113,13 @@
                 },
                 {
                     "id": 3,
-                    "title": "Quality Control System",
+                    "title": "Independent Quality Control",
                     "description": "It's more than a responsibility but a guarantee from us to gain customer trust with highly reliable quality control system."
                 },
                 {
                     "id": 4,
-                    "title": "Infrastructure Integration Technology",
-                    "description": "At Bonitoo, we have a holistic and integrated approach towards core modernization to experience technological evolution."
+                    "title": "Infrastructure & Operations Services",
+                    "description": "At Bonitoo, we have a long experience with maintenance and operation of existing systems deployed both on premise and cloud."
                 },
                 {
                     "id": 5,
@@ -128,8 +128,8 @@
                 },
                 {
                     "id": 6,
-                    "title": "Information Security Management",
-                    "description": "Information security has been a rising issue lately due to a series of scandals from big companies, rest assured, we're here."
+                    "title": "Product Management Services",
+                    "description": "We offer product management services like market analysis, benchmarks, competitors, financial analysis, roadmap planning, trainings, workshops, etc."
                 }
             ]
         },
@@ -145,17 +145,17 @@
                 {
                     "id": 2,
                     "count": 50,
-                    "title": "FINISHED PROJECTS"
+                    "title": "Finished Projects"
                 },
                 {
                     "id": 3,
                     "count": 20,
-                    "title": "SKILLED EXPERTS"
+                    "title": "Skilled Experts"
                 },
                 {
                     "id": 4,
                     "count": 4,
-                    "title": "MEDIA POSTS"
+                    "title": "Media Posts"
                 }
             ]
         },
@@ -169,8 +169,8 @@
             "items": [
                 {
                     "id": 1,
-                    "name": "Abbie Ferguson",
-                    "designation": "Marketing",
+                    "name": "Petr Feigl",
+                    "designation": "Director for Operations",
                     "images": [
                         {
                             "src": "../images/avatar/avatar-01-90x90.jpg"
@@ -178,12 +178,12 @@
                     ],
                     "rating": 5,
                     "subject": "The Bonitoo team works really hard to ensure high level of quality",
-                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Bonitoo is one of the most impressive to me."
+                    "description": "I've been working with over 35 IT companies on more than 200 projects of our company, but @Bonitoo is one of the most impressive to me."
                 },
                 {
                     "id": 2,
-                    "name": "Monica Blews",
-                    "designation": "Web designer",
+                    "name": "Tim Hall",
+                    "designation": "VP of Products",
                     "images": [
                         {
                             "src": "../images/avatar/avatar-02-90x90.jpg"
@@ -191,33 +191,7 @@
                     ],
                     "rating": 4,
                     "subject": "The Bonitoo team works really hard to ensure high level of quality",
-                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Bonitoo is one of the most impressive to me."
-                },
-                {
-                    "id": 3,
-                    "name": "Sansa Stark",
-                    "designation": "Web designer",
-                    "images": [
-                        {
-                            "src": "../images/avatar/avatar-03-90x90.jpg"
-                        }
-                    ],
-                    "rating": 5,
-                    "subject": "The Bonitoo team works really hard to ensure high level of quality",
-                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Bonitoo is one of the most impressive to me."
-                },
-                {
-                    "id": 4,
-                    "name": "Rickon Stark",
-                    "designation": "Web developer",
-                    "images": [
-                        {
-                            "src": "../images/avatar/avatar-04-90x90.jpg"
-                        }
-                    ],
-                    "rating": 5,
-                    "subject": "The Bonitoo team works really hard to ensure high level of quality",
-                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Bonitoo is one of the most impressive to me."
+                    "description": "I've been working with over 35 IT companies on more than 200 projects of our company, but @Bonitoo is one of the most impressive to me."
                 }
             ]
         },

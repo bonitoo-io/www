@@ -6,13 +6,13 @@
             "id": "our-history-timeline",
             "section": "timeline-section",
             "section_title": {
-                "title": "We create dreams <span>for the future.</span> <br/> We realize them sucessfully.",
+                "title": "We create dreams <span>for the future.</span> <br/> We realize them successfully.",
                 "description": "You know that you found your dream when you have a desire to achieve a goal, have the gut to pursue it, have the courage to overcome any obstacles on your path and feel blessed when finally realizing it. Dream on, keep up and make it pay off."
             },
             "items": [
                 {
                     "id": 5,
-                    "title": "Avast partnership",
+                    "title": "Avast project",
                     "description": "Bonitoo signs a project with Avast, the cybersecurity software company.",
                     "images": [
                         {
@@ -24,7 +24,7 @@
                 {
                     "id": 4,
                     "title": "Apitea partnership",
-                    "description": "Bonitoo signs partnership agreeement with a famous Apitea s.r.o. company, the producer of Promitea B2B procurement platform.",
+                    "description": "Bonitoo signs partnership agreement with a famous Apitea s.r.o. company, the producer of Promitea B2B procurement platform.",
                     "images": [
                         {
                             "src": "../images/box-image/timeline-image-04.jpg"
@@ -35,7 +35,7 @@
                 {
                     "id": 3,
                     "title": "InfluxData partnership",
-                    "description": "Bonitoo becomes Influxdata, Inc. contributor.",
+                    "description": "Bonitoo becomes InfluxData, Inc. contributor.",
                     "images": [
                         {
                             "src": "../images/box-image/timeline-image-01.jpg"
@@ -56,7 +56,7 @@
                 },
                 {
                     "id": 1,
-                    "title": "The Foundation of RND4U",
+                    "title": "RND4U",
                     "description": "The team in Vietnam decouples from HP first and founds the company known as RND4U CO., LTD.",
                     "images": [
                         {

@@ -19,7 +19,7 @@ export const StyledTitle = styled.h2`
 export const TypedTextWrap = styled.h2`
     line-height: 1.34;
     word-wrap: break-word;
-    font-weight: 560;
+    font-weight: 550;
     margin-block-end: 65px;
     color: rgb(255, 255, 255);
     margin-inline: auto;

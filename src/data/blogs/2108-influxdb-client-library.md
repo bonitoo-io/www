@@ -27,7 +27,7 @@ is_featured: true
 
 **We have just released new versions of client libraries for Influxdata**
 
-#### Influxdata Client Libraries
+#### InfluxData Client Libraries
 
 * [Java   - v3.2.0](https://github.com/influxdata/influxdb-client-java/blob/master/CHANGELOG.md#320-2021-08-20)
 * [C#     - v2.1.0](https://github.com/influxdata/influxdb-client-csharp/blob/master/CHANGELOG.md#210-2021-08-20)
@@ -38,7 +38,7 @@ is_featured: true
 * [Ruby   - v1.17.0](https://github.com/influxdata/influxdb-client-ruby/blob/master/CHANGELOG.md#1170-2021-08-20)
 * [Dart   - v1.0.0](https://github.com/influxdata/influxdb-client-dart/blob/main/CHANGELOG.md#100-2021-08-20)
 
-#### Influxdata Client Library Integrations
+#### InfluxData Client Library Integrations
 
 * [Apache NiFi - v1.13.0](https://github.com/influxdata/nifi-influxdb-bundle/blob/master/CHANGELOG.md#v1130-2021-08-20)
 * [FluentD - v1.8.0](https://github.com/influxdata/influxdb-plugin-fluent/blob/master/CHANGELOG.md#180-2021-08-20)

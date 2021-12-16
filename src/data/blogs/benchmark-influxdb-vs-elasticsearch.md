@@ -7,7 +7,7 @@ video_link: "https://www.youtube.com/watch?v=9No-FiEInLA"
 categories:
     - tips
 tags:
-  - Influxdata
+  - InfluxData
   - Benchmark
   - ElasticSearch
   - InfluxDB

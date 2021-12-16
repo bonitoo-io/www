@@ -15,7 +15,7 @@ tags:
   - C#
   - Python
   - PHP
-  - Javascript
+  - JavaScript
   - Node.js
   - Deno
   - Swift

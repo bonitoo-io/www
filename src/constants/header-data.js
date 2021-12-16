@@ -1,5 +1,5 @@
 const headerData = {
-    slogan: "<span>Now Hiring:</span> Are you a driven and motivated developer or QA engineer?",
+    slogan: "<span>Now Hiring:</span> Are you a driven and motivated Developer or QA Engineer?",
     menu: [
         {
             id: "menu-1",
