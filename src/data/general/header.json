@@ -19,12 +19,6 @@
             "title": "Contact us",
             "text": "info@bonitoo.io",
             "icon": "fa fa-comment-alt-lines"
-        },
-        {
-            "id": 4,
-            "title": "(+420) 725 526 409",
-            "text": "info@bonitoo.io",
-            "icon": "fa fa-phone"
         }
     ],
     "slogan": "<span>Now Hiring:</span> Are you a driven and motivated Developer or QA Engineer?"

@@ -40,7 +40,6 @@ module.exports = {
             },
         ],
         contact: {
-            phone: "(+420) 725 526 409",
             address: "Kytlická 758, Praha 9, 190 00 CZ",
             email: "info@bonitoo.io",
             website: "https://www.bonitoo.io/",
