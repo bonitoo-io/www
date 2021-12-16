@@ -39,8 +39,8 @@ export const theme = {
         heading: 1.41,
     },
     fonts: {
-        body: "CerebriSans",
-        heading: "CerebriSans",
+        body: "Poppins",
+        heading: "Poppins",
         fontAwesomePro: "Font Awesome 5 Pro",
         fontAwesomeBrand: "Font Awesome 5 Brands",
     },
