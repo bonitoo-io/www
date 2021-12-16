@@ -67,6 +67,47 @@
             ]
         },
         {
+            "id": "aboutus-solution",
+            "section": "solution-section",
+            "headings": [
+                {
+                    "content": "Benefits"
+                }
+            ],
+            "items": [
+                {
+                    "id": 1,
+                    "title": "Career development",
+                    "description": "Our service offerings cover all phases including planning, design, architecture, MVP development, QA, operation, support, and iterative evolution."
+                },
+                {
+                    "id": 2,
+                    "title": "Training and learning",
+                    "description": "Develop and propose product improvements through periodical and accurate testing, repairing & refining every version."
+                },
+                {
+                    "id": 3,
+                    "title": "Vacation",
+                    "description": "It's more than a responsibility but a guarantee from us to gain customer trust with highly reliable quality control system."
+                },
+                {
+                    "id": 4,
+                    "title": "Passion and excitement",
+                    "description": "At Bonitoo, we have a long experience with maintenance and operation of existing systems deployed both on premise and cloud."
+                },
+                {
+                    "id": 5,
+                    "title": "Highly Professional Staffs",
+                    "description": "Having obtained the official & formal training in IT technology and technical fields, our staffs know more than what they show."
+                },
+                {
+                    "id": 6,
+                    "title": "Product Management Services",
+                    "description": "We offer product management services like market analysis, benchmarks, competitors, financial analysis, roadmap planning, trainings, workshops, etc."
+                }
+            ]
+        },
+        {
             "id": "faq-contact-content",
             "section": "contact-section",
             "headings": [

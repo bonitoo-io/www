@@ -10,6 +10,7 @@ import PageHeader from "@containers/page-header/layout-02";
 import ListingArea from "@containers/listing/layout-01";
 import GalleryArea from "@containers/gallery/layout-01";
 import ContactArea from "@containers/contact/layout-01";
+import SolutionArea from "@containers/solution/layout-01";
 
 const CareersPage = ({ pageContext, location, data }) => {
     const content = normalizedData(data?.page?.content || []);
@@ -33,6 +34,7 @@ const CareersPage = ({ pageContext, location, data }) => {
 
                 <ListingArea data={content["listing-section"]} />
                 <GalleryArea data={content["gallery-section"]} />
+                <SolutionArea data={content["solution-section"]} />
                 <ContactArea data={content["contact-section"]} />
             </main>
             <Footer data={{ ...data.site.siteMetadata }} />
