@@ -12,7 +12,7 @@
         {
             "id": "blog-ad-widget",
             "section": "ad-section",
-            "path": "/blog",
+            "path": "/careers",
             "images": [
                 {
                     "src": "../images/ad/blog-sidebar-ads.jpg"
