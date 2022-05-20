@@ -139,13 +139,13 @@
             "items": [
                 {
                     "id": 1,
-                    "count": 16,
+                    "count": 8,
                     "title": "Happy Clients"
                 },
                 {
                     "id": 2,
-                    "count": 50,
-                    "title": "Finished Projects"
+                    "count": 87,
+                    "title": "Development Projects"
                 },
                 {
                     "id": 3,

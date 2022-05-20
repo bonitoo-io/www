@@ -166,14 +166,14 @@
             "items": [
                 {
                     "id": 1,
-                    "count": 16,
+                    "count": 8,
                     "title": "Happy Clients",
                     "description": "Successfully work with"
                 },
                 {
                     "id": 2,
-                    "count": 90,
-                    "title": "Finished Projects",
+                    "count": 87,
+                    "title": "Development Projects",
                     "description": "Successfully completed"
                 },
                 {
@@ -199,7 +199,7 @@
                   "content": "We excel in providing cutting edge solutions and traditional technologies like"
                 }
             ],
-            "type_texts" : ["JavaScript", "Go", ".NET", "C++", "Python", "Meteor", "MQTT", "SQL", "InfluxDB", "Kubernetes", "AWS", "Azure", "GCP"]
+            "type_texts" : ["JavaScript", "Go", ".NET", "C++", "Python", "Node.js", "React", "Meteor", "MQTT", "SQL", "InfluxDB", "Kubernetes", "AWS", "Azure", "GCP"]
         },
         {
             "id": "bonitoo-case-study",
