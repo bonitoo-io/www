@@ -1,6 +1,6 @@
 const footerData = {
     contact: {
-        address: "Kytlická 758, Praha 9, 190 00 CZ",
+        address: "Na Harfe 916/9a, Praha 9, 190 00 CZ",
         email: "info@bonitoo.io",
         website: "https://www.bonitoo.io/",
     },
