@@ -2,7 +2,7 @@
     "id": "a-freeserve-case-study",
     "title": "InfluxDB libraries",
     "category": "SaaS Solutions",
-    "excerpt": "The prospects for a company operating in this new market are varied and exciting. The potential",
+    "excerpt": "For InfluxData Inc. we designed, developed, and have been maintaining 11 libraries for various programming languages that allow easy access to InfluxDB time-series database.",
     "tagline": "InfluxDB client libraries",
     "logo": {
         "src": "../images/icons/case-study-04-logo-83x108.png"

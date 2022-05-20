@@ -2,7 +2,7 @@
     "id": "arden-internal-networking",
     "title": "IoT Center",
     "category": "IoT Development",
-    "excerpt": "The prospects for a company operating in this new market are varied and exciting. The potential",
+    "excerpt": "Our goal was to design and develop a generic portal for management and monitoring of IoT devices including examples of code for several IoT platforms.",
     "tagline": "IoT Center application and IoT education materials",
     "logo": {
         "src": "../images/icons/case-study-04-logo-83x108.png"

@@ -2,7 +2,7 @@
     "id": "Bonitoo-weather-station",
     "title": "Weather station",
     "category": "IoT Development",
-    "excerpt": "The prospects for a company operating in this new market are varied and exciting. The potential",
+    "excerpt": "As a demonstration of more complex IoT service we developed a device that combines internal sensors, data from time-series database and Internet services including automatic self-update, internal web server or WiFi connection management.",
     "tagline": "Weather Station - simple IoT device connected to Internet",
     "logo": {
         "src": "../images/icons/case-study-04-logo-83x108.png"
