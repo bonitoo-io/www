@@ -1,5 +1,5 @@
 const headerData = {
-    slogan: "<span>Now Hiring:</span> Are you a driven and motivated Developer or QA Engineer?",
+    slogan: '<span><a href="/careers">Now Hiring:</a></span> Are you a driven and motivated Developer or QA Engineer?',
     menu: [
         {
             id: "menu-1",
@@ -15,7 +15,7 @@ const headerData = {
                     id: "menu-12",
                     text: "Appointment",
                     link: "/homepages/appointment",
-                }
+                },
             ],
         },
         {
