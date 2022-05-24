@@ -86,7 +86,7 @@
                             "src": "../images/partners/client-logo-04-hover.png"
                         }
                     ],
-                    "path": "https://www.avast.com/"
+                    "path": "https://www.buildsys.cz/"
                 },
                 {
                     "id": 5,
@@ -196,10 +196,26 @@
             "section": "cta-section",
             "headings": [
                 {
-                  "content": "We excel in providing cutting edge solutions and traditional technologies like"
+                    "content": "We excel in providing cutting edge solutions and traditional technologies like"
                 }
             ],
-            "type_texts" : ["JavaScript", "Go", ".NET", "C++", "Python", "Node.js", "React", "Meteor", "MQTT", "SQL", "InfluxDB", "Kubernetes", "AWS", "Azure", "GCP"]
+            "type_texts": [
+                "JavaScript",
+                "Go",
+                ".NET",
+                "C++",
+                "Python",
+                "Node.js",
+                "React",
+                "Meteor",
+                "MQTT",
+                "SQL",
+                "InfluxDB",
+                "Kubernetes",
+                "AWS",
+                "Azure",
+                "GCP"
+            ]
         },
         {
             "id": "bonitoo-case-study",
