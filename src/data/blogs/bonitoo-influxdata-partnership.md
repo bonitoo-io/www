@@ -1,5 +1,5 @@
 ---
-title: "Bonitoo Becomes The Official InfluxData Partner"
+title: "Bonitoo.io Becomes The Official InfluxData Partner"
 date: "2019-06-15 12:55:49"
 author: "Ivan Kudibal"
 categories:

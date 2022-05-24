@@ -7,7 +7,7 @@
             "section": "about-section",
             "section_title": {
                 "title": "Preparing for your success, <br> we provide <span>truly prominent IT solutions.</span>",
-                "description": "The IT services that Bonitoo are running can be segmented by the type of skills employed to deliver the service (design, develop, build, run). Technically, these fall into four main categories: SaaS Solutions, Software for Startups, IoT Development and Machine Learning, and Enterprise Software"
+                "description": "The IT services that Bonitoo.io is running can be segmented by the type of skills employed to deliver the service (design, develop, build, run). Technically, these fall into four main categories: SaaS Solutions, Software for Startups, IoT Development and Machine Learning, and Enterprise Software"
             },
             "headings": [
                 {
@@ -27,17 +27,17 @@
                 },
                 {
                     "id": 2,
-                    "title": "Operations",
-                    "value": 80
-                },
-                {
-                    "id": 3,
                     "title": "QA",
                     "value": 95
                 },
                 {
+                    "id": 3,
+                    "title": "Operations",
+                    "value": 80
+                },
+                {
                     "id": 4,
-                    "title": "Marketing support",
+                    "title": "Product Management",
                     "value": 70
                 }
             ]
@@ -47,7 +47,7 @@
             "section": "service-section",
             "motto": {
                 "linkText": "Learn more about how we work",
-                "link": "/it-services"
+                "link": "/services"
             }
         },
         {
@@ -61,7 +61,7 @@
             ],
             "texts": [
                 {
-                    "content": "by 16+ customers for 3200+ clients"
+                    "content": "by 8+ customers for 3200+ clients"
                 }
             ],
             "images": [
