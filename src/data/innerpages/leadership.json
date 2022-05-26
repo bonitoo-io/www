@@ -70,37 +70,19 @@
             "section": "executive-section",
             "items": [
                 {
-                    "id": 4,
-                    "name": "Gabriela Pohlova",
-                    "designation": "Office Manager",
+                    "id": 7,
+                    "name": "Vladimir Dubsky",
+                    "designation": "CTO",
                     "images": [
                         {
-                            "src": "../images/team/team-member-02-370x452.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
-                        }
-                    ]
-                },
-                {
-                    "id": 5,
-                    "name": "Mirek Malecha",
-                    "designation": "Product Manager",
-                    "images": [
-                        {
-                            "src": "../images/team/team-member-04-370x452.jpg"
+                            "src": "../images/team/team-member-03-370x452.jpg"
                         }
                     ],
                     "socials": [
                         {
                             "id": 1,
                             "icon": "fab fa-linkedin",
-                            "link": "https://www.linkedin.com/in/malecha/",
+                            "link": "https://www.linkedin.com/in/vladimir-dubsky/",
                             "title": "Linkedin"
                         }
                     ]
@@ -124,20 +106,38 @@
                     ]
                 },
                 {
-                    "id": 7,
-                    "name": "Vladimir Dubsky",
-                    "designation": "CTO",
+                    "id": 5,
+                    "name": "Mirek Malecha",
+                    "designation": "Product Manager",
                     "images": [
                         {
-                            "src": "../images/team/team-member-03-370x452.jpg"
+                            "src": "../images/team/team-member-04-370x452.jpg"
                         }
                     ],
                     "socials": [
                         {
                             "id": 1,
                             "icon": "fab fa-linkedin",
-                            "link": "https://www.linkedin.com/in/vladimir-dubsky/",
+                            "link": "https://www.linkedin.com/in/malecha/",
                             "title": "Linkedin"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Gabriela Pohlova",
+                    "designation": "Office Manager",
+                    "images": [
+                        {
+                            "src": "../images/team/team-member-02-370x452.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 1,
+                            "icon": "fab fa-facebook",
+                            "link": "https://www.twitter.com",
+                            "title": "Facebook"
                         }
                     ]
                 }

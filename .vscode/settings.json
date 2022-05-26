@@ -29,5 +29,8 @@
         "Kytlická",
         "Praha",
         "Systinet"
-    ]
+    ],
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
 }
