@@ -44,6 +44,7 @@ const ContactForm = () => {
                 handleServerResponse(false, r.response.data.error, form);
             });
     };
+    return "";
     return (
         <form onSubmit={handleSubmit(onSubmit)}>
             <Row gutters={{ lg: 20 }}>
