@@ -27,21 +27,21 @@ const ContactArea = ({ data }) => {
                                         </Text>
                                     )}
                                     {info.texts?.[1] && (
-                                        <Anchor
-                                            mb="7px"
-                                            path={`mailto:${info.texts[1]?.content}`}
-                                        >
-                                            {info.texts[1]?.content}
-                                        </Anchor>
-                                    )}
-                                    {info.texts?.[2] && (
                                         <Text
                                             mb="7px"
                                             fontWeight={800}
                                             color="heading"
                                         >
-                                            {info.texts[2]?.content}
+                                            {info.texts[1]?.content}
                                         </Text>
+                                    )}
+                                    {info.texts?.[2] && (
+                                        <Anchor
+                                            mb="7px"
+                                            path={`mailto:${info.texts[2]?.content}`}
+                                        >
+                                            {info.texts[2]?.content}
+                                        </Anchor>
                                     )}
                                 </>
                             )}
