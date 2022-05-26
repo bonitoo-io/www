@@ -7,7 +7,7 @@ import { ItemType } from "@utils/types";
 import { SectionWrap } from "./style";
 
 const slider = {
-    slidesPerView: 6,
+    slidesPerView: 5,
     loop: true,
     speed: 1000,
     breakpoints: {
@@ -22,9 +22,6 @@ const slider = {
         },
         991: {
             slidesPerView: 5,
-        },
-        1499: {
-            slidesPerView: 6,
         },
     },
 };
