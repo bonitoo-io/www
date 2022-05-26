@@ -249,22 +249,22 @@
                         }
                     ],
                     "rating": 5,
-                    "subject": "The Bonitoo team works really hard to ensure high level of quality",
-                    "description": "I’ve been working with Bonitoo over 4 years. Bonitoo always quickly delivered all requirements while keeping high quality."
+                    "subject": "The Bonitoo.io team built Flymeto Travel System",
+                    "description": "Bonitoo.io designed, iteratively developed and operated the whole ordering system for flights and hotels. They were always proactive and helping me with new ideas and features implementation."
                 },
                 {
                     "id": 2,
-                    "name": "Tim Hall",
-                    "designation": "VP of Products",
-                    "company": "InfluxData",
+                    "name": "Ivo Drábek",
+                    "designation": "Manager of Business Development & Energetics",
+                    "company": "BUILDSYS a.s.",
                     "images": [
                         {
                             "src": "../images/avatar/avatar-02-90x90.jpg"
                         }
                     ],
                     "rating": 4,
-                    "subject": "The Bonitoo team works really hard to ensure high level of quality",
-                    "description": "I've been working with over 35 IT companies on more than 200 projects of our company, but @Bonitoo is one of the most impressive to me."
+                    "subject": "Bonitoo took-over our Tracking platform and within weeks",
+                    "description": "Bonitoo.io demonstrated their professionalism several times. With a very limited support from the previous dev team they analyzed code, deployed the whole ecosystem, proposed improvements and started development."
                 },
                 {
                     "id": 3,
@@ -277,8 +277,8 @@
                         }
                     ],
                     "rating": 5,
-                    "subject": "The Bonitoo team works really hard to ensure high level of quality",
-                    "description": "I've been working with over 35 IT companies on more than 200 projects of our company, but @Bonitoo is one of the most impressive to me."
+                    "subject": "Great multi-year cooperation with the Bonitoo.io team",
+                    "description": "Bonitoo.io is delivering multiple projects that we are reviewing on a weekly basis. Their proactive approach and ability to complete tasks is one of the most impressive to me. It is a real mutual cooperation."
                 }
             ]
         },
