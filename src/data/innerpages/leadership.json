@@ -1,0 +1,184 @@
+{
+    "title": "leadership",
+    "pageType": "innerpage",
+    "content": [
+        {
+            "id": "leadership-head",
+            "section": "head-section",
+            "section_title": {
+                "title": "We hire staffs who know more than what they show <br>of <span> IT services</span>"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Ivan Kudibal",
+                    "designation": "Co-founder and CEO",
+                    "images": [
+                        {
+                            "src": "../images/team/team-member-07-370x455.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 1,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://www.linkedin.com/in/ivankudibal/",
+                            "title": "Linkedin"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Slavek Opler",
+                    "designation": "Co-founder and Lead Developer",
+                    "images": [
+                        {
+                            "src": "../images/team/team-member-01-370x455.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 1,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://www.linkedin.com/in/slavek-opler-056373131/",
+                            "title": "Linkedin"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Robert Machacek",
+                    "designation": "Co-founder",
+                    "images": [
+                        {
+                            "src": "../images/team/team-member-06-370x455.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 1,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://www.linkedin.com/in/robertmachacek/",
+                            "title": "Linkedin"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "leadership-executive",
+            "section": "executive-section",
+            "items": [
+                {
+                    "id": 7,
+                    "name": "Vladimir Dubsky",
+                    "designation": "CTO",
+                    "images": [
+                        {
+                            "src": "../images/team/team-member-03-370x452.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 1,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://www.linkedin.com/in/vladimir-dubsky/",
+                            "title": "Linkedin"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "name": "Robert Hajek",
+                    "designation": "Engineering manager",
+                    "images": [
+                        {
+                            "src": "../images/team/team-member-05-370x452.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 1,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://www.linkedin.com/in/roberthajek/",
+                            "title": "Linkedin"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "name": "Mirek Malecha",
+                    "designation": "Product Manager",
+                    "images": [
+                        {
+                            "src": "../images/team/team-member-04-370x452.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 1,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://www.linkedin.com/in/malecha/",
+                            "title": "Linkedin"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Gabriela Pohlova",
+                    "designation": "Office Manager",
+                    "images": [
+                        {
+                            "src": "../images/team/team-member-02-370x452.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 1,
+                            "icon": "fab fa-facebook",
+                            "link": "https://www.twitter.com",
+                            "title": "Facebook"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "leadership-employee",
+            "section": "employee-section",
+            "items": []
+        },
+        {
+            "id": "leadership-contact-content",
+            "section": "contact-section",
+            "headings": [
+                {
+                    "level": "h3",
+                    "content": "Obtaining further information by <span>make a contact</span> with our experienced IT staffs."
+                },
+                {
+                    "level": "h6",
+                    "content": "REACH OUT NOW!"
+                },
+                {
+                    "level": "h2",
+                    "content": "info@bonitoo.io"
+                }
+            ],
+            "texts": [
+                {
+                    "content": "Haven't found the position you're interested in? <br/> Send us your CV."
+                }
+            ],
+            "buttons": [
+                {
+                    "id": 1,
+                    "color": "secondary",
+                    "hoverStyle": "three",
+                    "path": "/contact-us",
+                    "content": "Contact Us"
+                }
+            ]
+        }
+    ]
+}

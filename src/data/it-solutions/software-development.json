@@ -1,0 +1,161 @@
+{
+    "id": "software-development",
+    "title": "Software Development",
+    "tagline": "Reach out to the world’s most reliable IT services.",
+    "excerpt": "Having obtained the official & formal training in IT technology and technical fields, our staffs know best how to deliver large software products.",
+    "icon": {
+        "svg": {
+            "src": "../images/icons/linea-basic-spread-text-bookmark.svg"
+        },
+        "images": [
+            {
+                "src": "../images/icons/icon-16-80x83.png"
+            },
+            {
+                "src": "../images/icons/icon-04-100x98.png"
+            }
+        ]
+    },
+    "featured_image": {
+        "src": "../images/box-image/image-06-370x370.jpg"
+    },
+    "banner_image": {
+        "src": "../images/banner/banner-04.jpg"
+    },
+    "is_featured": true,
+    "content": [
+        {
+            "id": "intro",
+            "section": "intro-section",
+            "headings": [
+                {
+                    "level": "h3",
+                    "content": "Learn More About Our <span> <a href=\"/case-studies\">Success Stories</a></span>"
+                },
+                {
+                    "level": "h5",
+                    "content": "Bonitoo specializes in <span>technological and IT-related services</span> such as product management, product engineering, quality management, building cloud, infrastructure, network, etc."
+                }
+            ],
+            "texts": [
+                {
+                    "content": "We can provide you with full range of IT services and guide your product to market, help with some software component or restore some inactive project."
+                }
+            ]
+        },
+        {
+            "id": "faq",
+            "section": "faq-section",
+            "items": [
+                {
+                    "id": 1,
+                    "title": "Software for Startups",
+                    "description": "At Bonitoo, we have a long experience in product management, planning, design, developing, operating and supporting MVPs for startups and small businesses ready to enter the market."
+                },
+                {
+                    "id": 2,
+                    "title": "SaaS Solutions",
+                    "description": "We are specialists in analyzing and engineering custom massively scalable SaaS products based leveraging both private and public services like AWS, Azure or GPC."
+                },
+                {
+                    "id": 3,
+                    "title": "Enterprise Software",
+                    "description": "We offer enterprises a wide range of custom solutions like ERP, CRM, HRM, automated billing, payment systems and integrations to meet various business objectives."
+                },
+                {
+                    "id": 4,
+                    "title": "Take-over existing solution",
+                    "description": "We are ready to analyze and take your projects over. We have restored projects with zero support from the previous development team just from the source code."
+                }
+            ],
+            "images": [
+                {
+                    "src": "../images/about-us/video-03-image-570x350.jpg",
+                    "alt": "Business Reform image"
+                }
+            ]
+        },
+        {
+            "id": "features",
+            "section": "whats-new-section",
+            "section_title": {
+                "title": "Prominent IT Security Services"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "images": [
+                        {
+                            "src": "../images/icons/icon-08-60x60.png"
+                        }
+                    ],
+                    "title": "Free Initial Consultation",
+                    "description": "Let's talk about your needs, hear about your idea, and give you some initial thoughts about it, at no charge or obligation to you."
+                },
+                {
+                    "id": 2,
+                    "images": [
+                        {
+                            "src": "../images/icons/icon-10-60x60.png"
+                        }
+                    ],
+                    "title": "Highly Professional Staffs",
+                    "description": "Combination fo professional experience and having obtained the official & formal training in IT technology and technical fields, our staffs know more than what they show."
+                },
+                {
+                    "id": 3,
+                    "images": [
+                        {
+                            "src": "../images/icons/icon-09-60x60.png"
+                        }
+                    ],
+                    "title": "End-to-End IT Services",
+                    "description": "Our service offerings can cover all phases including product management, project planning, design, architecture, MVP development, QA, operation, support, and iterative evolution."
+                },
+                {
+                    "id": 4,
+                    "images": [
+                        {
+                            "src": "../images/icons/icon-07-60x60.png"
+                        }
+                    ],
+                    "title": "Independent Quality Control",
+                    "description": "It's more than a responsibility but a guarantee from us to gain customer trust with highly reliable quality control system."
+                }
+            ]
+        },
+        {
+            "id": "services-cta",
+            "section": "cta-section",
+            "headings": [
+                {
+                    "level": "h3",
+                    "content": "Assess your business potentials and find opportunities <span>we can build together</span>"
+                }
+            ],
+            "buttons": [
+                {
+                    "id": 1,
+                    "path": "/contact-us",
+                    "color": "light",
+                    "icon": "far fa-comment-alt-dots",
+                    "iconposition": "left",
+                    "icondistance": "8px",
+                    "iconsize": "16px",
+                    "hoverStyle": "three",
+                    "content": "Let's talk"
+                },
+                {
+                    "id": 2,
+                    "path": "/contact-us",
+                    "color": "secondary",
+                    "icon": "far fa-info-circle",
+                    "iconposition": "left",
+                    "icondistance": "8px",
+                    "iconsize": "16px",
+                    "content": "Get Info"
+                }
+            ]
+        }
+    ]
+}

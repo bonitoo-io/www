@@ -1,0 +1,287 @@
+{
+    "title": "about-us",
+    "pageType": "innerpage",
+    "content": [
+        {
+            "id": "aboutus-page-header",
+            "section": "page-header-section",
+            "images": [
+                {
+                    "src": "../images/banner/banner-09.jpg",
+                    "alt": "page header"
+                }
+            ],
+            "headings": [
+                {
+                    "level": "h1",
+                    "content": "About Bonitoo.io"
+                }
+            ],
+            "texts": [
+                {
+                    "content": "We are a professional R&D studio that aims to provide end to end software development projects and services."
+                }
+            ]
+        },
+        {
+            "id": "aboutus-about",
+            "section": "about-section",
+            "section_title": {
+                "title": "We run all kinds of IT services that <br/> vow your <span>success</span>",
+                "subtitle": "OUR COMPANY"
+            },
+            "headings": [
+                {
+                    "level": "h2",
+                    "content": "<mark>5</mark> YEARS’ EXPERIENCE IN IT"
+                },
+                {
+                    "level": "h6",
+                    "content": "Learn more about our Success Stories"
+                }
+            ],
+            "texts": [
+                {
+                    "content": "Bonitoo is a software development and consulting company. We are a professional R&D studio that aims to provide end to end software development projects and services. Bonitoo builds its services on a strong team of professionals, who delivered dozens of successful software projects around the world."
+                }
+            ],
+            "buttons": [
+                {
+                    "id": 1,
+                    "variant": "texted",
+                    "color": "primary",
+                    "size": "medium",
+                    "shape": "rounded",
+                    "icon": "far fa-long-arrow-right",
+                    "icondistance": "8px",
+                    "iconposition": "right",
+                    "disableHover": false,
+                    "hoverStyle": "one",
+                    "fontWeight": 500,
+                    "path": "/case-studies",
+                    "content": "Discover References"
+                }
+            ]
+        },
+        {
+            "id": "aboutus-features",
+            "section": "feature-section",
+            "motto": {
+                "text": "Challenges are just opportunities in disguise",
+                "linkText": "Take the challenge!",
+                "link": "/services"
+            }
+        },
+        {
+            "id": "aboutus-cta",
+            "section": "cta-section",
+            "section_title": {
+                "title": "Get a copy of brochure on <span>Brand New IT Tech.</span>",
+                "subtitle": "Resources"
+            },
+            "buttons": [
+                {
+                    "id": 1,
+                    "path": "/about-us",
+                    "content": "Download now (3MB)"
+                }
+            ],
+            "images": [
+                {
+                    "src": "../images/box-image/book-cover.png"
+                }
+            ]
+        },
+        {
+            "id": "aboutus-solution",
+            "section": "solution-section",
+            "headings": [
+                {
+                    "content": "We excel in delivering <br/> optimal solutions."
+                }
+            ],
+            "items": [
+                {
+                    "id": 1,
+                    "title": "End-to-End IT Services",
+                    "description": "Our service offerings cover all phases including planning, design, architecture, MVP development, QA, operation, support, and iterative evolution."
+                },
+                {
+                    "id": 2,
+                    "title": "Product Engineering & Services",
+                    "description": "Develop and propose product improvements through periodical and accurate testing, repairing & refining every version."
+                },
+                {
+                    "id": 3,
+                    "title": "Independent Quality Control",
+                    "description": "It's more than a responsibility but a guarantee from us to gain customer trust with highly reliable quality control system."
+                },
+                {
+                    "id": 4,
+                    "title": "Infrastructure & Operations Services",
+                    "description": "At Bonitoo, we have a long experience with maintenance and operation of existing systems deployed both on premise and cloud."
+                },
+                {
+                    "id": 5,
+                    "title": "Highly Professional Staffs",
+                    "description": "Having obtained the official & formal training in IT technology and technical fields, our staffs know more than what they show."
+                },
+                {
+                    "id": 6,
+                    "title": "Product Management Services",
+                    "description": "We offer product management services like market analysis, benchmarks, competitors, financial analysis, roadmap planning, trainings, workshops, etc."
+                }
+            ]
+        },
+        {
+            "id": "aboutus-funfact",
+            "section": "funfact-section",
+            "items": [
+                {
+                    "id": 1,
+                    "count": 8,
+                    "title": "Happy Clients"
+                },
+                {
+                    "id": 2,
+                    "count": 87,
+                    "title": "Development Projects"
+                },
+                {
+                    "id": 3,
+                    "count": 20,
+                    "title": "Skilled Experts"
+                },
+                {
+                    "id": 4,
+                    "count": 4,
+                    "title": "Media Posts"
+                }
+            ]
+        },
+        {
+            "id": "appointment-testimonial",
+            "section": "testimonial-section",
+            "section_title": {
+                "title": "What do people praise about <span> Bonitoo?</span>",
+                "subtitle": "Testimonials"
+            },
+            "items": [
+                {
+                    "id": 2,
+                    "name": "Ivo Drábek",
+                    "designation": "Manager of Business Development & Energetics",
+                    "company": "BUILDSYS a.s.",
+                    "images": [
+                        {
+                            "src": "../images/avatar/avatar-02-90x90.jpg"
+                        }
+                    ],
+                    "rating": 4,
+                    "subject": "Bonitoo took-over our Tracking platform and within weeks",
+                    "description": "Bonitoo.io demonstrated their professionalism several times. With a very limited support from the previous dev team they analyzed code, deployed the whole ecosystem, proposed improvements and started development."
+                },
+                {
+                    "id": 3,
+                    "name": "Chris Churilo",
+                    "designation": "VP of Marketing",
+                    "company": "InfluxData",
+                    "images": [
+                        {
+                            "src": "../images/avatar/avatar-03-90x90.jpg"
+                        }
+                    ],
+                    "rating": 5,
+                    "subject": "Great multi-year cooperation with the Bonitoo.io team",
+                    "description": "Bonitoo.io is delivering multiple projects that we are reviewing on a weekly basis. Their proactive approach and ability to complete tasks is one of the most impressive to me. It is a real mutual cooperation."
+                }
+            ]
+        },
+        {
+            "id": "processing-partner",
+            "section": "partner-section",
+            "items": [
+                {
+                    "id": 1,
+                    "images": [
+                        {
+                            "src": "../images/partners/client-logo-01.png"
+                        },
+                        {
+                            "src": "../images/partners/client-logo-01-hover.png"
+                        }
+                    ],
+                    "path": "https://www.influxdata.com/"
+                },
+                {
+                    "id": 3,
+                    "images": [
+                        {
+                            "src": "../images/partners/client-logo-03.png"
+                        },
+                        {
+                            "src": "../images/partners/client-logo-03-hover.png"
+                        }
+                    ],
+                    "path": "https://www.apitea.com/"
+                },
+                {
+                    "id": 4,
+                    "images": [
+                        {
+                            "src": "../images/partners/client-logo-04.png"
+                        },
+                        {
+                            "src": "../images/partners/client-logo-04-hover.png"
+                        }
+                    ],
+                    "path": "https://www.buildsys.cz/"
+                },
+                {
+                    "id": 5,
+                    "images": [
+                        {
+                            "src": "../images/partners/client-logo-07.png"
+                        },
+                        {
+                            "src": "../images/partners/client-logo-07-hover.png"
+                        }
+                    ],
+                    "path": "https://rnd4u.com"
+                },
+                {
+                    "id": 6,
+                    "images": [
+                        {
+                            "src": "../images/partners/client-logo-06.png"
+                        },
+                        {
+                            "src": "../images/partners/client-logo-06-hover.png"
+                        }
+                    ],
+                    "path": "https://essens.travel/"
+                }
+            ]
+        },
+        {
+            "id": "cybersecurity-contact-info",
+            "section": "contact-section",
+            "headings": [
+                {
+                    "level": "h3",
+                    "content": "4.9/5.0"
+                }
+            ],
+            "texts": [
+                {
+                    "content": "by 16+ customers for 3200+ clients"
+                }
+            ],
+            "images": [
+                {
+                    "src": "../images/banner/contact-image.png"
+                }
+            ]
+        }
+    ]
+}

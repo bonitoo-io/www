@@ -1,0 +1,160 @@
+{
+    "id": "iot-development",
+    "title": "IoT Development",
+    "excerpt": "We know how to develop the whole IoT ecosystem development including IoT devices, libraries for IoT devices, IoT portals, monitoring solutions, time series and machine learning analysis.",
+    "icon": {
+        "svg": {
+            "src": "../images/icons/linea-basic-spread-text-bookmark.svg"
+        },
+        "images": [
+            {
+                "src": "../images/icons/icon-17-80x83.png"
+            },
+            {
+                "src": "../images/icons/icon-06-100x98.png"
+            }
+        ]
+    },
+    "featured_image": {
+        "src": "../images/box-image/image-05-370x370.jpg"
+    },
+    "banner_image": {
+        "src": "../images/banner/banner-05.jpg"
+    },
+    "is_featured": true,
+    "content": [
+        {
+            "id": "intro",
+            "section": "intro-section",
+            "headings": [
+                {
+                    "level": "h3",
+                    "content": "Learn More About Our <span> <a href=\"/case-studies\">Success Stories</a></span>"
+                },
+                {
+                    "level": "h5",
+                    "content": "Bonitoo.io designed  <span>IoT devices</span> such as product engineering, warranty management, building cloud, infrastructure, network, etc."
+                }
+            ],
+            "texts": [
+                {
+                    "content": "We can provide you with full range of IT services and guide your product to market."
+                }
+            ]
+        },
+        {
+            "id": "faq",
+            "section": "faq-section",
+            "items": [
+                {
+                    "id": 1,
+                    "title": "Design the whole IoT system",
+                    "description": "For new projects we typically assess requirements, prepare end-to-end IoT solution architecture, build MVP and evolutionary extend it. In case of existing solutions, we are ready to take it over and focus to weak points to iteratively improve them."
+                },
+                {
+                    "id": 2,
+                    "title": "Build custom IoT devices",
+                    "description": "Based on requirements we select the right technology, software stack and sensors. We start with prototypes that are iteratively improved from multiple aspects (long term reliability, accuracy, power consumption, etc.). We design case and other components. We leverage 3D printer to prototype case and build smaller series."
+                },
+                {
+                    "id": 3,
+                    "title": "IoT wireless communication",
+                    "description": "Important aspect is to select the right wireless technology or combination of multiple ones to backup the communication. It always depends on required use-cases, range, reliability, volume of data, power consumption or required infrastructure. We have rich experience with WiFi, GSM, proprietary radios, LoRa, ZigBee, etc."
+                },
+                {
+                    "id": 4,
+                    "title": "Extended IoT devices management",
+                    "description": "We have long experience with extended use-cases like remote firmware update (OTA), centralized IoT devices configuration, device self-configuration, management and monitoring via internal web server and services, device screen, etc."
+                }
+            ],
+            "images": [
+                {
+                    "src": "../images/about-us/video-02-image-570x350.jpg",
+                    "alt": "IoT Weather Station"
+                }
+            ]
+        },
+        {
+            "id": "features",
+            "section": "whats-new-section",
+            "section_title": {
+                "title": "Prominent IT Security Services"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "images": [
+                        {
+                            "src": "../images/icons/icon-08-60x60.png"
+                        }
+                    ],
+                    "title": "Free Initial Consultation",
+                    "description": "Let's talk about your needs, hear about your idea, and give you some initial thoughts about it, at no charge or obligation to you."
+                },
+                {
+                    "id": 2,
+                    "images": [
+                        {
+                            "src": "../images/icons/icon-10-60x60.png"
+                        }
+                    ],
+                    "title": "Highly Professional Staffs",
+                    "description": "Combination fo professional experience and having obtained the official & formal training in IT technology and technical fields, our staffs know more than what they show."
+                },
+                {
+                    "id": 3,
+                    "images": [
+                        {
+                            "src": "../images/icons/icon-09-60x60.png"
+                        }
+                    ],
+                    "title": "End-to-End IT Services",
+                    "description": "Our service offerings can cover all phases including product management, project planning, design, architecture, MVP development, QA, operation, support, and iterative evolution."
+                },
+                {
+                    "id": 4,
+                    "images": [
+                        {
+                            "src": "../images/icons/icon-07-60x60.png"
+                        }
+                    ],
+                    "title": "Independent Quality Control",
+                    "description": "It's more than a responsibility but a guarantee from us to gain customer trust with highly reliable quality control system."
+                }
+            ]
+        },
+        {
+            "id": "services-cta",
+            "section": "cta-section",
+            "headings": [
+                {
+                    "level": "h3",
+                    "content": "Need to design or improve IoT solution? <span>Let's build it together</span>"
+                }
+            ],
+            "buttons": [
+                {
+                    "id": 1,
+                    "path": "/contact-us",
+                    "color": "light",
+                    "icon": "far fa-comment-alt-dots",
+                    "iconposition": "left",
+                    "icondistance": "8px",
+                    "iconsize": "16px",
+                    "hoverStyle": "three",
+                    "content": "Let's talk"
+                },
+                {
+                    "id": 2,
+                    "path": "/contact-us",
+                    "color": "secondary",
+                    "icon": "far fa-info-circle",
+                    "iconposition": "left",
+                    "icondistance": "8px",
+                    "iconsize": "16px",
+                    "content": "Get Info"
+                }
+            ]
+        }
+    ]
+}

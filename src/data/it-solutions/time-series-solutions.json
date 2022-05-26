@@ -1,0 +1,163 @@
+{
+    "id": "time-series-solutions",
+    "title": "Time-Series Solutions",
+    "excerpt": "We provide the advanced analytical, reporting and embedded solutions around large volumes of time-stamped data.",
+    "icon": {
+        "svg": {
+            "src": "../images/icons/linea-basic-alarm.svg"
+        },
+        "images": [
+            {
+                "src": "../images/icons/icon-14-80x83.png"
+            },
+            {
+                "src": "../images/icons/icon-11-60x60.png"
+            }
+        ]
+    },
+    "featured_image": {
+        "src": "../images/box-image/image-08-370x370.jpg"
+    },
+    "banner_image": {
+        "src": "../images/banner/banner-02.jpg"
+    },
+    "is_featured": true,
+    "content": [
+        {
+            "id": "intro",
+            "section": "intro-section",
+            "headings": [
+                {
+                    "level": "h3",
+                    "content": "Learn More About Our <span> <a href=\"/case-studies\">Success Stories</a></span>"
+                },
+                {
+                    "level": "h5",
+                    "content": "Bonitoo.io specializes in <span>time-series related services</span> such as data ingestion, real-time data processing, data transformation, storing of time-series data, dashboards, etc."
+                }
+            ],
+            "texts": [
+                {
+                    "content": "We can provide you with full range of IT services mainly around InfluxDB database and tools in the time-series ecosystem."
+                }
+            ]
+        },
+        {
+            "id": "faq",
+            "section": "faq-section",
+            "items": [
+                {
+                    "id": 1,
+                    "title": "Data Ingestion",
+                    "description": "Bonitoo.io has long experience with data transformations and integrations of various solutions and products into time-series format. We have also implemented and maintaining plenty of libraries in various programming languages for InfluxDB. We have a long experience with optimizations how to achieve high ingestion rates."
+                },
+                {
+                    "id": 2,
+                    "title": "Real-time dashboards",
+                    "description": "We designed the whole real-time ecosystem including dashboards that are combining live data from data sources or queues and historical data from InfluxDB database. We implemented an IoT Center application for education purposes that is showing how to develop such hybrid time-series systems."
+                },
+                {
+                    "id": 3,
+                    "title": "Storage performance and resampling",
+                    "description": "Bonitoo.io is author of many time-series benchmarks that are comparing products in time-series space. We have rich experience with data optimizations that improve overall performance and decrease costs."
+                },
+                {
+                    "id": 4,
+                    "title": "Build applications using InfluxDB",
+                    "description": "Almost all the applications from Bonitoo.io are using time-series technology internally. We have also implemented an IoT Center application for education purposes that is showing how to leverage time-series in custom applications."
+                }
+            ],
+            "images": [
+                {
+                    "src": "../images/about-us/video-01-image-01-570x350.jpg",
+                    "alt": "InfluxDB Client libraries"
+                }
+            ],
+            "video_button": {
+                "link": "https://www.youtube.com/watch?v=I1SR9CdfU6U"
+            }
+        },
+        {
+            "id": "features",
+            "section": "whats-new-section",
+            "section_title": {
+                "title": "Prominent Services"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "images": [
+                        {
+                            "src": "../images/icons/icon-08-60x60.png"
+                        }
+                    ],
+                    "title": "Free Initial Consultation",
+                    "description": "Let's talk about your needs, hear about your idea, and give you some initial thoughts about it, at no charge or obligation to you."
+                },
+                {
+                    "id": 2,
+                    "images": [
+                        {
+                            "src": "../images/icons/icon-10-60x60.png"
+                        }
+                    ],
+                    "title": "Highly Professional Staffs",
+                    "description": "Combination fo professional experience and having obtained the official & formal training in IT technology and technical fields, our staffs know more than what they show."
+                },
+                {
+                    "id": 3,
+                    "images": [
+                        {
+                            "src": "../images/icons/icon-09-60x60.png"
+                        }
+                    ],
+                    "title": "End-to-End IT Services",
+                    "description": "Our service offerings can cover all phases including product management, project planning, design, architecture, MVP development, QA, operation, support, and iterative evolution."
+                },
+                {
+                    "id": 4,
+                    "images": [
+                        {
+                            "src": "../images/icons/icon-07-60x60.png"
+                        }
+                    ],
+                    "title": "Independent Quality Control",
+                    "description": "It's more than a responsibility but a guarantee from us to gain customer trust with highly reliable quality control system."
+                }
+            ]
+        },
+        {
+            "id": "services-cta",
+            "section": "cta-section",
+            "headings": [
+                {
+                    "level": "h3",
+                    "content": "Performance issues? Need strong analytics and dashboards? <span>let's leverage time-series</span>"
+                }
+            ],
+            "buttons": [
+                {
+                    "id": 1,
+                    "path": "/contact-us",
+                    "color": "light",
+                    "icon": "far fa-comment-alt-dots",
+                    "iconposition": "left",
+                    "icondistance": "8px",
+                    "iconsize": "16px",
+                    "hoverStyle": "three",
+                    "content": "Let's talk"
+                },
+                {
+                    "id": 2,
+                    "path": "/contact-us",
+                    "color": "secondary",
+                    "icon": "far fa-info-circle",
+                    "iconposition": "left",
+                    "icondistance": "8px",
+                    "iconsize": "16px",
+                    "content": "Get Info"
+                }
+            ]
+        }
+    ]
+}

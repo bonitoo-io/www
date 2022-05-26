@@ -1,0 +1,15 @@
+{
+    "name": "Ivan Kudibal",
+    "image": {
+        "src": "../images/team/team-member-07-370x455.jpg"
+    },
+    "socials": [
+        {
+            "id": 1,
+            "icon": "fab fa-linkedin",
+            "link": "https://www.linkedin.com/in/ivankudibal/",
+            "title": "linkedin"
+        }
+    ],
+    "bio": "Ivan is an ex-Systinet guy, seasoned software engineer. Prior to Bonitoo, he played the role of the section level manager and an engineering at HPE Software. Ivan holds a degree in computer science."
+}

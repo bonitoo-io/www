@@ -1,142 +1,82 @@
-const _ = require("lodash");
 const path = require("path");
-const createPaginatedPages = require("gatsby-paginate");
+const pageOptions = require("./config/page-options");
+const createSchemaCustomization = require("./src/gatsby-utils/createSchemaCustomization");
+const onCreateNode = require("./src/gatsby-utils/onCreateNode");
+const createResolvers = require("./src/gatsby-utils/createResolvers");
+const createPages = require("./src/gatsby-utils/createPages");
 
-exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions;
-  let slug;
-
-  if (node.internal.type === `MarkdownRemark`) {
-    const fileNode = getNode(node.parent);
-    const parsedFilePath = path.parse(fileNode.relativePath);
-
-    if (Object.prototype.hasOwnProperty.call(node, "frontmatter")) {
-      if (
-        Object.prototype.hasOwnProperty.call(node.frontmatter, "slug") &&
-        Object.prototype.hasOwnProperty.call(node.frontmatter, "cover")
-      ) {
-        slug = `/blog/${_.kebabCase(node.frontmatter.slug)}`;
-      } else if (
-        Object.prototype.hasOwnProperty.call(node.frontmatter, "slug")
-      ) {
-        slug = `/${_.kebabCase(node.frontmatter.slug)}`;
-      } else if (parsedFilePath.name !== "index" && parsedFilePath.dir !== "") {
-        slug = `/${parsedFilePath.dir}/${parsedFilePath.name}/`;
-      } else if (parsedFilePath.dir === "") {
-        slug = `/`;
-      } else {
-        slug = `/${parsedFilePath.dir}/`;
-      }
-    }
-
-    createNodeField({
-      name: `slug`,
-      node,
-      value: slug,
+exports.onCreateWebpackConfig = ({ actions }) => {
+    actions.setWebpackConfig({
+        resolve: {
+            alias: {
+                "@styled": path.resolve(__dirname, "./src/styled"),
+                "@components": path.resolve(__dirname, "./src/components"),
+                "@ui": path.resolve(__dirname, "./src/components/ui"),
+                "@containers": path.resolve(__dirname, "./src/containers"),
+                "@layout": path.resolve(__dirname, "./src/layouts"),
+                "@assets": path.resolve(__dirname, "./src/assets"),
+                "@utils": path.resolve(__dirname, "./src/utils"),
+                "@hooks": path.resolve(__dirname, "./src/hooks"),
+                "@data": path.resolve(__dirname, "./src/data"),
+                "@constants": path.resolve(__dirname, "./src/constants"),
+            },
+        },
+        module: {
+            rules: [
+                {
+                    test: /\.(graphql|gql)$/,
+                    exclude: /node_modules/,
+                    loader: "graphql-tag/loader",
+                },
+            ],
+        },
     });
-  }
 };
 
-exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions;
+exports.createSchemaCustomization = createSchemaCustomization;
 
-  return graphql(`
-    {
-      allMarkdownRemark(
-        limit: 1000
-        sort: { order: DESC, fields: [frontmatter___date] }
-      ) {
-        edges {
-          node {
-            excerpt(pruneLength: 400)
-            id
-            fields {
-              slug
-            }
-            frontmatter {
-              title
-              cover {
-                childImageSharp {
-                  fluid(maxWidth: 500, quality: 50) {
-                    src
-                    srcSet
-                    aspectRatio
-                    sizes
-                    base64
-                  }
-                }
-                publicURL
-              }
-              tags
-              templateKey
-              date(formatString: "MMMM DD, YYYY")
-            }
-          }
+exports.onCreateNode = onCreateNode;
+
+exports.createResolvers = createResolvers;
+
+exports.createPages = createPages;
+
+const { deleteThisPages, defaultHome, mode } = pageOptions;
+
+exports.onCreatePage = ({ page, actions }) => {
+    if (!page.isCreatedByStatefulCreatePages) return;
+
+    const { deletePage, createPage } = actions;
+    const pagePath = page.path.slice(0, -1);
+    const homePage = pagePath.split("/homepages")[1];
+    const innerPage = pagePath.split("/innerpages")[1];
+    const demoPage = pagePath.split("/elements")[1];
+
+    if (deleteThisPages.includes(pagePath)) {
+        deletePage(page);
+    }
+    if (homePage === defaultHome) {
+        deletePage(page);
+        createPage({
+            ...page,
+            path: "/",
+        });
+    }
+
+    if (innerPage) {
+        deletePage(page);
+        createPage({
+            ...page,
+            path: `${innerPage}`,
+        });
+    }
+
+    if (mode === "production") {
+        if (homePage && homePage !== defaultHome) {
+            deletePage(page);
         }
-      }
+        if (demoPage) {
+            deletePage(page);
+        }
     }
-  `).then((result) => {
-    if (result.errors) {
-      result.errors.forEach((e) => console.error(e.toString()));
-      return Promise.reject(result.errors);
-    }
-
-    const postsAndPages = result.data.allMarkdownRemark.edges;
-
-    // Post pages:
-    let posts = [];
-    // Iterate through each post/page, putting all found posts (where templateKey = article-page) into `posts`
-    postsAndPages.forEach((edge) => {
-      if (_.isMatch(edge.node.frontmatter, { templateKey: "article-page" })) {
-        posts = posts.concat(edge);
-      }
-    });
-
-    createPaginatedPages({
-      edges: posts,
-      createPage: createPage,
-      pageTemplate: "src/templates/blog.js",
-      pageLength: 6, // This is optional and defaults to 10 if not used
-      pathPrefix: "blog", // This is optional and defaults to an empty string if not used
-      context: {}, // This is optional and defaults to an empty object if not used
-    });
-    postsAndPages.forEach((edge) => {
-      const id = edge.node.id;
-      createPage({
-        path: edge.node.fields.slug,
-        tags: edge.node.frontmatter.tags,
-        component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
-        ),
-        // additional data can be passed via context
-        context: {
-          id,
-        },
-      });
-    });
-
-    // Tag pages:
-    let tags = [];
-    // Iterate through each post, putting all found tags into `tags`
-    postsAndPages.forEach((edge) => {
-      if (_.get(edge, `node.frontmatter.tags`)) {
-        tags = tags.concat(edge.node.frontmatter.tags);
-      }
-    });
-    // Eliminate duplicate tags
-    tags = _.uniq(tags);
-
-    // Make tag pages
-    tags.forEach((tag) => {
-      const tagPath = `/tags/${_.kebabCase(tag)}/`;
-
-      createPage({
-        path: tagPath,
-        component: path.resolve(`src/templates/tags.js`),
-        context: {
-          tag,
-        },
-      });
-    });
-  });
 };
