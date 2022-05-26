@@ -40,9 +40,9 @@ module.exports = {
             },
         ],
         contact: {
-            address: "Na Harfe 916/9a, Praha 9, 190 00 CZ",
+            address: "Na Harfě 916/9a, Praha 9, 190 00 CZ",
             email: "info@bonitoo.io",
-            website: "https://www.bonitoo.io/",
+            website: "https://www.bonitoo.io",
             rating: "4.9",
             customers: "8",
             clients: "3200",
