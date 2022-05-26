@@ -27,8 +27,8 @@ const CaseStudyArea = ({ data }) => {
                                     title={caseStudy.title}
                                     category={caseStudy.category}
                                     desc={caseStudy.excerpt}
-                                    path={`/case-study/${caseStudy.slug}`}
-                                    btnText="View case study"
+                                    //path={`/case-study/${caseStudy.slug}`}
+                                    //btnText="View case study"
                                     layout={2}
                                 />
                             </Col>
