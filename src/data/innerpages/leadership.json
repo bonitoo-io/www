@@ -29,7 +29,7 @@
                 },
                 {
                     "id": 2,
-                    "name": "Slavek Opler",
+                    "name": "Slávek Opler",
                     "designation": "Co-founder and Lead Developer",
                     "images": [
                         {
@@ -47,7 +47,7 @@
                 },
                 {
                     "id": 3,
-                    "name": "Robert Machacek",
+                    "name": "Robert Macháček",
                     "designation": "Co-founder",
                     "images": [
                         {
@@ -71,7 +71,7 @@
             "items": [
                 {
                     "id": 7,
-                    "name": "Vladimir Dubsky",
+                    "name": "Vladimir Dubský",
                     "designation": "CTO",
                     "images": [
                         {
@@ -89,7 +89,7 @@
                 },
                 {
                     "id": 6,
-                    "name": "Robert Hajek",
+                    "name": "Robert Hájek",
                     "designation": "Engineering manager",
                     "images": [
                         {
@@ -125,8 +125,8 @@
                 },
                 {
                     "id": 4,
-                    "name": "Gabriela Pohlova",
-                    "designation": "Office Manager",
+                    "name": "Gabriela Pohlová",
+                    "designation": "Business admin and Project Manager",
                     "images": [
                         {
                             "src": "../images/team/team-member-02-370x452.jpg"
