@@ -20,7 +20,7 @@
                 },
                 {
                     "level": "h1",
-                    "content": "We know how to do IT right"
+                    "content": "We know how to do <span>IT</span> right"
                 }
             ],
             "texts": [
