@@ -1,10 +1,9 @@
 ---
-title: "Projekt Andromeda"
+title: "Andromeda"
 date: "2024-02-01 12:00:00"
 author: "Miroslav Malecha"
 categories:
-    - success story
-    - release
+    - Running Project
 tags:
   - Dotace
   - Business
@@ -14,13 +13,11 @@ quote_author: "Operační program Technologie a aplikace pro konkurenceschopnost
 is_featured: false
 ---
 
-##### Projekt Andromeda
-
 > Cílem projektu je vývoj řešení přinášející novou koncepci do péče o seniory a osoby
-> se zdravotním postižením v domácnostech. Neustále poskytuje pečujícím osobám informaci o stavu
-> domácnosti v chytré péči.
+> se zdravotním postižením v domácnostech. Neustále poskytuje pečujícím osobám informaci
+> o stavu domácnosti v chytré péči.
 
-Realizace: 2023-2026
-Status: Probíhající
+#### Realizace: 2023-2026
+#### Status: Probíhající
 
-image: { src: "../images/blog/blog-05-1170x600.jpg", alt: "techy blog" }
+![OP TAK]("../images/blog/blog-05-1170x600.jpg" "OP TAK")
