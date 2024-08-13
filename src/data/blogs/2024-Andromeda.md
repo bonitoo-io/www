@@ -1,5 +1,5 @@
 ---
-title: "Program na podporu aplikovaného výzkumu a inovací Andromeda"
+title: "Projekt Andromeda"
 date: "2024-02-01 12:00:00"
 author: "Miroslav Malecha"
 categories:
@@ -10,8 +10,8 @@ tags:
   - Business
 format: "quote"
 quote_text: "Výzkum a vývoj inovativního systému chytré péče Andromeda."
-quote_author: "Operační program Technologie a aplikace pro konkurenceschopnost (OP TAK)"
-is_featured: true
+quote_author: "Operační program Technologie a aplikace pro konkurenceschopnost"
+is_featured: false
 ---
 
 ##### Projekt Andromeda
@@ -22,3 +22,5 @@ is_featured: true
 
 Realizace: 2023-2026
 Status: Probíhající
+
+image: { src: "../images/blog/blog-05-1170x600.jpg", alt: "techy blog" }
