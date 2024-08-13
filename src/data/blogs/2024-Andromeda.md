@@ -20,6 +20,7 @@ is_featured: false
 
 * Poskytovatel: OP TAK
 * Plán realizace: 2023-2026
+* Místo realizace: Horní náměstí 3, Vsetín, 755 01 CZ
 * Status: Probíhající
 *
 

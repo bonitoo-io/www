@@ -31,7 +31,7 @@ const Footer = ({ data }) => {
                                     <StaticImage
                                         src="../../../assets/images/logo/dark-logo-160x48.png"
                                         alt="logo"
-                                        width={160}
+                                        width={195}
                                         height={48}
                                     />
                                 </LogoWidget>

@@ -38,6 +38,21 @@
                 },
                 {
                     "id": 2,
+                    "title": "Vsetín, CZ",
+                    "texts": [
+                        {
+                            "content": "Horní náměstí 3"
+                        },
+                        {
+                            "content": "755 01 Vsetín, CZ"
+                        },
+                        {
+                            "content": "info@bonitoo.io"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
                     "title": "Přerov, CZ",
                     "texts": [
                         {
