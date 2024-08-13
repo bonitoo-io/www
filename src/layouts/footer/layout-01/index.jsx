@@ -183,7 +183,7 @@ const Footer = ({ data }) => {
                             <FooterWidget mt={["34px", null, "50px"]}>
                                 <FooterWidgetList>
                                     <li>
-                                        <Button path="https://github.com/influxdata/iot-center-flutter" imgbutton shadow>
+                                        <Button path="https://play.google.com/store/apps/developer?id=Bonitoo+s.r.o." imgbutton shadow>
                                             <StaticImage
                                                 src="../../../assets//images/icons/aeroland-button-google-play.jpg"
                                                 alt="Google Play"
@@ -193,7 +193,7 @@ const Footer = ({ data }) => {
                                         </Button>
                                     </li>
                                     <li>
-                                        <Button path="https://github.com/influxdata/iot-center-flutter" imgbutton shadow>
+                                        <Button path="https://apps.apple.com/pl/developer/bonitoo-s-r-o/id1494398925" imgbutton shadow>
                                             <StaticImage
                                                 src="../../../assets//images/icons/aeroland-button-app-store.jpg"
                                                 alt="App Store"
