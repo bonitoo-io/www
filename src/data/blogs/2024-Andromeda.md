@@ -18,7 +18,8 @@ is_featured: false
 > se zdravotním postižením v domácnostech. Neustále poskytuje pečujícím osobám informaci
 > o stavu domácnosti v chytré péči.
 
-| Realizace: | 2023-2026   |
-| Status:    | Probíhající |
+* Poskytovatel: OP TAK
+* Realizace: 2023-2026
+* Status: Probíhající
 
 ![OP TAK](../images/blog/andromeda.png "OP TAK")
