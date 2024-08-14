@@ -2,7 +2,7 @@
 title: "Andromeda"
 date: "2024-02-01 12:00:00"
 author: "Miroslav Malecha"
-image: { src: "../images/blog/blog-08-1170x570.jpg", alt: "Andromeda" }
+image: { src: "../images/blog/blog-01-1170x570.jpg", alt: "Andromeda" }
 categories:
     - Running Project
 tags:
