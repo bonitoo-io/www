@@ -2,12 +2,12 @@
 title: "Andromeda"
 date: "2024-02-01 12:00:00"
 author: "Miroslav Malecha"
-image: { src: "../images/blog/blog-01-1170x570.png", alt: "Andromeda" }
+image: { src: "../images/blog/blog-01-1170x600.png", alt: "Andromeda" }
 categories:
     - Running Project
 tags:
   - Dotace
-  - Projekt
+  - OPTAK
 format: "image"
 is_featured: false
 ---
