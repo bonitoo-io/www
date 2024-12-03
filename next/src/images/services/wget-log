@@ -1,0 +1,11 @@
+--2024-11-28 15:59:11--  https://cdn.builder.io/api/v1/image/assets/cc7a26f1efab4cffa3ef16cb13f9ff11/a86c44c6f7b6d6367734cfcddeff89e95c5598676166dfe0aeffb1b59afe61d8?apiKey=cc7a26f1efab4cffa3ef16cb13f9ff11
+Resolving cdn.builder.io (cdn.builder.io)... 65.9.95.88, 65.9.95.16, 65.9.95.122, ...
+Connecting to cdn.builder.io (cdn.builder.io)|65.9.95.88|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 21058 (21K) [image/svg+xml]
+Saving to: ‘a86c44c6f7b6d6367734cfcddeff89e95c5598676166dfe0aeffb1b59afe61d8?apiKey=cc7a26f1efab4cffa3ef16cb13f9ff11’
+
+                                       a86c44c6f7b6d6367734cfcddeff89e95c5598   0%[                                                                                                                                                                                                ]       0  --.-KB/s               a86c44c6f7b6d6367734cfcddeff89e95c5598676166dfe0aeffb1b59afe61d8?apiKey=cc7a2 100%[===============================================================================================================================================================================================>]  20,56K  --.-KB/s    in 0,002s  
+
+2024-11-28 15:59:12 (12,7 MB/s) - ‘a86c44c6f7b6d6367734cfcddeff89e95c5598676166dfe0aeffb1b59afe61d8?apiKey=cc7a26f1efab4cffa3ef16cb13f9ff11’ saved [21058/21058]
+
