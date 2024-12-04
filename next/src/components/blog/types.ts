@@ -1,13 +1,12 @@
-import {StaticImageData} from "next/image";
-
 export interface BlogCardProps {
-    date: string;
-    title: string;
-    description: string;
-    image: StaticImageData;
-    imageAlt: string;
+  date: string;
+  title: string;
+  description: string;
+  imageUrl: string;
+  imageAlt: string;
 }
 
-export interface BlogSectionProps {
-    blogPosts: BlogCardProps[];
+export interface BlogFilterProps {
+  label: string;
+  isActive?: boolean;
 }

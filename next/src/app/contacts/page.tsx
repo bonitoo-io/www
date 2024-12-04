@@ -11,7 +11,7 @@ import {LocationsSection} from "@components/locations/LocationsSection";
 export default function ContactsPage() {
     return (
         <>
-            <Navigation/>
+            <Navigation selected={'contacts'}/>
             <Contact/>
             <GetInTouchSection>
                 Challenges are just opportunities in disguise. Take the challenge!

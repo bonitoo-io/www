@@ -12,7 +12,7 @@ import {servicesData} from "@app/services/iot/data";
 export default function ServicesPage() {
     return (
         <>
-            <Navigation/>
+            <Navigation selected={'services'}/>
             <ServiceHeader
                 title="Software Development"
                 subtitle="services"

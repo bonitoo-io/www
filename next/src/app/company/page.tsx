@@ -16,7 +16,7 @@ import {HistoryTimeline} from "@components/history/HistoryTimeline";
 export default function IndexPage() {
     return (
         <>
-            <Navigation/>
+            <Navigation selected={'company'}/>
             <Hero textSize={'5xl'} title="A strong team of professionals delivering successful software projects around the world"
                   subtitle="about bonitoo" image={heroImage} imageWidth={"60%"}>
                 <ActionButton label="Contact us" variant="primary" target="/contacts"/>

@@ -1,6 +1,6 @@
 import * as React from "react";
 import {BlogSection} from "./BlogSection";
-import {blogPosts} from "@components/blog/data";
+import {blogPosts} from "@components/blogPreviewSection/data";
 
 
 export const Blog: React.FC = () => {

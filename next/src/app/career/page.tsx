@@ -18,7 +18,7 @@ import {TEAM_GALLERY_IMAGES} from "@components/gallery";
 export default function IndexPage() {
     return (
         <>
-            <Navigation/>
+            <Navigation selected={'company'}/>
             <Hero textSize={'5xl'} title="Become a part of our big family to inspire  and get inspired by professional experts."
                   subtitle="career" image={heroImage} imageWidth={"50%"}>
                 <ActionButton label="Open data" variant="primary" target="/career"/>

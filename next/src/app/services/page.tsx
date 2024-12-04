@@ -8,7 +8,7 @@ import { ServicesHeaderSection } from "@components/sections/ServicesHeaderSectio
 export default function ServicesPage() {
     return (
         <>
-            <Navigation/>
+            <Navigation selected={'services'}/>
             <ServicesHeaderSection/>
             <ServicesSection/>
             <CallToActionSection/>

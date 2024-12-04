@@ -9,7 +9,7 @@ import {Hero} from "@components/hero/Hero";
 import * as React from "react";
 import {ServicesSection} from "@components/services/ServicesSection";
 import {Footer} from "@components/footer";
-import {Blog} from "@components/blog/Blog";
+import {Blog} from "@components/blogPreviewSection/Blog";
 import {CallToActionSection} from "@components/callToAction/CallToActionSection";
 import {TestimonialSection} from "@components/testimonials/TestimonialSection";
 
@@ -21,7 +21,7 @@ import {GetInTouchSection} from "@components/getInTouch";
 export default function IndexPage() {
     return (
         <>
-            <Navigation/>
+            <Navigation selected={'home'}/>
             <Hero subtitle="Custom software development"
                   title="We know how to do IT right"
                   textSize="7xl"

@@ -11,7 +11,7 @@ import {GetInTouchSection} from "@components/getInTouch";
 export default function ServicesPage() {
     return (
         <>
-            <Navigation/>
+            <Navigation selected={'services'}/>
             <ServiceHeader
                 title="IoT Development"
                 subtitle="services"
