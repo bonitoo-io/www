@@ -2,8 +2,14 @@ import * as React from "react";
 import {TestimonialCarousel} from "./TestimonialCarousel";
 import {TestimonialProps} from "./types";
 import drabek from "@images/testimonials/drabek.png";
+import { useDataProvider, useList } from "@refinedev/core";
 
 export function TestimonialSection() {
+    console.log("testimonials loading");
+    const { data, isLoading } = useList({ resource: "testimonials" });
+    console.log(data, isLoading);
+    const dataProvider = useDataProvider();
+    console.log(dataProvider().getList({ resource: "testimonials" }).then(console.log));
     const testimonials: TestimonialProps[] = [
         {
             quote:
@@ -33,5 +39,7 @@ export function TestimonialSection() {
         },*/
     ];
 
-    return <TestimonialCarousel testimonials={testimonials}/>;
+    return <>
+        <TestimonialCarousel testimonials={testimonials}/>
+        </>;
 }
