@@ -7,10 +7,10 @@ import Cookies from "js-cookie";
 export const axiosInstance = axios.create();
 
 axiosInstance.interceptors.request.use((config) => {
-    const token = Cookies.get(TOKEN_KEY) || ANONYMOUS_TOKEN;
+  const token = Cookies.get(TOKEN_KEY) || ANONYMOUS_TOKEN;
 
-    if (token && config.headers) {
-        config.headers["Authorization"] = `Bearer ${token}`;
-    }
-    return config;
+  if (token && config.headers) {
+    config.headers["Authorization"] = `Bearer ${token}`;
+  }
+  return config;
 });

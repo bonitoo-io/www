@@ -27,7 +27,8 @@ export function Navigation({ selected }: { selected: string }) {
             key={item.id}
             href={item.href}
             label={item.label}
-            hasDropdown={item.id === selected}
+            selected={item.id === selected}
+            hasDropdown={item.hasDropdown}
           />
         ))}
       </nav>

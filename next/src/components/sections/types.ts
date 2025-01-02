@@ -1,5 +1,5 @@
 export interface SectionHeaderProps {
-    subtitle: string;
-    title: string;
-    titleId?: string;
+  subtitle: string;
+  title: string;
+  titleId?: string;
 }

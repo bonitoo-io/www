@@ -1,11 +1,11 @@
-import {StaticImageData} from "next/image";
+import { StaticImageData } from "next/image";
 
 export interface ImageGridItemProps {
-    src: StaticImageData;
-    alt: string;
-    className: string;
+  src: StaticImageData;
+  alt: string;
+  className: string;
 }
 
 export interface ImageGridRowProps {
-    images: ImageGridItemProps[];
+  images: ImageGridItemProps[];
 }

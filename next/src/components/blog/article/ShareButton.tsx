@@ -1,4 +1,5 @@
 import * as React from "react";
+import Image from "next/image";
 import { ShareButtonProps } from "./types";
 
 export const ShareButton: React.FC<ShareButtonProps> = ({
@@ -12,7 +13,7 @@ export const ShareButton: React.FC<ShareButtonProps> = ({
       className="flex gap-2.5 justify-center items-center self-start text-base whitespace-nowrap rounded-xl hover:opacity-80 focus:ring-2 focus:ring-stone-400 focus:outline-none transition-opacity"
       aria-label={label || "Share"}
     >
-      <img
+      <Image
         loading="lazy"
         src={iconUrl}
         alt=""

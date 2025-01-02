@@ -2,34 +2,38 @@ import * as React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import down from "@images/icons/down.svg"
+import down from "@images/icons/down.svg";
+import CompanyDropdown from "@components/navigation/companyDropdown";
 
 interface NavigationLinkProps {
-    href: string;
-    label: string;
-    hasDropdown?: boolean;
+  href: string;
+  label: string;
+  hasDropdown?: boolean;
+  selected?: boolean;
 }
 
 export function NavigationLink({
-                                   href,
-                                   label,
-                                   hasDropdown,
-                               }: NavigationLinkProps) {
+  href,
+  label,
+  hasDropdown,
+  selected,
+}: NavigationLinkProps) {
+  if (!hasDropdown) {
     return (
-        <Link scroll={true}
-              href={href}
-              className="flex gap-1 items-center whitespace-nowrap text-white no-underline"
-              role="menuitem"
-        >
-            <span className="self-stretch my-auto">{label}</span>
-            {hasDropdown && (
-                <Image
-                    loading="lazy"
-                    src={down}
-                    className="object-contain shrink-0 self-stretch my-auto w-5 aspect-square"
-                    alt="Pointer"
-                />
-            )}
-        </Link>
+      <Link
+        scroll={true}
+        href={href}
+        className={`flex gap-1 items-center whitespace-nowrap text-white no-underline ${
+          selected
+            ? "bg-primary-500 font-extrabold text-white"
+            : "hover:underline"
+        }`}
+        role="menuitem"
+      >
+        <span className="self-stretch my-auto">{label}</span>
+      </Link>
     );
+  } else {
+    return <CompanyDropdown />;
+  }
 }

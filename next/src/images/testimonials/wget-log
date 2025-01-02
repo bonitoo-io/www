@@ -1,11 +1,0 @@
---2024-11-26 17:19:51--  https://cdn.builder.io/api/v1/image/assets/TEMP/125f760f17c31eb8c0057cac546a254d3130958e869445fcbb7d0a77f20f429b?placeholderIfAbsent=true
-Resolving cdn.builder.io (cdn.builder.io)... 65.9.95.122, 65.9.95.16, 65.9.95.88, ...
-Connecting to cdn.builder.io (cdn.builder.io)|65.9.95.122|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 27880 (27K) [image/png]
-Saving to: ‘125f760f17c31eb8c0057cac546a254d3130958e869445fcbb7d0a77f20f429b?placeholderIfAbsent=true’
-
-                                       125f760f17c31eb8c0057cac546a254d313095   0%[                                                                                                                                                                                                ]       0  --.-KB/s               125f760f17c31eb8c0057cac546a254d3130958e869445fcbb7d0a77f20f429b?placeholderI 100%[===============================================================================================================================================================================================>]  27,23K  --.-KB/s    in 0,04s   
-
-2024-11-26 17:19:52 (641 KB/s) - ‘125f760f17c31eb8c0057cac546a254d3130958e869445fcbb7d0a77f20f429b?placeholderIfAbsent=true’ saved [27880/27880]
-

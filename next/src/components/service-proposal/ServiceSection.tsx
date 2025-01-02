@@ -2,6 +2,7 @@ import * as React from "react";
 import { ServiceCard } from "./ServiceCard";
 import { ServiceSectionProps } from "./types";
 import Image from "next/image";
+
 export const ServiceSection: React.FC<ServiceSectionProps> = ({
   image,
   services,

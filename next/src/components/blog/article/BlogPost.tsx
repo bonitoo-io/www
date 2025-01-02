@@ -4,6 +4,8 @@ import { RelatedPost } from "./RelatedPost";
 import { ArticleHeader } from "./ArticleHeader";
 import { BlogPostMetadata } from "./types";
 
+import face from "@images/leadership/ivan-kudibal.png";
+
 const metadata: BlogPostMetadata = {
   author: "jane doe",
   date: "august 15, 2024",
@@ -16,16 +18,14 @@ const relatedPosts = [
     title: "Influxdata Client Libraries August Release",
     description:
       "Best articles about InfluxDB 2.0 client libraries in 2021 Python Client Library...",
-    imageUrl:
-      "https://cdn.builder.io/api/v1/image/assets/cc7a26f1efab4cffa3ef16cb13f9ff11/905bdacca19d17ac4428a93d7278cadffc0909e0e3f806ca4869506890c7ab89?apiKey=cc7a26f1efab4cffa3ef16cb13f9ff11&",
+    imageUrl: "/blog/1.png",
   },
   {
     date: "august 15, 2024",
     title: "Influxdata Client Libraries August Release",
     description:
       "Best articles about InfluxDB 2.0 client libraries in 2021 Python Client Library...",
-    imageUrl:
-      "https://cdn.builder.io/api/v1/image/assets/cc7a26f1efab4cffa3ef16cb13f9ff11/bbf6ff0af732c145c62d25ea8ae6ca868e25815bd66fa4469842a9ea256fbd8b?apiKey=cc7a26f1efab4cffa3ef16cb13f9ff11&",
+    imageUrl: "/blog/2.png",
   },
 ];
 
@@ -88,8 +88,7 @@ export const BlogPost: React.FC = () => {
       <AuthorCard
         name="Jane Doe"
         description="Having obtained the official & formal training in IT technology and technical fields, our staffs know best how to deliver large software products."
-        imageUrl="https://cdn.builder.io/api/v1/image/assets/cc7a26f1efab4cffa3ef16cb13f9ff11/80f319ce606963348c14dbe09a17a6d27f5b5325599415ac51b9f02f30cde7ca?apiKey=cc7a26f1efab4cffa3ef16cb13f9ff11&"
-        socialIconUrl="https://cdn.builder.io/api/v1/image/assets/cc7a26f1efab4cffa3ef16cb13f9ff11/e74b2002d84ae4caee83174f9cfaaf43d3739340bc7e0a340df565d1d5c850a4?apiKey=cc7a26f1efab4cffa3ef16cb13f9ff11&"
+        imageUrl={face}
       />
 
       <section

@@ -1,3 +1,5 @@
+import { StaticImageData } from "next/image";
+
 export interface BlogPostMetadata {
   author: string;
   date: string;
@@ -14,12 +16,11 @@ export interface RelatedPostProps {
 export interface AuthorCardProps {
   name: string;
   description: string;
-  imageUrl: string;
-  socialIconUrl: string;
+  imageUrl: StaticImageData;
 }
 
 export interface ShareButtonProps {
-  iconUrl: string;
+  iconUrl: StaticImageData;
   label?: string;
   onClick?: () => void;
 }

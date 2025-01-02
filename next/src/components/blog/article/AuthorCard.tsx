@@ -1,12 +1,13 @@
 import * as React from "react";
+import Image from "next/image";
 import { ShareButton } from "./ShareButton";
 import { AuthorCardProps } from "./types";
+import linkedin from "@images/social/linkedin.svg";
 
 export const AuthorCard: React.FC<AuthorCardProps> = ({
   name,
   description,
   imageUrl,
-  socialIconUrl,
 }) => {
   return (
     <section
@@ -15,7 +16,7 @@ export const AuthorCard: React.FC<AuthorCardProps> = ({
     >
       <div className="flex gap-5 max-md:flex-col">
         <div className="flex flex-col w-1/5 max-md:ml-0 max-md:w-full">
-          <img
+          <Image
             loading="lazy"
             src={imageUrl}
             alt={`Profile photo of ${name}`}
@@ -33,16 +34,7 @@ export const AuthorCard: React.FC<AuthorCardProps> = ({
               </h2>
               <p className="mt-2 text-base max-md:max-w-full">{description}</p>
             </div>
-            <ShareButton
-              iconUrl={socialIconUrl}
-              onClick={() =>
-                window.open(
-                  `https://twitter.com/intent/tweet?text=${encodeURIComponent(
-                    description
-                  )}`
-                )
-              }
-            />
+            <ShareButton iconUrl={linkedin} onClick={() => window.open("")} />
           </div>
         </div>
       </div>
