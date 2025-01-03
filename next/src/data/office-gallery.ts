@@ -1,4 +1,4 @@
-import { GalleryImage } from "./types";
+import { GalleryImage } from "../components/gallery/types";
 
 import coffee from "@images/gallery/coffee-area.png";
 import collaboration from "@images/gallery/collab-space.png";

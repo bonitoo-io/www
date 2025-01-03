@@ -4,6 +4,7 @@ import React from "react";
 export interface HeroTextProps {
   children: React.ReactNode;
   textSize?: string;
+  textSizeMobile?: string;
   subtitle: string;
   title: string;
 }
@@ -23,6 +24,7 @@ export interface LogoProps {
 export interface HeroProps {
   children: React.ReactNode;
   textSize?: string;
+  textSizeMobile?: string;
   title: string;
   subtitle: string;
   image: StaticImageData;

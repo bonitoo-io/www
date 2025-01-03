@@ -19,6 +19,7 @@ export default function IndexPage() {
       <Navigation selected={"company"} />
       <Hero
         textSize={"5xl"}
+        textSizeMobile={"4xl"}
         title="A strong team of professionals delivering successful software projects around the world"
         subtitle="about bonitoo"
         image={heroImage}

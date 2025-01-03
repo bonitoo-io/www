@@ -1,6 +1,6 @@
 import * as React from "react";
 import { ImageGridRow } from "./ImageGridRow";
-import { bottomRowImages, topRowImages } from "@components/teamSection/data";
+import { bottomRowImages, topRowImages } from "@data/team";
 
 export const TeamSection: React.FC = () => {
   return (

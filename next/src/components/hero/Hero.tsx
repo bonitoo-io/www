@@ -2,12 +2,13 @@ import * as React from "react";
 import { HeroText } from "./HeroText";
 import { LogoSection } from "./LogoSection";
 import Image from "next/image";
-import { logos } from "@components/hero/data";
+import { logos } from "@data/partners";
 import { HeroProps } from "@components/hero/types";
 import styles from "./hero.module.css";
 
 export function Hero({
   textSize,
+  textSizeMobile,
   title,
   subtitle,
   image,
@@ -21,18 +22,18 @@ export function Hero({
           <div
             className={`${styles.textSection} flex flex-col  max-md:ml-0 max-md:w-full`}
           >
-            <HeroText textSize={textSize} subtitle={subtitle} title={title}>
+            <HeroText textSize={textSize} textSizeMobile={textSizeMobile} subtitle={subtitle} title={title}>
               {children}
             </HeroText>
           </div>
           <div
-            className={`flex flex-col ml-5 w-[${imageWidth}] max-md:ml-0 max-md:w-full`}
+            className={`flex flex-col ml-5 w-[${imageWidth}] max-md:ml-0 max-md:w-full sm:min-w-[400px]`}
           >
             <Image
               loading="lazy"
               src={image}
               alt="Software development illustration"
-              className="object-contain grow w-full aspect-[1.44] max-md:mt-10 max-md:max-w-full ml-8"
+              className="object-contain grow w-full aspect-[1.44] max-md:mt-10 max-md:max-w-full lg:ml-8"
             />
           </div>
         </div>

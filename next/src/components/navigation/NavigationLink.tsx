@@ -8,6 +8,7 @@ import CompanyDropdown from "@components/navigation/companyDropdown";
 interface NavigationLinkProps {
   href: string;
   label: string;
+  mobile?: boolean;
   hasDropdown?: boolean;
   selected?: boolean;
 }
@@ -16,6 +17,7 @@ export function NavigationLink({
   href,
   label,
   hasDropdown,
+  mobile,
   selected,
 }: NavigationLinkProps) {
   if (!hasDropdown) {
@@ -23,7 +25,7 @@ export function NavigationLink({
       <Link
         scroll={true}
         href={href}
-        className={`flex gap-1 items-center whitespace-nowrap text-white no-underline ${
+        className={`flex gap-1 items-center whitespace-nowrap text-white no-underline ${mobile ? "":"max-lg:hidden"} ${
           selected
             ? "bg-primary-500 font-extrabold text-white"
             : "hover:underline"
@@ -34,6 +36,6 @@ export function NavigationLink({
       </Link>
     );
   } else {
-    return <CompanyDropdown />;
+    return <CompanyDropdown selected={selected}/>;
   }
 }

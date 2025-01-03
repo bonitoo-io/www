@@ -1,6 +1,6 @@
 import * as React from "react";
 import { CaseStudyCard } from "./CaseStudyCard";
-import { studies } from "@components/caseStudies/data";
+import { studies } from "@data/case-studies-all";
 
 const caseStudiesData = {
   heading: "Case studies",

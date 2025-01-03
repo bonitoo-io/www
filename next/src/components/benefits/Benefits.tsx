@@ -1,7 +1,7 @@
 import * as React from "react";
 import { BenefitColumn } from "./BenefitColumn";
 import { BenefitSectionProps } from "./types";
-import { benefitsData } from "./data";
+import { benefitsData } from "../../data/benefits";
 
 const Benefits: React.FC<BenefitSectionProps> = ({
   benefits = benefitsData,

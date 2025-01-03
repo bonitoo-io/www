@@ -5,16 +5,15 @@ import { CaseStudyProps } from "./types";
 import tracking from "@images/case-studies/tracking.png";
 import influx from "@images/case-studies/influx.png";
 import weather from "@images/case-studies/weather.png";
-import { caseStudies } from "@components/standOutCaseStudies/data";
+import { caseStudiesHomepage } from "@data/case-studies-homepage";
+import { useRouter } from "next/router";
 
 export const CaseStudies: React.FC = () => {
   const handleCardClick = (index: number) => {
     console.log(`Case study ${index} clicked`);
   };
 
-  const handleViewAllClick = () => {
-    console.log("View all case studies clicked");
-  };
+  // const router = useRouter();
 
   return (
     <section
@@ -33,7 +32,8 @@ export const CaseStudies: React.FC = () => {
             </h1>
             <button
               className="green500 c-border-green-200 gap-2.5 self-stretch px-6 py-3.5 my-auto text-base rounded-xl border border-solid max-md:px-5 hover:bg-stone-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
-              onClick={handleViewAllClick}
+              onClick={() => window.location.href=("/case-studies")}
+              /*onClick={() => router.push("/case-studies")}*/
               aria-label="View all case studies"
             >
               All Case Studies
@@ -42,7 +42,7 @@ export const CaseStudies: React.FC = () => {
         </header>
         <main className="mt-12 max-md:mt-10 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col">
-            {caseStudies.map((study, index) => (
+            {caseStudiesHomepage.map((study, index) => (
               <CaseStudyCard
                 key={index}
                 {...study}

@@ -30,25 +30,22 @@ export const leadershipData: TeamSectionProps = {
       image: vladimirDubskyImage,
       name: "Vladimir Dubský",
       role: "CTO",
-      imageAspect: "0.78",
     },
     {
       image: robertHajekImage,
       name: "Robert Hájek",
       role: "Engineering manager",
-      imageAspect: "0.78",
-    },
+    },/*
     {
       image: mirekMalechaImage,
       name: "Mirek Malecha",
       role: "Product Manager",
       imageAspect: "0.78",
-    },
+    },*/
     {
       image: gabrielaPohlovaImage,
       name: "Gabriela Pohlová",
       role: "Business Admin / Project Manager",
-      imageAspect: "0.82",
     },
   ],
 };

@@ -1,14 +1,14 @@
 import Image from "next/image";
 import * as React from "react";
 import { NavigationLink } from "./NavigationLink";
-import { navigationItems } from "./data";
+import { navigationItems } from "../../data/navigation";
 
 import bonitooImage from "@images/logos/bonitoo.svg";
 import Link from "next/link";
 
-export function Navigation({ selected }: { selected: string }) {
+export function Navigation({ selected }: { selected?: string }) {
   return (
-    <header className="flex flex-wrap gap-5 justify-between px-16 py-10 w-full text-base tracking-widest text-white uppercase bg-neutral-800 max-md:px-5 max-md:max-w-full">
+    <header className={`flex flex-wrap gap-5 justify-between px-16 py-10 w-full text-base tracking-widest text-white uppercase bg-neutral-800 max-md:px-5 max-md:max-w-full`}>
       <Link scroll={true} href="/">
         <Image
           loading="lazy"
@@ -27,6 +27,7 @@ export function Navigation({ selected }: { selected: string }) {
             key={item.id}
             href={item.href}
             label={item.label}
+            mobile={item.mobile}
             selected={item.id === selected}
             hasDropdown={item.hasDropdown}
           />

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { ImageRow } from "./ImageRow";
-import { TEAM_GALLERY_IMAGES } from "./data";
+import { TEAM_GALLERY_IMAGES } from "../../data/office-gallery";
 import { GalleryImage, GalleryProps } from "./types";
 
 export const Gallery: React.FC<GalleryProps> = ({

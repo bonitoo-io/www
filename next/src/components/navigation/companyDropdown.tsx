@@ -4,20 +4,38 @@ import Link from "next/link";
 import down from "@images/icons/down.svg";
 import Image from "next/image";
 
-export default function CompanyDropdown() {
+export default function CompanyDropdown({selected}: {selected?: boolean}) {
   const linkStyle =
     "block px-4 py-2 text-sm text-white data-[focus]:bg-gray-700 data-[focus]:outline-none no-underline data-[focus]:underline";
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <MenuButton className="flex gap-1 items-center whitespace-nowrap text-white no-underline bg-transparent p-0 border-0">
-          COMPANY
+        <MenuButton
+          className={`flex gap-1 items-center whitespace-nowrap text-white no-underline bg-transparent p-0 border-0 ${
+            selected ? "font-extrabold" : ""
+          }`}
+        >
+          <span className="max-lg:hidden">COMPANY</span>
           <Image
             loading="lazy"
             src={down}
-            className="object-contain shrink-0 self-stretch my-auto w-5 aspect-square"
+            className="object-contain shrink-0 self-stretch my-auto w-5 aspect-square max-lg:hidden"
             alt="Pointer"
           />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-8 w-8 lg:hidden"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
         </MenuButton>
       </div>
 
@@ -34,6 +52,11 @@ export default function CompanyDropdown() {
           <MenuItem>
             <Link href="/career" className={linkStyle}>
               Careers
+            </Link>
+          </MenuItem>
+          <MenuItem>
+            <Link href="/contacts" className={linkStyle}>
+              Contacts
             </Link>
           </MenuItem>
         </div>

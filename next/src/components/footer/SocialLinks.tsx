@@ -38,7 +38,7 @@ const socialLinks = [
 
 export function SocialLinks() {
   return (
-    <div className="flex flex-col justify-between w-72 min-w-[240px]">
+    <div className="flex flex-col justify-between w-72 min-w-[240px] mt-5">
       <nav
         className="flex gap-3 items-center self-end"
         aria-label="Social Media Links"

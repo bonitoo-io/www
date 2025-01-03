@@ -22,7 +22,7 @@ export function JobCard({ position }: JobCardProps) {
           className="gap-2.5 self-stretch px-6 py-3.5 rounded-xl border border-solid bg-neutral-700 border-neutral-600 max-md:px-5"
           aria-label={`Apply for ${position.title} position`}
         >
-          Apply
+          <a className="text-white no-underline" href="mailto:careers@bonitoo.io">Apply</a>
         </button>
       </div>
     </div>

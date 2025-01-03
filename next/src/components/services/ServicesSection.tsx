@@ -1,6 +1,6 @@
 import * as React from "react";
 import { ServiceCard } from "./ServiceCard";
-import { servicesData } from "./data";
+import { servicesData } from "../../data/services";
 import Link from "next/link";
 
 export const ServicesSection: React.FC = () => {

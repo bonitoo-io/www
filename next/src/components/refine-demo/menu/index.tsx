@@ -13,7 +13,7 @@ export const Menu = () => {
         {menuItems.map((item) => (
           <li key={item.key}>
             <Link
-              href={item.route ?? "/"}
+              href={item.route ?? "/next/public"}
               className={selectedKey === item.key ? "active" : ""}
             >
               {item.label}

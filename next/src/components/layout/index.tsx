@@ -2,7 +2,7 @@
 
 import type { PropsWithChildren } from "react";
 import { Breadcrumb } from "../refine-demo/breadcrumb";
-import { Menu } from "../menu";
+import { Menu } from "../refine-demo/menu";
 
 export const Layout: React.FC<PropsWithChildren> = ({ children }) => {
   return (

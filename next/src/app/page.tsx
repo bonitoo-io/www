@@ -1,15 +1,10 @@
 "use client";
 
-import { Suspense } from "react";
-import { NavigateToResource } from "@refinedev/nextjs-router";
-import { Authenticated } from "@refinedev/core";
-
 import { Navigation } from "@components/navigation/Navigation";
 import { Hero } from "@components/hero/Hero";
 import * as React from "react";
 import { ServicesSection } from "@components/services/ServicesSection";
 import { Footer } from "@components/footer";
-import { Blog } from "@components/blogPreviewSection/Blog";
 import { CallToActionSection } from "@components/callToAction/CallToActionSection";
 import { TestimonialSection } from "@components/testimonials/TestimonialSection";
 
@@ -26,6 +21,7 @@ export default function IndexPage() {
         subtitle="Custom software development"
         title="We know how to do IT right"
         textSize="7xl"
+        textSizeMobile="4xl"
         image={heroImage}
         imageWidth={"60%"}
       >

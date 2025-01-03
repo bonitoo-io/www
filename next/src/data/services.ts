@@ -1,4 +1,4 @@
-import { ServicesData } from "./types";
+import { ServicesData } from "../components/services/types";
 import saas from "@images/services/saas.png";
 import iot from "@images/services/iot.png";
 import data from "@images/services/data.png";

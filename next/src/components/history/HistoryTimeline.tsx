@@ -1,6 +1,6 @@
 import * as React from "react";
 import { TimelineItem } from "./TimelineItem";
-import { timelineData } from "@components/history/data";
+import { timelineData } from "@data/history";
 
 export const HistoryTimeline: React.FC = () => {
   return (

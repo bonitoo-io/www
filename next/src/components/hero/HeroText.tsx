@@ -3,17 +3,18 @@ import { HeroTextProps } from "./types";
 
 export function HeroText({
   textSize,
+  textSizeMobile,
   subtitle,
   title,
   children,
 }: HeroTextProps): JSX.Element {
   return (
-    <div className="flex flex-col self-stretch my-auto w-full font-bold text-white max-md:mt-10">
+    <div className="flex flex-col self-stretch my-auto w-full font-bold text-white">
       <h2 className="c-fg-green-500 font-normal text-lg tracking-widest uppercase">
         {subtitle}
       </h2>
       <h1
-        className={`mt-4 text-${textSize} max-md:text-${textSize} max-md:leading-10`}
+        className={`mt-4 text-${textSize} max-md:text-${textSizeMobile || "5xl"} max-md:leading-10`}
       >
         {title}
       </h1>

@@ -4,7 +4,7 @@ import { SocialLinks } from "@components/footer/SocialLinks";
 
 export const Contact: React.FC = () => {
   return (
-    <main className="flex flex-col justify-center items-center px-20 py-28 w-full bg-neutral-800 max-md:px-5 max-md:pb-24 max-md:max-w-full">
+    <main className="flex flex-col justify-center items-center px-20 lg:py-28 w-full bg-neutral-800 max-md:px-5 max-md:pb-24 max-md:max-w-full">
       <section
         className="flex flex-col items-center -mb-6 max-w-full w-[845px] max-md:mb-2.5"
         aria-labelledby="contact-heading"

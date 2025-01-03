@@ -1,4 +1,4 @@
-import { BenefitItemProps } from "./types";
+import { BenefitItemProps } from "../components/benefits/types";
 
 import career from "@images/icons/career.svg";
 import vacation from "@images/icons/vacation.svg";

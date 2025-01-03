@@ -8,27 +8,27 @@ import udImage from "@images/logos/ud.png";
 export const logos: LogoProps[] = [
   {
     src: influxImage,
-    alt: "Partner Logo 1",
+    alt: "Influx",
     width: 196,
   },
   {
     src: apiteaImage,
-    alt: "Partner Logo 2",
+    alt: "Apitea",
     width: 196,
   },
   {
     src: buildsysImage,
-    alt: "Partner Logo 3",
+    alt: "Buildsys",
     width: 196,
   },
   {
     src: udImage,
-    alt: "Partner Logo 4",
+    alt: "UD",
     width: 196,
   },
   {
     src: letenkyImage,
-    alt: "Partner Logo 5",
+    alt: "Letenky Levne",
     width: 196,
   },
 ];

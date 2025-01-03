@@ -1,6 +1,6 @@
 import * as React from "react";
 import { LocationCard } from "./LocationCard";
-import { locationData } from "./locationData";
+import { locations } from "../../data/locations";
 
 export function LocationsSection() {
   return (
@@ -10,7 +10,7 @@ export function LocationsSection() {
     >
       <div className="-mb-6 w-full max-w-[1150px] max-md:mb-2.5 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col">
-          {locationData.map((location, index) => (
+          {locations.map((location, index) => (
             <LocationCard key={index} location={location} />
           ))}
         </div>

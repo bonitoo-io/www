@@ -5,7 +5,7 @@ import AutoPlay from "embla-carousel-autoplay";
 import Image from "next/image";
 
 const LogoImage: React.FC<LogoProps> = ({ src, alt, width }) => (
-  <div className="flex flex-col justify-center items-center self-stretch my-auto min-w-[215px]">
+  <div className="flex flex-col justify-center items-center self-stretch my-auto min-w-[215px] max-sm:min-w-[135px]">
     <Image
       loading="lazy"
       src={src}
@@ -33,7 +33,7 @@ export const LogoSection: React.FC<LogoSectionProps> = ({ logos }) => {
       aria-label="Partner logos carousel"
     >
       <div className="overflow-hidden" ref={emblaRef}>
-        <div className="flex gap-20">
+        <div className="flex gap-20 max-sm:gap-5">
           {logos.map((logo, index) => (
             <LogoImage key={`${logo.alt}-${index}`} {...logo} />
           ))}

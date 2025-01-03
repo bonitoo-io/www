@@ -10,7 +10,7 @@ import { CallToActionSection } from "@components/callToAction/CallToActionSectio
 import { ActionButton } from "@components/hero/ActionButton";
 import { GetInTouchSection } from "@components/getInTouch";
 import Benefits from "@components/benefits/Benefits";
-import { benefitsData } from "@components/benefits/data";
+import { benefitsData } from "@data/benefits";
 import { OpenPositions } from "@components/careers/OpenPositions";
 import { Gallery } from "@components/gallery";
 import { TEAM_GALLERY_IMAGES } from "@components/gallery";
@@ -21,6 +21,7 @@ export default function IndexPage() {
       <Navigation selected={"company"} />
       <Hero
         textSize={"5xl"}
+        textSizeMobile={"4xl"}
         title="Become a part of our big family to inspire  and get inspired by professional experts."
         subtitle="career"
         image={heroImage}

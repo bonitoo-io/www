@@ -1,7 +1,7 @@
 import * as React from "react";
 import { TestimonialCarousel } from "./TestimonialCarousel";
 import { useDataProvider, useList } from "@refinedev/core";
-import { testimonials } from "@components/testimonials/data";
+import { testimonials } from "@data/testimonials";
 
 export function TestimonialSection() {
   console.log(

@@ -15,7 +15,7 @@ export function StatisticCard({ number, label }: StatisticCardProps) {
       <div className="self-start text-7xl font-bold text-neutral-800 max-md:text-4xl">
         {number}
       </div>
-      <div className="c-fg-green-500 text-lg tracking-widest uppercase">
+      <div className="c-fg-green-500 text-lg tracking-widest uppercase max-md:text-xl">
         {label}
       </div>
     </div>

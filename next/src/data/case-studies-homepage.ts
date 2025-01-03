@@ -3,7 +3,7 @@ import tracking from "@images/case-studies/tracking.png";
 import influx from "@images/case-studies/influx.png";
 import weather from "@images/case-studies/weather.png";
 
-export const caseStudies: CaseStudyProps[] = [
+export const caseStudiesHomepage: CaseStudyProps[] = [
   {
     category: "Software for startups",
     title: "Tracking Platform",

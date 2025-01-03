@@ -29,7 +29,7 @@ export const BlogHeader: React.FC<BlogHeaderProps> = ({
         <img
           loading="lazy"
           src={imageUrl}
-          alt="IoT Gateway monitoring system interface showing various data points and controls"
+          alt="IoT Gateway monitoring system interface showing various careers points and controls"
           className="object-contain mt-10 max-w-full rounded-3xl aspect-[2.06] w-[914px]"
         />
       </div>

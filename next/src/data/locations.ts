@@ -1,8 +1,8 @@
-import { LocationData } from "./types";
+import { LocationData } from "../components/locations/types";
 
 import world from "@images/icons/world.svg";
 
-export const locationData: LocationData[] = [
+export const locations: LocationData[] = [
   {
     icon: world,
     city: "Headquarters, Praha, CZ",

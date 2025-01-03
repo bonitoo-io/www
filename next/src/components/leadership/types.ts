@@ -4,7 +4,6 @@ export interface TeamMemberProps {
   image: StaticImageData;
   name: string;
   role: string;
-  imageAspect?: string;
 }
 
 export interface TeamSectionProps {

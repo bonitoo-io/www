@@ -1,6 +1,6 @@
-import { JobPosition } from "./types";
+import { JobPosition } from "../components/careers/types";
 
-export const data: JobPosition[] = [
+export const careers: JobPosition[] = [
   {
     title: "Software Developer",
     type: "Full time",

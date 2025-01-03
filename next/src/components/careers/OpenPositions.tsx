@@ -1,6 +1,6 @@
 import * as React from "react";
 import { JobCard } from "./JobCard";
-import { data } from "./data";
+import { careers } from "../../data/careers";
 
 export function OpenPositions() {
   return (
@@ -19,7 +19,7 @@ export function OpenPositions() {
           className="flex flex-col self-stretch mt-14 w-full max-md:mt-10 max-md:max-w-full"
           role="list"
         >
-          {data.map((position, index) => (
+          {careers.map((position, index) => (
             <div
               key={position.title}
               className={index > 0 ? "mt-6" : ""}
