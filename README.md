@@ -1,10 +1,34 @@
-# Bonitoo Website
+# bonitoo-homepage
 
-## Strapi
 
-http://ec2-3-70-193-247.eu-central-1.compute.amazonaws.com:1337/
+## Getting Started
 
-## Next.js
+A React Framework for building internal tools, admin panels, dashboards & B2B apps with unmatched flexibility ✨
+Refine's hooks and components simplifies the development process and eliminates the repetitive tasks by providing industry-standard solutions for crucial aspects of a project, including authentication, access control, routing, networking, state management, and i18n.
 
-http://ec2-3-70-193-247.eu-central-1.compute.amazonaws.com:3000/
+## Available Scripts
+
+### Running the development server.
+
+```bash
+    npm run dev
+```
+
+### Building for production.
+
+```bash
+    npm run build
+```
+
+### Running the production server.
+
+```bash
+    npm run start
+```
+
+## Learn More
+
+- **Strapi v4 Data Provider** [Docs](https://refine.dev/docs/core/providers/data-provider/#overview)
+- **Tailwind CSS** [Docs](https://refine.dev/docs/guides-concepts/general-concepts/#headless-concept)
+
 
