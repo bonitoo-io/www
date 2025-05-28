@@ -1,0 +1,24 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.green50 {
+    /*background: var(--Green-50, #F1F3ED);*/
+    background: #F1F3ED;
+}
+
+.c-fg-green-500 {
+    color: #99AD7F;
+}
+
+.c-b-green-500 {
+    border-color: #99AD7F;
+}
+
+.green500 {
+    background: #99AD7F;
+}
+
+.c-border-green-200 {
+    border: 1px solid #AEBE9A;
+}
