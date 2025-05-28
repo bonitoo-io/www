@@ -1,6 +1,5 @@
 # bonitoo-homepage
 
-
 ## Getting Started
 
 A React Framework for building internal tools, admin panels, dashboards & B2B apps with unmatched flexibility ✨
