@@ -8,6 +8,12 @@ Refine's hooks and components simplifies the development process and eliminates 
 
 ## Available Scripts
 
+Before you begin:
+
+```bash
+npm install
+```
+
 ### Running the development server.
 
 ```bash
@@ -30,5 +36,4 @@ Refine's hooks and components simplifies the development process and eliminates 
 
 - **Strapi v4 Data Provider** [Docs](https://refine.dev/docs/core/providers/data-provider/#overview)
 - **Tailwind CSS** [Docs](https://refine.dev/docs/guides-concepts/general-concepts/#headless-concept)
-
 
