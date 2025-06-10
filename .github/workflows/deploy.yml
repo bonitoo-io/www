@@ -14,10 +14,22 @@ jobs:
     permissions:
       id-token: write
       contents: read
+
     steps:
-      - uses: actions/checkout@v3
+      
       - name: Prepare the distro
-        run: ./build.sh
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.9'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Next.js app
+        run: npm run build
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
@@ -27,7 +39,7 @@ jobs:
           aws-region: ${{ vars.PROD_AWS_REGION }}
 
       - name: Deploy
-        run: aws s3 sync ./public s3://bonitoo.io --cache-control max-age=60 --delete
+        run: aws s3 sync ./out s3://bonitoo.io --cache-control max-age=60 --delete
 
       - name: Invalidate CF Distribution
         run: aws cloudfront create-invalidation --distribution-id ${{ vars.PROD_CF_DISTRIBUTION_ID }} --paths '/*'
