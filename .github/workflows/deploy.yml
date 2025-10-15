@@ -38,7 +38,7 @@ jobs:
           aws-region: ${{ vars.PROD_AWS_REGION }}
 
       - name: Deploy
-        run: aws s3 sync ./out s3://bonitoo.io --cache-control max-age=60 --delete
+        run: aws s3 sync ./.next s3://bonitoo.io --cache-control max-age=60 --delete
 
       - name: Invalidate CF Distribution
         run: aws cloudfront create-invalidation --distribution-id ${{ vars.PROD_CF_DISTRIBUTION_ID }} --paths '/*'
