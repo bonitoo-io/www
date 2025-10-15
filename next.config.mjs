@@ -1,10 +1,16 @@
+// next.config.mjs
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  images: {
-    formats: ['image/webp'],
-    unoptimized: true
-  }
-}
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "bonitoo.io" }],
+        destination: "https://www.bonitoo.io/:path*",
+        permanent: true, // pošle 308
+      },
+    ];
+  },
+};
 
-export default nextConfig
+export default nextConfig;
